@@ -1,0 +1,16 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-select-icon-name-selected: square-check;
+  --br-select-icon-name-deselected: square;
+  --br-select-icon-name-intermediary: square-minus;
+  --br-select-color-foreground-main-select-all: var(--br-state-interactive-color-foreground-main, #ffffff);
+  --br-select-color-foreground-contrast-select-all: var(--br-state-interactive-color-foreground-contrast, #000000);
+  --br-select-color-background-main-select-all: var(--br-state-interactive-color-main, #0040b4);
+  --br-select-color-background-main-group: var(--br-color-background-main-secondary, #f0f0f0);
+  --br-select-color-background-contrast-select-all: var(--br-state-interactive-color-contrast, #adcdff);
+  --br-select-color-background-contrast-group: var(--br-color-background-contrast-secondary, #2f4668);
+  --br-select-shadow-style-list: var(--br-elevation-shadow-style-level2, 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0 8px 0 rgba(0, 0, 0, 0.2));
+}

@@ -1,0 +1,1835 @@
+{
+  "br": {
+    "color": {
+      "foreground": {
+        "main": {
+          "primary": {
+            "key": "{br.color.foreground.main.primary}",
+            "$value": "#1b1b1b",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.90}",
+              "$type": "color",
+              "key": "{br.color.foreground.main.primary}"
+            },
+            "name": "brColorForegroundMainPrimary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "foreground",
+              "subitem": "main",
+              "state": "primary"
+            },
+            "path": [
+              "br",
+              "color",
+              "foreground",
+              "main",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "key": "{br.color.foreground.main.secondary}",
+            "$value": "#636363",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.60}",
+              "$type": "color",
+              "key": "{br.color.foreground.main.secondary}"
+            },
+            "name": "brColorForegroundMainSecondary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "foreground",
+              "subitem": "main",
+              "state": "secondary"
+            },
+            "path": [
+              "br",
+              "color",
+              "foreground",
+              "main",
+              "secondary"
+            ]
+          }
+        },
+        "contrast": {
+          "primary": {
+            "key": "{br.color.foreground.contrast.primary}",
+            "$value": "#fcfcfc",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.1}",
+              "$type": "color",
+              "key": "{br.color.foreground.contrast.primary}"
+            },
+            "name": "brColorForegroundContrastPrimary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "foreground",
+              "subitem": "contrast",
+              "state": "primary"
+            },
+            "path": [
+              "br",
+              "color",
+              "foreground",
+              "contrast",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "key": "{br.color.foreground.contrast.secondary}",
+            "$value": "#cccccc",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.20}",
+              "$type": "color",
+              "key": "{br.color.foreground.contrast.secondary}"
+            },
+            "name": "brColorForegroundContrastSecondary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "foreground",
+              "subitem": "contrast",
+              "state": "secondary"
+            },
+            "path": [
+              "br",
+              "color",
+              "foreground",
+              "contrast",
+              "secondary"
+            ]
+          }
+        }
+      },
+      "background": {
+        "main": {
+          "primary": {
+            "key": "{br.color.background.main.primary}",
+            "$value": "#fcfcfc",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.1}",
+              "$type": "color",
+              "key": "{br.color.background.main.primary}"
+            },
+            "name": "brColorBackgroundMainPrimary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "background",
+              "subitem": "main",
+              "state": "primary"
+            },
+            "path": [
+              "br",
+              "color",
+              "background",
+              "main",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "key": "{br.color.background.main.secondary}",
+            "$value": "#f0f0f0",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.5}",
+              "$type": "color",
+              "key": "{br.color.background.main.secondary}"
+            },
+            "name": "brColorBackgroundMainSecondary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "background",
+              "subitem": "main",
+              "state": "secondary"
+            },
+            "path": [
+              "br",
+              "color",
+              "background",
+              "main",
+              "secondary"
+            ]
+          }
+        },
+        "contrast": {
+          "primary": {
+            "key": "{br.color.background.contrast.primary}",
+            "$value": "#252f3e",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarm.80}",
+              "$type": "color",
+              "key": "{br.color.background.contrast.primary}"
+            },
+            "name": "brColorBackgroundContrastPrimary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "background",
+              "subitem": "contrast",
+              "state": "primary"
+            },
+            "path": [
+              "br",
+              "color",
+              "background",
+              "contrast",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "key": "{br.color.background.contrast.secondary}",
+            "$value": "#2f4668",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarm.70}",
+              "$type": "color",
+              "key": "{br.color.background.contrast.secondary}"
+            },
+            "name": "brColorBackgroundContrastSecondary",
+            "attributes": {
+              "category": "br",
+              "type": "color",
+              "item": "background",
+              "subitem": "contrast",
+              "state": "secondary"
+            },
+            "path": [
+              "br",
+              "color",
+              "background",
+              "contrast",
+              "secondary"
+            ]
+          }
+        }
+      },
+      "border": {
+        "primary": {
+          "key": "{br.color.border.primary}",
+          "$value": "#cccccc",
+          "filePath": "src/temp/style-dictionary/theme/light.json",
+          "isSource": true,
+          "$type": "color",
+          "original": {
+            "$value": "{br.color.gray.20}",
+            "$type": "color",
+            "key": "{br.color.border.primary}"
+          },
+          "name": "brColorBorderPrimary",
+          "attributes": {
+            "category": "br",
+            "type": "color",
+            "item": "border",
+            "subitem": "primary"
+          },
+          "path": [
+            "br",
+            "color",
+            "border",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "key": "{br.color.border.secondary}",
+          "$value": "#888888",
+          "filePath": "src/temp/style-dictionary/theme/light.json",
+          "isSource": true,
+          "$type": "color",
+          "original": {
+            "$value": "{br.color.gray.40}",
+            "$type": "color",
+            "key": "{br.color.border.secondary}"
+          },
+          "name": "brColorBorderSecondary",
+          "attributes": {
+            "category": "br",
+            "type": "color",
+            "item": "border",
+            "subitem": "secondary"
+          },
+          "path": [
+            "br",
+            "color",
+            "border",
+            "secondary"
+          ]
+        }
+      }
+    },
+    "elevation": {
+      "opacity": {
+        "shadow": {
+          "key": "{br.elevation.opacity.shadow}",
+          "$value": "0.2",
+          "filePath": "src/temp/style-dictionary/theme/light.json",
+          "isSource": true,
+          "$type": "opacity",
+          "original": {
+            "$value": "{br.elevation.opacity.bright}",
+            "$type": "opacity",
+            "key": "{br.elevation.opacity.shadow}"
+          },
+          "name": "brElevationOpacityShadow",
+          "attributes": {
+            "category": "br",
+            "type": "elevation",
+            "item": "opacity",
+            "subitem": "shadow"
+          },
+          "path": [
+            "br",
+            "elevation",
+            "opacity",
+            "shadow"
+          ]
+        }
+      }
+    },
+    "state": {
+      "disabled": {
+        "color": {
+          "main": {
+            "key": "{br.state.disabled.color.main}",
+            "$value": "#4a4a4a",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.70}",
+              "$type": "color",
+              "key": "{br.state.disabled.color.main}"
+            },
+            "name": "brStateDisabledColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "disabled",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "disabled",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.disabled.color.contrast}",
+            "$value": "#cccccc",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.20}",
+              "$type": "color",
+              "key": "{br.state.disabled.color.contrast}"
+            },
+            "name": "brStateDisabledColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "disabled",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "disabled",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      },
+      "hover": {
+        "color": {
+          "bright": {
+            "key": "{br.state.hover.color.bright}",
+            "$type": "config",
+            "$value": "rgba(#d4e5ff, 0.5)",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "original": {
+              "$type": "config",
+              "$value": "rgba({br.color.blueWarmVivid.10}, {br.state.hover.opacity.bright})",
+              "key": "{br.state.hover.color.bright}"
+            },
+            "name": "brStateHoverColorBright",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "hover",
+              "subitem": "color",
+              "state": "bright"
+            },
+            "path": [
+              "br",
+              "state",
+              "hover",
+              "color",
+              "bright"
+            ]
+          },
+          "dim": {
+            "key": "{br.state.hover.color.dim}",
+            "$type": "config",
+            "$value": "rgba(#0c326f, 0.6)",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "original": {
+              "$type": "config",
+              "$value": "rgba({br.color.blueWarmVivid.80}, {br.state.hover.opacity.dim})",
+              "key": "{br.state.hover.color.dim}"
+            },
+            "name": "brStateHoverColorDim",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "hover",
+              "subitem": "color",
+              "state": "dim"
+            },
+            "path": [
+              "br",
+              "state",
+              "hover",
+              "color",
+              "dim"
+            ]
+          },
+          "interactiveFg": {
+            "main": {
+              "key": "{br.state.hover.color.interactiveFg.main}",
+              "$value": "rgba(212, 229, 255, 0.5)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.state.hover.color.bright}",
+                "$type": "color",
+                "key": "{br.state.hover.color.interactiveFg.main}"
+              },
+              "name": "brStateHoverColorInteractiveFgMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "color",
+                "state": "interactiveFg"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "color",
+                "interactiveFg",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.hover.color.interactiveFg.contrast}",
+              "$value": "rgba(12, 50, 111, 0.6)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.state.hover.color.dim}",
+                "$type": "color",
+                "key": "{br.state.hover.color.interactiveFg.contrast}"
+              },
+              "name": "brStateHoverColorInteractiveFgContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "color",
+                "state": "interactiveFg"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "color",
+                "interactiveFg",
+                "contrast"
+              ]
+            }
+          },
+          "interactiveBg": {
+            "main": {
+              "key": "{br.state.hover.color.interactiveBg.main}",
+              "$value": "rgba(12, 50, 111, 0.6)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.state.hover.color.dim}",
+                "$type": "color",
+                "key": "{br.state.hover.color.interactiveBg.main}"
+              },
+              "name": "brStateHoverColorInteractiveBgMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "color",
+                "state": "interactiveBg"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "color",
+                "interactiveBg",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.hover.color.interactiveBg.contrast}",
+              "$value": "rgba(212, 229, 255, 0.5)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.state.hover.color.bright}",
+                "$type": "color",
+                "key": "{br.state.hover.color.interactiveBg.contrast}"
+              },
+              "name": "brStateHoverColorInteractiveBgContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "color",
+                "state": "interactiveBg"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "color",
+                "interactiveBg",
+                "contrast"
+              ]
+            }
+          }
+        },
+        "cta": {
+          "color": {
+            "bright": {
+              "key": "{br.state.hover.cta.color.bright}",
+              "$type": "config",
+              "$value": "rgba(#b7f5bd, 0.5)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "original": {
+                "$type": "config",
+                "$value": "rgba({br.color.greenCoolVivid.10}, {br.state.hover.opacity.bright})",
+                "key": "{br.state.hover.cta.color.bright}"
+              },
+              "name": "brStateHoverCtaColorBright",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "cta",
+                "color",
+                "bright"
+              ]
+            },
+            "dim": {
+              "key": "{br.state.hover.cta.color.dim}",
+              "$type": "config",
+              "$value": "rgba(#19311e, 0.6)",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "original": {
+                "$type": "config",
+                "$value": "rgba({br.color.greenCoolVivid.80}, {br.state.hover.opacity.dim})",
+                "key": "{br.state.hover.cta.color.dim}"
+              },
+              "name": "brStateHoverCtaColorDim",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "hover",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "hover",
+                "cta",
+                "color",
+                "dim"
+              ]
+            },
+            "interactiveFg": {
+              "main": {
+                "key": "{br.state.hover.cta.color.interactiveFg.main}",
+                "$value": "rgba(183, 245, 189, 0.5)",
+                "filePath": "src/temp/style-dictionary/theme/light.json",
+                "isSource": true,
+                "$type": "color",
+                "original": {
+                  "$value": "{br.state.hover.cta.color.bright}",
+                  "$type": "color",
+                  "key": "{br.state.hover.cta.color.interactiveFg.main}"
+                },
+                "name": "brStateHoverCtaColorInteractiveFgMain",
+                "attributes": {
+                  "category": "br",
+                  "type": "state",
+                  "item": "hover",
+                  "subitem": "cta",
+                  "state": "color"
+                },
+                "path": [
+                  "br",
+                  "state",
+                  "hover",
+                  "cta",
+                  "color",
+                  "interactiveFg",
+                  "main"
+                ]
+              },
+              "contrast": {
+                "key": "{br.state.hover.cta.color.interactiveFg.contrast}",
+                "$value": "rgba(25, 49, 30, 0.6)",
+                "filePath": "src/temp/style-dictionary/theme/light.json",
+                "isSource": true,
+                "$type": "color",
+                "original": {
+                  "$value": "{br.state.hover.cta.color.dim}",
+                  "$type": "color",
+                  "key": "{br.state.hover.cta.color.interactiveFg.contrast}"
+                },
+                "name": "brStateHoverCtaColorInteractiveFgContrast",
+                "attributes": {
+                  "category": "br",
+                  "type": "state",
+                  "item": "hover",
+                  "subitem": "cta",
+                  "state": "color"
+                },
+                "path": [
+                  "br",
+                  "state",
+                  "hover",
+                  "cta",
+                  "color",
+                  "interactiveFg",
+                  "contrast"
+                ]
+              }
+            },
+            "interactiveBg": {
+              "main": {
+                "key": "{br.state.hover.cta.color.interactiveBg.main}",
+                "$value": "rgba(25, 49, 30, 0.6)",
+                "filePath": "src/temp/style-dictionary/theme/light.json",
+                "isSource": true,
+                "$type": "color",
+                "original": {
+                  "$value": "{br.state.hover.cta.color.dim}",
+                  "$type": "color",
+                  "key": "{br.state.hover.cta.color.interactiveBg.main}"
+                },
+                "name": "brStateHoverCtaColorInteractiveBgMain",
+                "attributes": {
+                  "category": "br",
+                  "type": "state",
+                  "item": "hover",
+                  "subitem": "cta",
+                  "state": "color"
+                },
+                "path": [
+                  "br",
+                  "state",
+                  "hover",
+                  "cta",
+                  "color",
+                  "interactiveBg",
+                  "main"
+                ]
+              },
+              "contrast": {
+                "key": "{br.state.hover.cta.color.interactiveBg.contrast}",
+                "$value": "rgba(183, 245, 189, 0.5)",
+                "filePath": "src/temp/style-dictionary/theme/light.json",
+                "isSource": true,
+                "$type": "color",
+                "original": {
+                  "$value": "{br.state.hover.cta.color.bright}",
+                  "$type": "color",
+                  "key": "{br.state.hover.cta.color.interactiveBg.contrast}"
+                },
+                "name": "brStateHoverCtaColorInteractiveBgContrast",
+                "attributes": {
+                  "category": "br",
+                  "type": "state",
+                  "item": "hover",
+                  "subitem": "cta",
+                  "state": "color"
+                },
+                "path": [
+                  "br",
+                  "state",
+                  "hover",
+                  "cta",
+                  "color",
+                  "interactiveBg",
+                  "contrast"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "focus": {
+        "color": {
+          "main": {
+            "key": "{br.state.focus.color.main}",
+            "$value": "#da680b",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.orangeVivid.40}",
+              "$type": "color",
+              "key": "{br.state.focus.color.main}"
+            },
+            "name": "brStateFocusColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "focus",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "focus",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.focus.color.contrast}",
+            "$value": "#ff8c00",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.orangeVivid.30}",
+              "$type": "color",
+              "key": "{br.state.focus.color.contrast}"
+            },
+            "name": "brStateFocusColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "focus",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "focus",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      },
+      "active": {
+        "color": {
+          "main": {
+            "key": "{br.state.active.color.main}",
+            "$value": "#0c326f",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.80}",
+              "$type": "color",
+              "key": "{br.state.active.color.main}"
+            },
+            "name": "brStateActiveColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "active",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "active",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.active.color.contrast}",
+            "$value": "#81aefc",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.30}",
+              "$type": "color",
+              "key": "{br.state.active.color.contrast}"
+            },
+            "name": "brStateActiveColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "active",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "active",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.active.color.foreground.main}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.active.color.foreground.main}"
+              },
+              "name": "brStateActiveColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "active",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "active",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.active.color.foreground.contrast}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.active.color.foreground.contrast}"
+              },
+              "name": "brStateActiveColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "active",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "active",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        },
+        "cta": {
+          "color": {
+            "main": {
+              "key": "{br.state.active.cta.color.main}",
+              "$value": "#154c21",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.greenCoolVivid.70}",
+                "$type": "color",
+                "key": "{br.state.active.cta.color.main}"
+              },
+              "name": "brStateActiveCtaColorMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "active",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "active",
+                "cta",
+                "color",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.active.cta.color.contrast}",
+              "$value": "#21c834",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.greenCoolVivid.30}",
+                "$type": "color",
+                "key": "{br.state.active.cta.color.contrast}"
+              },
+              "name": "brStateActiveCtaColorContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "active",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "active",
+                "cta",
+                "color",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "selected": {
+        "color": {
+          "main": {
+            "key": "{br.state.selected.color.main}",
+            "$value": "#2670e8",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.50}",
+              "$type": "color",
+              "key": "{br.state.selected.color.main}"
+            },
+            "name": "brStateSelectedColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "selected",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "selected",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.selected.color.contrast}",
+            "$value": "#5992ed",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.40}",
+              "$type": "color",
+              "key": "{br.state.selected.color.contrast}"
+            },
+            "name": "brStateSelectedColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "selected",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "selected",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.selected.color.foreground.main}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.selected.color.foreground.main}"
+              },
+              "name": "brStateSelectedColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "selected",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "selected",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.selected.color.foreground.contrast}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.selected.color.foreground.contrast}"
+              },
+              "name": "brStateSelectedColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "selected",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "selected",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        },
+        "cta": {
+          "color": {
+            "main": {
+              "key": "{br.state.selected.cta.color.main}",
+              "$value": "#19311e",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.greenCoolVivid.80}",
+                "$type": "color",
+                "key": "{br.state.selected.cta.color.main}"
+              },
+              "name": "brStateSelectedCtaColorMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "selected",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "selected",
+                "cta",
+                "color",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.selected.cta.color.contrast}",
+              "$value": "#00a91c",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.greenCoolVivid.40}",
+                "$type": "color",
+                "key": "{br.state.selected.cta.color.contrast}"
+              },
+              "name": "brStateSelectedCtaColorContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "selected",
+                "subitem": "cta",
+                "state": "color"
+              },
+              "path": [
+                "br",
+                "state",
+                "selected",
+                "cta",
+                "color",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "dragging": {
+        "color": {
+          "main": {
+            "key": "{br.state.dragging.color.main}",
+            "$value": "#0040b4",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.main}",
+              "$type": "color",
+              "key": "{br.state.dragging.color.main}"
+            },
+            "name": "brStateDraggingColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dragging",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "dragging",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.dragging.color.contrast}",
+            "$value": "#adcdff",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.contrast}",
+              "$type": "color",
+              "key": "{br.state.dragging.color.contrast}"
+            },
+            "name": "brStateDraggingColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dragging",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "dragging",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      },
+      "dropzone": {
+        "color": {
+          "main": {
+            "key": "{br.state.dropzone.color.main}",
+            "$value": "#0040b4",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.main}",
+              "$type": "color",
+              "key": "{br.state.dropzone.color.main}"
+            },
+            "name": "brStateDropzoneColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dropzone",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "dropzone",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.dropzone.color.contrast}",
+            "$value": "#adcdff",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.contrast}",
+              "$type": "color",
+              "key": "{br.state.dropzone.color.contrast}"
+            },
+            "name": "brStateDropzoneColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dropzone",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "dropzone",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      },
+      "dropzoneActive": {
+        "color": {
+          "main": {
+            "key": "{br.state.dropzoneActive.color.main}",
+            "$value": "#0040b4",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.main}",
+              "$type": "color",
+              "key": "{br.state.dropzoneActive.color.main}"
+            },
+            "name": "brStateDropzoneActiveColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dropzoneActive",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "dropzoneActive",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.dropzoneActive.color.contrast}",
+            "$value": "#adcdff",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.state.interactive.color.contrast}",
+              "$type": "color",
+              "key": "{br.state.dropzoneActive.color.contrast}"
+            },
+            "name": "brStateDropzoneActiveColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "dropzoneActive",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "dropzoneActive",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      },
+      "on": {
+        "color": {
+          "main": {
+            "key": "{br.state.on.color.main}",
+            "$value": "#5992ed",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.40}",
+              "$type": "color",
+              "key": "{br.state.on.color.main}"
+            },
+            "name": "brStateOnColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "on",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "on",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.on.color.contrast}",
+            "$value": "#2670e8",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.50}",
+              "$type": "color",
+              "key": "{br.state.on.color.contrast}"
+            },
+            "name": "brStateOnColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "on",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "on",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.on.color.foreground.main}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.on.color.foreground.main}"
+              },
+              "name": "brStateOnColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "on",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "on",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.on.color.foreground.contrast}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.on.color.foreground.contrast}"
+              },
+              "name": "brStateOnColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "on",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "on",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "off": {
+        "color": {
+          "main": {
+            "key": "{br.state.off.color.main}",
+            "$value": "#888888",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.40}",
+              "$type": "color",
+              "key": "{br.state.off.color.main}"
+            },
+            "name": "brStateOffColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "off",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "off",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.off.color.contrast}",
+            "$value": "#757575",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.gray.50}",
+              "$type": "color",
+              "key": "{br.state.off.color.contrast}"
+            },
+            "name": "brStateOffColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "off",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "off",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.off.color.foreground.main}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.off.color.foreground.main}"
+              },
+              "name": "brStateOffColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "off",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "off",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.off.color.foreground.contrast}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.off.color.foreground.contrast}"
+              },
+              "name": "brStateOffColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "off",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "off",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "interactive": {
+        "color": {
+          "main": {
+            "key": "{br.state.interactive.color.main}",
+            "$value": "#0040b4",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.70}",
+              "$type": "color",
+              "key": "{br.state.interactive.color.main}"
+            },
+            "name": "brStateInteractiveColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "interactive",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "interactive",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.interactive.color.contrast}",
+            "$value": "#adcdff",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarmVivid.20}",
+              "$type": "color",
+              "key": "{br.state.interactive.color.contrast}"
+            },
+            "name": "brStateInteractiveColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "interactive",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "interactive",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.interactive.color.foreground.main}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.interactive.color.foreground.main}"
+              },
+              "name": "brStateInteractiveColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "interactive",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "interactive",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.interactive.color.foreground.contrast}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.interactive.color.foreground.contrast}"
+              },
+              "name": "brStateInteractiveColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "interactive",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "interactive",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "cta": {
+        "color": {
+          "main": {
+            "key": "{br.state.cta.color.main}",
+            "$value": "#216e1f",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.greenCoolVivid.60}",
+              "$type": "color",
+              "key": "{br.state.cta.color.main}"
+            },
+            "name": "brStateCtaColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "cta",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "cta",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.cta.color.contrast}",
+            "$value": "#70e17b",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.greenCoolVivid.20}",
+              "$type": "color",
+              "key": "{br.state.cta.color.contrast}"
+            },
+            "name": "brStateCtaColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "cta",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "cta",
+              "color",
+              "contrast"
+            ]
+          },
+          "foreground": {
+            "main": {
+              "key": "{br.state.cta.color.foreground.main}",
+              "$value": "#ffffff",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.0}",
+                "$type": "color",
+                "key": "{br.state.cta.color.foreground.main}"
+              },
+              "name": "brStateCtaColorForegroundMain",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "cta",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "cta",
+                "color",
+                "foreground",
+                "main"
+              ]
+            },
+            "contrast": {
+              "key": "{br.state.cta.color.foreground.contrast}",
+              "$value": "#000000",
+              "filePath": "src/temp/style-dictionary/theme/light.json",
+              "isSource": true,
+              "$type": "color",
+              "original": {
+                "$value": "{br.color.pure.100}",
+                "$type": "color",
+                "key": "{br.state.cta.color.foreground.contrast}"
+              },
+              "name": "brStateCtaColorForegroundContrast",
+              "attributes": {
+                "category": "br",
+                "type": "state",
+                "item": "cta",
+                "subitem": "color",
+                "state": "foreground"
+              },
+              "path": [
+                "br",
+                "state",
+                "cta",
+                "color",
+                "foreground",
+                "contrast"
+              ]
+            }
+          }
+        }
+      },
+      "visited": {
+        "color": {
+          "main": {
+            "key": "{br.state.visited.color.main}",
+            "$value": "#2f4668",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarm.70}",
+              "$type": "color",
+              "key": "{br.state.visited.color.main}"
+            },
+            "name": "brStateVisitedColorMain",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "visited",
+              "subitem": "color",
+              "state": "main"
+            },
+            "path": [
+              "br",
+              "state",
+              "visited",
+              "color",
+              "main"
+            ]
+          },
+          "contrast": {
+            "key": "{br.state.visited.color.contrast}",
+            "$value": "#c5d4eb",
+            "filePath": "src/temp/style-dictionary/theme/light.json",
+            "isSource": true,
+            "$type": "color",
+            "original": {
+              "$value": "{br.color.blueWarm.20}",
+              "$type": "color",
+              "key": "{br.state.visited.color.contrast}"
+            },
+            "name": "brStateVisitedColorContrast",
+            "attributes": {
+              "category": "br",
+              "type": "state",
+              "item": "visited",
+              "subitem": "color",
+              "state": "contrast"
+            },
+            "path": [
+              "br",
+              "state",
+              "visited",
+              "color",
+              "contrast"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

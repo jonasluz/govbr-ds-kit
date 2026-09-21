@@ -1,0 +1,16 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-divider-gap: var(--br-spacing-layout-1, 8px);
+  --br-divider-density-compact: var(--br-spacing-adjust-1, 4px);
+  --br-divider-density-regular: var(--br-spacing-adjust-3, 20px);
+  --br-divider-density-spacious: var(--br-spacing-adjust-5, 36px);
+  --br-divider-border-style-solid-sm: var(--br-surface-border-width-sm, 1px) solid var(--br-color-border-primary, #cccccc);
+  --br-divider-border-style-solid-md: var(--br-surface-border-width-md, 2px) solid var(--br-color-border-primary, #cccccc);
+  --br-divider-border-style-solid-lg: var(--br-surface-border-width-lg, 4px) solid var(--br-color-border-primary, #cccccc);
+  --br-divider-border-style-dashed-sm: var(--br-surface-border-width-sm, 1px) dashed var(--br-color-border-primary, #cccccc);
+  --br-divider-border-style-dashed-md: var(--br-surface-border-width-md, 2px) dashed var(--br-color-border-primary, #cccccc);
+  --br-divider-border-style-dashed-lg: var(--br-surface-border-width-lg, 4px) dashed var(--br-color-border-primary, #cccccc);
+}

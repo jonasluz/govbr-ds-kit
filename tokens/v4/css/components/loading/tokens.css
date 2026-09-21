@@ -1,0 +1,11 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-loading-gap-default: var(--br-spacing-layout-1, 8px);
+  --br-loading-color-foreground-main: var(--br-color-foreground-main-secondary, #636363);
+  --br-loading-color-foreground-contrast: var(--br-color-foreground-contrast-secondary, #cccccc);
+  --br-loading-color-background-main: var(--br-color-background-main-secondary, #f0f0f0);
+  --br-loading-color-background-contrast: var(--br-color-background-contrast-secondary, #2f4668);
+}

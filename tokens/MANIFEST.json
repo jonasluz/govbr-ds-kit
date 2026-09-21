@@ -1,0 +1,46 @@
+{
+  "geradoEm": "2026-09-21",
+  "gerador": "scripts/sync-tokens.mjs",
+  "pacotes": {
+    "@govbr-ds/core": "3.7.0",
+    "@govbr-ds/tokens": "4.0.0-next.33"
+  },
+  "fixadoEmPackageJson": {
+    "core": "3.7.0",
+    "tokens": "4.0.0-next.33"
+  },
+  "arquivos": [
+    "v3/css/core-tokens.css",
+    "v4/css/components/avatar/tokens.css",
+    "v4/css/components/breadcrumbs/tokens.css",
+    "v4/css/components/button/tokens.css",
+    "v4/css/components/chatBubble/tokens.css",
+    "v4/css/components/chatInput/tokens.css",
+    "v4/css/components/checkbox/tokens.css",
+    "v4/css/components/checkboxGroup/tokens.css",
+    "v4/css/components/divider/tokens.css",
+    "v4/css/components/footer/tokens.css",
+    "v4/css/components/formLabel/tokens.css",
+    "v4/css/components/header/tokens.css",
+    "v4/css/components/icon/tokens.css",
+    "v4/css/components/input/tokens.css",
+    "v4/css/components/list/tokens.css",
+    "v4/css/components/loading/tokens.css",
+    "v4/css/components/message/tokens.css",
+    "v4/css/components/radioGroup/tokens.css",
+    "v4/css/components/rating/tokens.css",
+    "v4/css/components/select/tokens.css",
+    "v4/css/components/sideMenu/tokens.css",
+    "v4/css/components/text/tokens.css",
+    "v4/css/components/tooltip/tokens.css",
+    "v4/css/contrast-mode.css",
+    "v4/css/theme/dark.css",
+    "v4/css/theme/light.css",
+    "v4/css/tokens.css",
+    "v4/figma/tokens-studio.json",
+    "v4/json/theme/dark.json",
+    "v4/json/theme/light.json",
+    "v4/json/tokens.json",
+    "v4/scss/tokens.scss"
+  ]
+}

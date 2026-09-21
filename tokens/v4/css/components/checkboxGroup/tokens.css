@@ -1,0 +1,11 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-checkbox-group-gap-vertical-group: var(--br-spacing-layout-3, 24px);
+  --br-checkbox-group-gap-horizontal-item: var(--br-spacing-layout-3, 24px);
+  --br-checkbox-group-gap-default: var(--br-form-gap-default, 8px);
+  --br-checkbox-group-gap-vertical-item: var(--br-form-gap-default, 8px);
+  --br-checkbox-group-padding: var(--br-form-padding-default, 8px);
+}

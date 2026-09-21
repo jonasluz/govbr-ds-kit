@@ -1,0 +1,37 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-breadcrumbs-gap-default: var(--br-spacing-adjust-1, 4px);
+  --br-breadcrumbs-padding-default: var(--br-spacing-adjust-1, 4px);
+  --br-breadcrumbs-density-compact: var(--br-spacing-adjust-1, 4px);
+  --br-breadcrumbs-density-regular: var(--br-spacing-layout-1, 8px);
+  --br-breadcrumbs-density-spacious: var(--br-spacing-adjust-2, 12px);
+  --br-breadcrumbs-rounder-default: var(--br-surface-rounder-sm, 4px);
+  --br-breadcrumbs-icon-name-home: var(--br-iconography-icon-name-navigation-home, home);
+  --br-breadcrumbs-icon-name-more: var(--br-iconography-icon-name-navigation-more, ellipsis-h);
+  --br-breadcrumbs-font-style-default: var(--br-typography-font-weight-regular, 400) var(--br-typography-font-size-down-1, 0.8889rem)/var(--br-typography-line-height-md, 1.5) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-breadcrumbs-color-foreground-main-default: var(--br-state-interactive-color-main, #0040b4);
+  --br-breadcrumbs-color-foreground-contrast-default: var(--br-state-interactive-color-contrast, #adcdff);
+  --br-breadcrumbs-color-border-default: var(--br-color-border-primary, #cccccc);
+  --br-breadcrumbs-hover-easing-in: var(--br-state-hover-easing-in-default, cubic-bezier(0.42, 0, 1, 1));
+  --br-breadcrumbs-hover-easing-out: var(--br-state-hover-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-breadcrumbs-hover-duration-in: var(--br-state-hover-duration-in-default, 200ms);
+  --br-breadcrumbs-hover-duration-out: var(--br-state-hover-duration-out, 100ms);
+  --br-breadcrumbs-pressed-easing-in: var(--br-state-pressed-easing-in, cubic-bezier(0.42, 0, 0.58, 1));
+  --br-breadcrumbs-pressed-easing-out: var(--br-state-pressed-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-breadcrumbs-pressed-duration-in: var(--br-state-pressed-duration-in, 100ms);
+  --br-breadcrumbs-pressed-duration-out: var(--br-state-pressed-duration-out, 50ms);
+  --br-breadcrumbs-focus-padding: var(--br-state-focus-padding, 4px);
+  --br-breadcrumbs-focus-easing-in: var(--br-state-focus-easing-in, cubic-bezier(0.7, 3.3, 0.3, 0));
+  --br-breadcrumbs-focus-easing-out: var(--br-state-focus-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-breadcrumbs-focus-duration-in: var(--br-state-focus-duration-in, 200ms);
+  --br-breadcrumbs-focus-duration-out: var(--br-state-focus-duration-out, 100ms);
+  --br-breadcrumbs-shadow-style-default: var(--br-elevation-shadow-style-level2, 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0 8px 0 rgba(0, 0, 0, 0.2));
+  --br-breadcrumbs-hover-color-main: var(--br-state-hover-color-interactive-fg-main, rgba(212, 229, 255, 0.5));
+  --br-breadcrumbs-hover-color-contrast: var(--br-state-hover-color-interactive-fg-contrast, rgba(12, 50, 111, 0.6));
+  --br-breadcrumbs-pressed-shadow-style: var(--br-state-pressed-shadow-style, inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5));
+  --br-breadcrumbs-focus-border-style-main: var(--br-state-focus-border-style-main-high, 4px dashed #da680b);
+  --br-breadcrumbs-focus-border-style-contrast: var(--br-state-focus-border-style-contrast-high, 4px dashed #ff8c00);
+}

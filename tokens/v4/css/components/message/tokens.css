@@ -1,0 +1,18 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-message-global-rounder: var(--br-surface-rounder-none, 0);
+  --br-message-global-padding: var(--br-spacing-layout-2, 16px);
+  --br-message-contextual-gap: var(--br-spacing-adjust-1, 4px);
+  --br-message-contextual-padding: var(--br-spacing-adjust-1, 4px);
+  --br-message-color-foreground-description: var(--br-color-foreground-main-primary, #1b1b1b);
+  --br-message-color-background-primary: var(--br-color-background-main-primary, #fcfcfc);
+  --br-message-color-background-secondary: var(--br-color-background-main-secondary, #f0f0f0);
+  --br-message-global-gap: var(--br-form-gap-default, 8px);
+  --br-message-contextual-rounder: var(--br-form-rounder-primary, 4px);
+  --br-message-font-style-description: var(--br-typography-font-style-paragraph, 400 1rem/1.5 'Noto Sans');
+  --br-message-global-shadow-style: var(--br-elevation-shadow-style-level1, 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.2));
+  --br-message-contextual-shadow-style: var(--br-elevation-shadow-style-level0, 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.2));
+}

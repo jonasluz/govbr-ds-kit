@@ -1,0 +1,10 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-form-label-font-style-helper-text: var(--br-typography-font-weight-regular, 400) var(--br-typography-font-size-down-2, 0.7901rem)/var(--br-typography-line-height-sm, 1.2) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-form-label-color-main-helper-text: var(--br-color-foreground-main-secondary, #636363);
+  --br-form-label-color-contrast-helper-text: var(--br-color-foreground-contrast-secondary, #cccccc);
+  --br-form-label-gap: var(--br-form-gap-default, 8px);
+}

@@ -1,0 +1,40 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-avatar-font-size-xsm: 0.6243rem;
+  --br-avatar-font-size-sm: 1rem;
+  --br-avatar-font-size-md: 1.6018rem;
+  --br-avatar-font-size-lg: 2.5658rem;
+  --br-avatar-font-size-xlg: 4.1099rem;
+  --br-avatar-size-xsm: 1.2486rem;
+  --br-avatar-size-sm: 2rem;
+  --br-avatar-size-md: 3.2036rem;
+  --br-avatar-size-lg: 5.1316rem;
+  --br-avatar-size-xlg: 8.2198rem;
+  --br-avatar-color-foreground-bright: var(--br-color-pure-0, #ffffff);
+  --br-avatar-color-foreground-dim: var(--br-color-pure-100, #000000);
+  --br-avatar-color-background: var(--br-color-indigo-warm-vivid-60, #5942d2);
+  --br-avatar-padding: var(--br-spacing-adjust-1, 4px);
+  --br-avatar-rounder-mask: var(--br-surface-rounder-full, 999999px);
+  --br-avatar-font-style-text: var(--br-typography-font-weight-semi-bold, 600) var(--br-avatar-font-size-md, var(--br-typography-line-height-xsm, 1).6018rem)/1 var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-avatar-disabled-opacity: var(--br-state-disabled-opacity, 0.3);
+  --br-avatar-hover-easing-in: var(--br-state-hover-easing-in-default, cubic-bezier(0.42, 0, 1, 1));
+  --br-avatar-hover-easing-out: var(--br-state-hover-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-avatar-hover-duration-in: var(--br-state-hover-duration-in-default, 200ms);
+  --br-avatar-hover-duration-out: var(--br-state-hover-duration-out, 100ms);
+  --br-avatar-pressed-easing-in: var(--br-state-pressed-easing-in, cubic-bezier(0.42, 0, 0.58, 1));
+  --br-avatar-pressed-easing-out: var(--br-state-pressed-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-avatar-pressed-duration-in: var(--br-state-pressed-duration-in, 100ms);
+  --br-avatar-pressed-duration-out: var(--br-state-pressed-duration-out, 50ms);
+  --br-avatar-focus-padding: var(--br-state-focus-padding, 4px);
+  --br-avatar-focus-easing-in: var(--br-state-focus-easing-in, cubic-bezier(0.7, 3.3, 0.3, 0));
+  --br-avatar-focus-easing-out: var(--br-state-focus-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-avatar-focus-duration-in: var(--br-state-focus-duration-in, 200ms);
+  --br-avatar-focus-duration-out: var(--br-state-focus-duration-out, 100ms);
+  --br-avatar-hover-color: var(--br-state-hover-color-interactive-bg-main, rgba(12, 50, 111, 0.6));
+  --br-avatar-pressed-shadow-style: var(--br-state-pressed-shadow-style, inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5));
+  --br-avatar-focus-border-style-main: var(--br-state-focus-border-style-main-high, 4px dashed #da680b);
+  --br-avatar-focus-border-style-contrast: var(--br-state-focus-border-style-contrast-high, 4px dashed #ff8c00);
+}

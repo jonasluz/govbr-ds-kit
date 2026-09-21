@@ -1,0 +1,38 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-icon-font-size-default: 1rem;
+  --br-icon-font-size-up-1: 1.125rem;
+  --br-icon-font-size-up-2: 1.2656rem;
+  --br-icon-font-size-up-3: 1.4238rem;
+  --br-icon-font-size-up-4: 1.6018rem;
+  --br-icon-font-size-up-5: 1.802rem;
+  --br-icon-font-size-up-6: 2.0273rem;
+  --br-icon-font-size-up-7: 2.2807rem;
+  --br-icon-font-size-up-8: 2.5658rem;
+  --br-icon-font-size-down-1: 0.8889rem;
+  --br-icon-font-size-down-2: 0.7901rem;
+  --br-icon-font-size-down-3: 0.7023rem;
+  --br-icon-font-size-down-4: 0.6243rem;
+  --br-icon-size-default: 1.25rem;
+  --br-icon-size-up-1: 1.4063rem;
+  --br-icon-size-up-2: 1.582rem;
+  --br-icon-size-up-3: 1.7798rem;
+  --br-icon-size-up-4: 2.0023rem;
+  --br-icon-size-up-5: 2.2525rem;
+  --br-icon-size-up-6: 2.5341rem;
+  --br-icon-size-up-7: 2.8509rem;
+  --br-icon-size-up-8: 3.2072rem;
+  --br-icon-size-down-1: 1.1111rem;
+  --br-icon-size-down-2: 0.9877rem;
+  --br-icon-size-down-3: 0.8779rem;
+  --br-icon-size-down-4: 0.7804rem;
+  --br-icon-icon-style-solid: solid var(--br-icon-font-size-default, var(--br-typography-line-height-xsm, 1)rem)/1 var(--br-iconography-font-family-primary, 'Font Awesome 6 Free');
+  --br-icon-icon-style-brand: var(--br-typography-font-weight-regular, 400) var(--br-icon-font-size-default, var(--br-typography-line-height-xsm, 1)rem)/1 var(--br-iconography-font-family-secondary, 'Font Awesome 6 Brands');
+  --br-icon-color-main-primary: var(--br-color-foreground-main-primary, #1b1b1b);
+  --br-icon-color-main-secondary: var(--br-color-foreground-main-secondary, #636363);
+  --br-icon-color-contrast-primary: var(--br-color-foreground-contrast-primary, #fcfcfc);
+  --br-icon-color-contrast-secondary: var(--br-color-foreground-contrast-secondary, #cccccc);
+}

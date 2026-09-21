@@ -1,0 +1,2304 @@
+
+$br-color-pure-0: #ffffff !default;
+$br-color-pure-100: #000000 !default;
+$br-color-gray-1: #fcfcfc !default;
+$br-color-gray-2: #f8f8f8 !default;
+$br-color-gray-3: #f6f6f6 !default;
+$br-color-gray-4: #f3f3f3 !default;
+$br-color-gray-5: #f0f0f0 !default;
+$br-color-gray-10: #e6e6e6 !default;
+$br-color-gray-20: #cccccc !default;
+$br-color-gray-30: #adadad !default;
+$br-color-gray-40: #888888 !default;
+$br-color-gray-50: #757575 !default;
+$br-color-gray-60: #636363 !default;
+$br-color-gray-70: #4a4a4a !default;
+$br-color-gray-80: #333333 !default;
+$br-color-gray-90: #1b1b1b !default;
+$br-color-gray-cool-1: #fbfcfd !default;
+$br-color-gray-cool-2: #f7f9fa !default;
+$br-color-gray-cool-3: #f5f6f7 !default;
+$br-color-gray-cool-4: #f1f3f6 !default;
+$br-color-gray-cool-5: #edeff0 !default;
+$br-color-gray-cool-10: #dfe1e2 !default;
+$br-color-gray-cool-20: #c6cace !default;
+$br-color-gray-cool-30: #a9aeb1 !default;
+$br-color-gray-cool-40: #8d9297 !default;
+$br-color-gray-cool-50: #71767a !default;
+$br-color-gray-cool-60: #565c65 !default;
+$br-color-gray-cool-70: #3d4551 !default;
+$br-color-gray-cool-80: #2d2e2f !default;
+$br-color-gray-cool-90: #1c1d1f !default;
+$br-color-gray-warm-1: #fcfcfb !default;
+$br-color-gray-warm-2: #f9f9f7 !default;
+$br-color-gray-warm-3: #f6f6f2 !default;
+$br-color-gray-warm-4: #f5f5f0 !default;
+$br-color-gray-warm-5: #f0f0ec !default;
+$br-color-gray-warm-10: #e6e6e2 !default;
+$br-color-gray-warm-20: #cac9c0 !default;
+$br-color-gray-warm-30: #afaea2 !default;
+$br-color-gray-warm-40: #929285 !default;
+$br-color-gray-warm-50: #76766a !default;
+$br-color-gray-warm-60: #5d5d52 !default;
+$br-color-gray-warm-70: #454540 !default;
+$br-color-gray-warm-80: #2e2e2a !default;
+$br-color-gray-warm-90: #171716 !default;
+$br-color-red-5: #f9eeee !default;
+$br-color-red-10: #f8e1de !default;
+$br-color-red-20: #f7bbb1 !default;
+$br-color-red-30: #f2938c !default;
+$br-color-red-40: #e9695f !default;
+$br-color-red-50: #d83933 !default;
+$br-color-red-60: #a23737 !default;
+$br-color-red-70: #6f3331 !default;
+$br-color-red-80: #3e2927 !default;
+$br-color-red-90: #1b1616 !default;
+$br-color-red-cool-5: #f8eff1 !default;
+$br-color-red-cool-10: #f3e1e4 !default;
+$br-color-red-cool-20: #ecbec6 !default;
+$br-color-red-cool-30: #e09aa6 !default;
+$br-color-red-cool-40: #e16b80 !default;
+$br-color-red-cool-50: #cd425b !default;
+$br-color-red-cool-60: #9e394b !default;
+$br-color-red-cool-70: #68363f !default;
+$br-color-red-cool-80: #40282c !default;
+$br-color-red-cool-90: #1e1517 !default;
+$br-color-red-warm-5: #f6efea !default;
+$br-color-red-warm-10: #f4e3db !default;
+$br-color-red-warm-20: #ecc0a7 !default;
+$br-color-red-warm-30: #dca081 !default;
+$br-color-red-warm-40: #d27a56 !default;
+$br-color-red-warm-50: #c3512c !default;
+$br-color-red-warm-60: #805039 !default;
+$br-color-red-warm-70: #524236 !default;
+$br-color-red-warm-80: #332d29 !default;
+$br-color-red-warm-90: #1f1c18 !default;
+$br-color-red-vivid-5: #fff3f2 !default;
+$br-color-red-vivid-10: #fde0db !default;
+$br-color-red-vivid-20: #fdb8ae !default;
+$br-color-red-vivid-30: #ff8d7b !default;
+$br-color-red-vivid-40: #fb5a47 !default;
+$br-color-red-vivid-50: #e52207 !default;
+$br-color-red-vivid-60: #b50909 !default;
+$br-color-red-vivid-70: #8b0a03 !default;
+$br-color-red-vivid-80: #5c1111 !default;
+$br-color-red-cool-vivid-5: #fff2f5 !default;
+$br-color-red-cool-vivid-10: #f8dfe2 !default;
+$br-color-red-cool-vivid-20: #f8b9c5 !default;
+$br-color-red-cool-vivid-30: #fd8ba0 !default;
+$br-color-red-cool-vivid-40: #f45d79 !default;
+$br-color-red-cool-vivid-50: #e41d3d !default;
+$br-color-red-cool-vivid-60: #b21d38 !default;
+$br-color-red-cool-vivid-70: #822133 !default;
+$br-color-red-cool-vivid-80: #4f1c24 !default;
+$br-color-red-warm-vivid-5: #fff5ee !default;
+$br-color-red-warm-vivid-10: #fce1d4 !default;
+$br-color-red-warm-vivid-20: #f6bd9c !default;
+$br-color-red-warm-vivid-30: #f39268 !default;
+$br-color-red-warm-vivid-40: #ef5e25 !default;
+$br-color-red-warm-vivid-50: #d54309 !default;
+$br-color-red-warm-vivid-60: #9c3d10 !default;
+$br-color-red-warm-vivid-70: #63340f !default;
+$br-color-red-warm-vivid-80: #3e2a1e !default;
+$br-color-orange-5: #f6efe9 !default;
+$br-color-orange-10: #f2e4d4 !default;
+$br-color-orange-20: #f3bf90 !default;
+$br-color-orange-30: #f09860 !default;
+$br-color-orange-40: #dd7533 !default;
+$br-color-orange-50: #a26739 !default;
+$br-color-orange-60: #775540 !default;
+$br-color-orange-70: #524236 !default;
+$br-color-orange-80: #332d27 !default;
+$br-color-orange-90: #1b1614 !default;
+$br-color-orange-warm-5: #faeee5 !default;
+$br-color-orange-warm-10: #fbe0d0 !default;
+$br-color-orange-warm-20: #f7bca2 !default;
+$br-color-orange-warm-30: #f3966d !default;
+$br-color-orange-warm-40: #e17141 !default;
+$br-color-orange-warm-50: #bd5727 !default;
+$br-color-orange-warm-60: #914734 !default;
+$br-color-orange-warm-70: #633a32 !default;
+$br-color-orange-warm-80: #3d2925 !default;
+$br-color-orange-warm-90: #1c1615 !default;
+$br-color-orange-vivid-5: #fdf5e6 !default;
+$br-color-orange-vivid-10: #fce2c5 !default;
+$br-color-orange-vivid-20: #ffbc78 !default;
+$br-color-orange-vivid-30: #ff8c00 !default;
+$br-color-orange-vivid-40: #da680b !default;
+$br-color-orange-vivid-50: #c05600 !default;
+$br-color-orange-vivid-60: #8c471c !default;
+$br-color-orange-vivid-70: #5f3617 !default;
+$br-color-orange-vivid-80: #352313 !default;
+$br-color-orange-warm-vivid-5: #fff3ea !default;
+$br-color-orange-warm-vivid-10: #ffe2d1 !default;
+$br-color-orange-warm-vivid-20: #fbbaa7 !default;
+$br-color-orange-warm-vivid-30: #fc906d !default;
+$br-color-orange-warm-vivid-40: #ff580a !default;
+$br-color-orange-warm-vivid-50: #cf4900 !default;
+$br-color-orange-warm-vivid-60: #a72f10 !default;
+$br-color-orange-warm-vivid-70: #782312 !default;
+$br-color-orange-warm-vivid-80: #3d231d !default;
+$br-color-gold-5: #f5f0e6 !default;
+$br-color-gold-10: #f1e5cd !default;
+$br-color-gold-20: #dec69a !default;
+$br-color-gold-30: #c7a97b !default;
+$br-color-gold-40: #ad8b65 !default;
+$br-color-gold-50: #8e704f !default;
+$br-color-gold-60: #6b5947 !default;
+$br-color-gold-70: #4d4438 !default;
+$br-color-gold-80: #322d26 !default;
+$br-color-gold-90: #191714 !default;
+$br-color-gold-vivid-5: #fef0c8 !default;
+$br-color-gold-vivid-10: #ffe396 !default;
+$br-color-gold-vivid-20: #ffbe2e !default;
+$br-color-gold-vivid-30: #e5a000 !default;
+$br-color-gold-vivid-40: #c2850c !default;
+$br-color-gold-vivid-50: #936f38 !default;
+$br-color-gold-vivid-60: #7a591a !default;
+$br-color-gold-vivid-70: #5c410a !default;
+$br-color-gold-vivid-80: #3b2b15 !default;
+$br-color-yellow-5: #faf3d1 !default;
+$br-color-yellow-10: #f5e6af !default;
+$br-color-yellow-20: #e6c74c !default;
+$br-color-yellow-30: #c9ab48 !default;
+$br-color-yellow-40: #a88f48 !default;
+$br-color-yellow-50: #8a7237 !default;
+$br-color-yellow-60: #6b5a39 !default;
+$br-color-yellow-70: #504332 !default;
+$br-color-yellow-80: #332d27 !default;
+$br-color-yellow-90: #1a1614 !default;
+$br-color-yellow-vivid-5: #fff5c2 !default;
+$br-color-yellow-vivid-10: #fee685 !default;
+$br-color-yellow-vivid-20: #ffcd07 !default;
+$br-color-yellow-vivid-30: #ddaa01 !default;
+$br-color-yellow-vivid-40: #b38c00 !default;
+$br-color-yellow-vivid-50: #947100 !default;
+$br-color-yellow-vivid-60: #776017 !default;
+$br-color-yellow-vivid-70: #5c4809 !default;
+$br-color-yellow-vivid-80: #422d19 !default;
+$br-color-green-5: #eaf4dd !default;
+$br-color-green-10: #dfeacd !default;
+$br-color-green-20: #b8d293 !default;
+$br-color-green-30: #9bb672 !default;
+$br-color-green-40: #7d9b4e !default;
+$br-color-green-50: #607f35 !default;
+$br-color-green-60: #4c6424 !default;
+$br-color-green-70: #3c4a29 !default;
+$br-color-green-80: #293021 !default;
+$br-color-green-90: #161814 !default;
+$br-color-green-cool-5: #ecf3ec !default;
+$br-color-green-cool-10: #dbebde !default;
+$br-color-green-cool-20: #b4d0b9 !default;
+$br-color-green-cool-30: #86b98e !default;
+$br-color-green-cool-40: #5e9f69 !default;
+$br-color-green-cool-50: #4d8055 !default;
+$br-color-green-cool-60: #446443 !default;
+$br-color-green-cool-70: #37493b !default;
+$br-color-green-cool-80: #28312a !default;
+$br-color-green-cool-90: #1a1f1a !default;
+$br-color-green-warm-5: #f1f4d7 !default;
+$br-color-green-warm-10: #e7eab7 !default;
+$br-color-green-warm-20: #cbd17a !default;
+$br-color-green-warm-30: #a6b557 !default;
+$br-color-green-warm-40: #8a984b !default;
+$br-color-green-warm-50: #6f7a41 !default;
+$br-color-green-warm-60: #5a5f38 !default;
+$br-color-green-warm-70: #45472f !default;
+$br-color-green-warm-80: #2d2f21 !default;
+$br-color-green-warm-90: #171712 !default;
+$br-color-green-vivid-5: #ddf9c7 !default;
+$br-color-green-vivid-10: #c5ee93 !default;
+$br-color-green-vivid-20: #98d035 !default;
+$br-color-green-vivid-30: #7fb135 !default;
+$br-color-green-vivid-40: #719f2a !default;
+$br-color-green-vivid-50: #538200 !default;
+$br-color-green-vivid-60: #466c04 !default;
+$br-color-green-vivid-70: #2f4a0b !default;
+$br-color-green-vivid-80: #243413 !default;
+$br-color-green-cool-vivid-5: #e3f5e1 !default;
+$br-color-green-cool-vivid-10: #b7f5bd !default;
+$br-color-green-cool-vivid-20: #70e17b !default;
+$br-color-green-cool-vivid-30: #21c834 !default;
+$br-color-green-cool-vivid-40: #00a91c !default;
+$br-color-green-cool-vivid-50: #168821 !default;
+$br-color-green-cool-vivid-60: #216e1f !default;
+$br-color-green-cool-vivid-70: #154c21 !default;
+$br-color-green-cool-vivid-80: #19311e !default;
+$br-color-green-warm-vivid-5: #f5fbc1 !default;
+$br-color-green-warm-vivid-10: #e7f434 !default;
+$br-color-green-warm-vivid-20: #c5d30a !default;
+$br-color-green-warm-vivid-30: #a3b72c !default;
+$br-color-green-warm-vivid-40: #7e9c1d !default;
+$br-color-green-warm-vivid-50: #6a7d00 !default;
+$br-color-green-warm-vivid-60: #5a6613 !default;
+$br-color-green-warm-vivid-70: #4b4e10 !default;
+$br-color-green-warm-vivid-80: #38380b !default;
+$br-color-mint-5: #dbf6ed !default;
+$br-color-mint-10: #c7efe2 !default;
+$br-color-mint-20: #92d9bb !default;
+$br-color-mint-30: #5abf95 !default;
+$br-color-mint-40: #34a37e !default;
+$br-color-mint-50: #2e8367 !default;
+$br-color-mint-60: #286846 !default;
+$br-color-mint-70: #204e34 !default;
+$br-color-mint-80: #193324 !default;
+$br-color-mint-90: #0d1a12 !default;
+$br-color-mint-cool-5: #e0f7f6 !default;
+$br-color-mint-cool-10: #c4eeeb !default;
+$br-color-mint-cool-20: #9bd4cf !default;
+$br-color-mint-cool-30: #6fbab3 !default;
+$br-color-mint-cool-40: #4f9e99 !default;
+$br-color-mint-cool-50: #40807e !default;
+$br-color-mint-cool-60: #376462 !default;
+$br-color-mint-cool-70: #2a4b45 !default;
+$br-color-mint-cool-80: #203131 !default;
+$br-color-mint-cool-90: #111818 !default;
+$br-color-mint-vivid-5: #c9fbeb !default;
+$br-color-mint-vivid-10: #83fcd4 !default;
+$br-color-mint-vivid-20: #0ceda6 !default;
+$br-color-mint-vivid-30: #04c585 !default;
+$br-color-mint-vivid-40: #00a871 !default;
+$br-color-mint-vivid-50: #008659 !default;
+$br-color-mint-vivid-60: #146947 !default;
+$br-color-mint-vivid-70: #0c4e29 !default;
+$br-color-mint-vivid-80: #0d351e !default;
+$br-color-mint-cool-vivid-5: #d5fbf3 !default;
+$br-color-mint-cool-vivid-10: #7efbe1 !default;
+$br-color-mint-cool-vivid-20: #40e0d0 !default;
+$br-color-mint-cool-vivid-30: #1dc2ae !default;
+$br-color-mint-cool-vivid-40: #36a191 !default;
+$br-color-mint-cool-vivid-50: #008480 !default;
+$br-color-mint-cool-vivid-60: #0f6460 !default;
+$br-color-mint-cool-vivid-70: #0b4b3f !default;
+$br-color-mint-cool-vivid-80: #123131 !default;
+$br-color-cyan-5: #e7f6f8 !default;
+$br-color-cyan-10: #ccecf2 !default;
+$br-color-cyan-20: #99deea !default;
+$br-color-cyan-30: #5dc0d1 !default;
+$br-color-cyan-40: #449dac !default;
+$br-color-cyan-50: #168092 !default;
+$br-color-cyan-60: #2a646d !default;
+$br-color-cyan-70: #2c4a4e !default;
+$br-color-cyan-80: #203133 !default;
+$br-color-cyan-90: #111819 !default;
+$br-color-cyan-vivid-5: #e5faff !default;
+$br-color-cyan-vivid-10: #a8f2ff !default;
+$br-color-cyan-vivid-20: #52daf2 !default;
+$br-color-cyan-vivid-30: #00bde3 !default;
+$br-color-cyan-vivid-40: #009ec1 !default;
+$br-color-cyan-vivid-50: #0081a1 !default;
+$br-color-cyan-vivid-60: #00687d !default;
+$br-color-cyan-vivid-70: #0e4f5c !default;
+$br-color-cyan-vivid-80: #093b44 !default;
+$br-color-blue-5: #eff6fb !default;
+$br-color-blue-10: #dbe8fb !default;
+$br-color-blue-20: #aacdec !default;
+$br-color-blue-30: #73b3e7 !default;
+$br-color-blue-40: #4f97d1 !default;
+$br-color-blue-50: #2378c3 !default;
+$br-color-blue-60: #2c608a !default;
+$br-color-blue-70: #274863 !default;
+$br-color-blue-80: #1f303e !default;
+$br-color-blue-90: #11181d !default;
+$br-color-blue-cool-5: #e7f2f5 !default;
+$br-color-blue-cool-10: #dae9ee !default;
+$br-color-blue-cool-20: #adcfdc !default;
+$br-color-blue-cool-30: #82b4c9 !default;
+$br-color-blue-cool-40: #6499af !default;
+$br-color-blue-cool-50: #3a7d95 !default;
+$br-color-blue-cool-60: #2e6276 !default;
+$br-color-blue-cool-70: #224a58 !default;
+$br-color-blue-cool-80: #14333d !default;
+$br-color-blue-cool-90: #0f191c !default;
+$br-color-blue-warm-5: #ecf1f7 !default;
+$br-color-blue-warm-10: #e1e7f1 !default;
+$br-color-blue-warm-20: #c5d4eb !default;
+$br-color-blue-warm-30: #98afd2 !default;
+$br-color-blue-warm-40: #7292c7 !default;
+$br-color-blue-warm-50: #4a77b4 !default;
+$br-color-blue-warm-60: #345d96 !default;
+$br-color-blue-warm-70: #2f4668 !default;
+$br-color-blue-warm-80: #252f3e !default;
+$br-color-blue-warm-90: #13171f !default;
+$br-color-blue-vivid-5: #e8f5ff !default;
+$br-color-blue-vivid-10: #cfe8ff !default;
+$br-color-blue-vivid-20: #a1d3ff !default;
+$br-color-blue-vivid-30: #58b4ff !default;
+$br-color-blue-vivid-40: #2491ff !default;
+$br-color-blue-vivid-50: #0076d6 !default;
+$br-color-blue-vivid-60: #005ea2 !default;
+$br-color-blue-vivid-70: #0b4778 !default;
+$br-color-blue-vivid-80: #112f4e !default;
+$br-color-blue-cool-vivid-5: #e1f3f8 !default;
+$br-color-blue-cool-vivid-10: #c3ebfa !default;
+$br-color-blue-cool-vivid-20: #97d4ea !default;
+$br-color-blue-cool-vivid-30: #59b9de !default;
+$br-color-blue-cool-vivid-40: #28a0cb !default;
+$br-color-blue-cool-vivid-50: #0d7ea2 !default;
+$br-color-blue-cool-vivid-60: #07648d !default;
+$br-color-blue-cool-vivid-70: #074b69 !default;
+$br-color-blue-cool-vivid-80: #002d3f !default;
+$br-color-blue-warm-vivid-5: #edf5ff !default;
+$br-color-blue-warm-vivid-10: #d4e5ff !default;
+$br-color-blue-warm-vivid-20: #adcdff !default;
+$br-color-blue-warm-vivid-30: #81aefc !default;
+$br-color-blue-warm-vivid-40: #5992ed !default;
+$br-color-blue-warm-vivid-50: #2670e8 !default;
+$br-color-blue-warm-vivid-60: #155bcb !default;
+$br-color-blue-warm-vivid-70: #0040b4 !default;
+$br-color-blue-warm-vivid-80: #0c326f !default;
+$br-color-indigo-5: #efeff8 !default;
+$br-color-indigo-10: #e5e4fa !default;
+$br-color-indigo-20: #c5c5f3 !default;
+$br-color-indigo-30: #a5a8eb !default;
+$br-color-indigo-40: #8889db !default;
+$br-color-indigo-50: #676cc8 !default;
+$br-color-indigo-60: #4d52af !default;
+$br-color-indigo-70: #3d4076 !default;
+$br-color-indigo-80: #2b2c40 !default;
+$br-color-indigo-90: #16171f !default;
+$br-color-indigo-cool-5: #eef0f9 !default;
+$br-color-indigo-cool-10: #e1e6f9 !default;
+$br-color-indigo-cool-20: #bbc8f5 !default;
+$br-color-indigo-cool-30: #96abee !default;
+$br-color-indigo-cool-40: #6b8ee8 !default;
+$br-color-indigo-cool-50: #496fd8 !default;
+$br-color-indigo-cool-60: #3f57a6 !default;
+$br-color-indigo-cool-70: #374274 !default;
+$br-color-indigo-cool-80: #292d42 !default;
+$br-color-indigo-cool-90: #151622 !default;
+$br-color-indigo-warm-5: #f1eff7 !default;
+$br-color-indigo-warm-10: #e7e3fa !default;
+$br-color-indigo-warm-20: #cbc4f2 !default;
+$br-color-indigo-warm-30: #afa5e8 !default;
+$br-color-indigo-warm-40: #9287d8 !default;
+$br-color-indigo-warm-50: #7665d1 !default;
+$br-color-indigo-warm-60: #5e519e !default;
+$br-color-indigo-warm-70: #453c7b !default;
+$br-color-indigo-warm-80: #2e2c40 !default;
+$br-color-indigo-warm-90: #18161d !default;
+$br-color-indigo-vivid-5: #f0f0ff !default;
+$br-color-indigo-vivid-10: #e0e0ff !default;
+$br-color-indigo-vivid-20: #ccceff !default;
+$br-color-indigo-vivid-30: #a3a7fa !default;
+$br-color-indigo-vivid-40: #8289ff !default;
+$br-color-indigo-vivid-50: #656bd7 !default;
+$br-color-indigo-vivid-60: #4a50c4 !default;
+$br-color-indigo-vivid-70: #3333a3 !default;
+$br-color-indigo-vivid-80: #212463 !default;
+$br-color-indigo-cool-vivid-5: #edf0ff !default;
+$br-color-indigo-cool-vivid-10: #dee5ff !default;
+$br-color-indigo-cool-vivid-20: #b8c8ff !default;
+$br-color-indigo-cool-vivid-30: #94adff !default;
+$br-color-indigo-cool-vivid-40: #628ef4 !default;
+$br-color-indigo-cool-vivid-50: #4866ff !default;
+$br-color-indigo-cool-vivid-60: #3e4ded !default;
+$br-color-indigo-cool-vivid-70: #222fbf !default;
+$br-color-indigo-cool-vivid-80: #1b2b85 !default;
+$br-color-indigo-warm-vivid-5: #f5f2ff !default;
+$br-color-indigo-warm-vivid-10: #e4deff !default;
+$br-color-indigo-warm-vivid-20: #cfc4fd !default;
+$br-color-indigo-warm-vivid-30: #b69fff !default;
+$br-color-indigo-warm-vivid-40: #967efb !default;
+$br-color-indigo-warm-vivid-50: #745fe9 !default;
+$br-color-indigo-warm-vivid-60: #5942d2 !default;
+$br-color-indigo-warm-vivid-70: #3d2c9d !default;
+$br-color-indigo-warm-vivid-80: #261f5b !default;
+$br-color-violet-5: #f4f1f9 !default;
+$br-color-violet-10: #ebe3f9 !default;
+$br-color-violet-20: #d0c3e9 !default;
+$br-color-violet-30: #b8a2e3 !default;
+$br-color-violet-40: #9d84d2 !default;
+$br-color-violet-50: #8168b3 !default;
+$br-color-violet-60: #665190 !default;
+$br-color-violet-70: #4c3d69 !default;
+$br-color-violet-80: #312b3f !default;
+$br-color-violet-90: #18161d !default;
+$br-color-violet-warm-5: #f8f0f9 !default;
+$br-color-violet-warm-10: #f6dff8 !default;
+$br-color-violet-warm-20: #e2bee4 !default;
+$br-color-violet-warm-30: #d29ad8 !default;
+$br-color-violet-warm-40: #bf77c8 !default;
+$br-color-violet-warm-50: #b04abd !default;
+$br-color-violet-warm-60: #864381 !default;
+$br-color-violet-warm-70: #5c395a !default;
+$br-color-violet-warm-80: #382936 !default;
+$br-color-violet-warm-90: #1b151b !default;
+$br-color-violet-vivid-5: #f7f2ff !default;
+$br-color-violet-vivid-10: #ede3ff !default;
+$br-color-violet-vivid-20: #d5bfff !default;
+$br-color-violet-vivid-30: #c39deb !default;
+$br-color-violet-vivid-40: #ad79e9 !default;
+$br-color-violet-vivid-50: #9355dc !default;
+$br-color-violet-vivid-60: #783cb9 !default;
+$br-color-violet-vivid-70: #54278f !default;
+$br-color-violet-vivid-80: #39215e !default;
+$br-color-violet-warm-vivid-5: #fef2ff !default;
+$br-color-violet-warm-vivid-10: #fbdcff !default;
+$br-color-violet-warm-vivid-20: #f4b2ff !default;
+$br-color-violet-warm-vivid-30: #ee83ff !default;
+$br-color-violet-warm-vivid-40: #d85bef !default;
+$br-color-violet-warm-vivid-50: #be32d0 !default;
+$br-color-violet-warm-vivid-60: #93348c !default;
+$br-color-violet-warm-vivid-70: #711e6c !default;
+$br-color-violet-warm-vivid-80: #481441 !default;
+$br-color-magenta-5: #f9f0f2 !default;
+$br-color-magenta-10: #f6e1e8 !default;
+$br-color-magenta-20: #f0bbcc !default;
+$br-color-magenta-30: #e895b3 !default;
+$br-color-magenta-40: #e0699f !default;
+$br-color-magenta-50: #c84281 !default;
+$br-color-magenta-60: #8b4566 !default;
+$br-color-magenta-70: #66364b !default;
+$br-color-magenta-80: #402731 !default;
+$br-color-magenta-90: #1b1617 !default;
+$br-color-magenta-vivid-5: #fff2f5 !default;
+$br-color-magenta-vivid-10: #ffddea !default;
+$br-color-magenta-vivid-20: #ffb4cf !default;
+$br-color-magenta-vivid-30: #ff87b2 !default;
+$br-color-magenta-vivid-40: #fd4496 !default;
+$br-color-magenta-vivid-50: #d72d79 !default;
+$br-color-magenta-vivid-60: #ab2165 !default;
+$br-color-magenta-vivid-70: #731f44 !default;
+$br-color-magenta-vivid-80: #4f172e !default;
+$br-color-foreground-main-primary: #1b1b1b !default;
+$br-color-foreground-main-secondary: #636363 !default;
+$br-color-foreground-contrast-primary: #fcfcfc !default;
+$br-color-foreground-contrast-secondary: #cccccc !default;
+$br-color-background-main-primary: #fcfcfc !default;
+$br-color-background-main-secondary: #f0f0f0 !default;
+$br-color-background-contrast-primary: #252f3e !default;
+$br-color-background-contrast-secondary: #2f4668 !default;
+$br-color-border-primary: #cccccc !default;
+$br-color-border-secondary: #888888 !default;
+$br-typography-font-family-primary: 'Noto Sans' !default;
+$br-typography-font-family-secondary: 'Noto Sans Mono' !default;
+$br-typography-font-family-tertiary: 'Noto Serif' !default;
+$br-typography-font-weight-thin: 100 !default;
+$br-typography-font-weight-extra-light: 200 !default;
+$br-typography-font-weight-light: 300 !default;
+$br-typography-font-weight-regular: 400 !default;
+$br-typography-font-weight-medium: 500 !default;
+$br-typography-font-weight-semi-bold: 600 !default;
+$br-typography-font-weight-bold: 700 !default;
+$br-typography-font-weight-extra-bold: 800 !default;
+$br-typography-font-weight-black: 900 !default;
+$br-typography-font-size-default: 1rem !default;
+$br-typography-font-size-up-1: 1.125rem !default;
+$br-typography-font-size-up-2: 1.2656rem !default;
+$br-typography-font-size-up-3: 1.4238rem !default;
+$br-typography-font-size-up-4: 1.6018rem !default;
+$br-typography-font-size-up-5: 1.802rem !default;
+$br-typography-font-size-up-6: 2.0273rem !default;
+$br-typography-font-size-up-7: 2.2807rem !default;
+$br-typography-font-size-up-8: 2.5658rem !default;
+$br-typography-font-size-down-1: 0.8889rem !default;
+$br-typography-font-size-down-2: 0.7901rem !default;
+$br-typography-font-size-down-3: 0.7023rem !default;
+$br-typography-font-size-down-4: 0.6243rem !default;
+$br-typography-font-size-font-base-default: 16px !default;
+$br-typography-font-size-font-base-primary: 16px !default;
+$br-typography-font-size-font-base-secondary: 14px !default;
+$br-typography-line-height-xsm: 1 !default;
+$br-typography-line-height-sm: 1.2 !default;
+$br-typography-line-height-md: 1.5 !default;
+$br-typography-line-height-lg: 1.9 !default;
+$br-typography-line-height-xlg: 2.1 !default;
+$br-typography-line-height-2xlg: 2.4 !default;
+$br-typography-line-height-3xlg: 2.7 !default;
+$br-typography-line-height-4xlg: 3.1 !default;
+$br-typography-line-height-5xlg: 3.5 !default;
+$br-typography-line-height-6xlg: 3.9 !default;
+$br-typography-font-style-heading1: 700 2.5658rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-heading2: 600 2.2807rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-heading3: 500 2.0273rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-heading4: 400 1.802rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-heading5: 300 1.6018rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-heading6: 200 1.4238rem/1.2 'Noto Sans' !default;
+$br-typography-font-style-legend: 600 1.125rem/1.5 'Noto Sans' !default;
+$br-typography-font-style-paragraph: 400 1rem/1.5 'Noto Sans' !default;
+$br-typography-font-style-input: 500 1rem/1.5 'Noto Sans' !default;
+$br-typography-font-style-placeholder: italic 400 1rem/1.5 'Noto Sans' !default;
+$br-typography-font-style-code: 400 1rem/1.5 'Noto Sans Mono' !default;
+$br-typography-font-style-label: 600 0.8889rem/1.5 'Noto Sans' !default;
+$br-typography-font-style-default: 1rem/1.5 'Noto Sans' !default;
+$br-iconography-font-family-primary: 'Font Awesome 6 Free' !default;
+$br-iconography-font-family-secondary: 'Font Awesome 6 Brands' !default;
+$br-iconography-icon-style-solid: solid 1rem/1 'Font Awesome 6 Free' !default;
+$br-iconography-icon-style-brand: 400 1rem/1 'Font Awesome 6 Brands' !default;
+$br-iconography-icon-name-action-add: plus !default;
+$br-iconography-icon-name-action-attach: paperclip !default;
+$br-iconography-icon-name-action-update: sync !default;
+$br-iconography-icon-name-action-share: share-alt !default;
+$br-iconography-icon-name-action-confirm: check !default;
+$br-iconography-icon-name-action-contrast: adjust !default;
+$br-iconography-icon-name-action-copy: copy !default;
+$br-iconography-icon-name-action-cut: cut !default;
+$br-iconography-icon-name-action-download: download !default;
+$br-iconography-icon-name-action-edit: edit !default;
+$br-iconography-icon-name-action-send: share !default;
+$br-iconography-icon-name-action-delete: trash-alt !default;
+$br-iconography-icon-name-action-export: share-square !default;
+$br-iconography-icon-name-action-close: times !default;
+$br-iconography-icon-name-action-filter: filter !default;
+$br-iconography-icon-name-action-print: print !default;
+$br-iconography-icon-name-action-image: image !default;
+$br-iconography-icon-name-action-clean: eraser !default;
+$br-iconography-icon-name-action-hide: eye-slash !default;
+$br-iconography-icon-name-action-search: search !default;
+$br-iconography-icon-name-action-subtract: minus !default;
+$br-iconography-icon-name-action-upload: upload !default;
+$br-iconography-icon-name-action-view: eye !default;
+$br-iconography-icon-name-action-ai: magic-wand-sparkles !default;
+$br-iconography-icon-name-action-voice: microphone !default;
+$br-iconography-icon-name-action-play: play !default;
+$br-iconography-icon-name-action-pause: pause !default;
+$br-iconography-icon-name-action-stop: stop !default;
+$br-iconography-icon-name-action-forward: forward !default;
+$br-iconography-icon-name-action-backward: backward !default;
+$br-iconography-icon-name-navigation-next: arrow-right !default;
+$br-iconography-icon-name-navigation-collapse-down: chevron-down !default;
+$br-iconography-icon-name-navigation-collapse-up: chevron-up !default;
+$br-iconography-icon-name-navigation-collapse-right: chevron-right !default;
+$br-iconography-icon-name-navigation-collapse-left: chevron-left !default;
+$br-iconography-icon-name-navigation-setting: sliders-h !default;
+$br-iconography-icon-name-navigation-date: calendar-alt !default;
+$br-iconography-icon-name-navigation-folder: folder !default;
+$br-iconography-icon-name-navigation-dropdown-open: caret-down !default;
+$br-iconography-icon-name-navigation-dropdown-open-h: caret-right !default;
+$br-iconography-icon-name-navigation-dropdown-close: caret-up !default;
+$br-iconography-icon-name-navigation-dropdown-close-h: caret-left !default;
+$br-iconography-icon-name-navigation-externallink: external-link-alt !default;
+$br-iconography-icon-name-navigation-home: home !default;
+$br-iconography-icon-name-navigation-menu: bars !default;
+$br-iconography-icon-name-navigation-options: ellipsis-v !default;
+$br-iconography-icon-name-navigation-more: ellipsis-h !default;
+$br-iconography-icon-name-navigation-user: user !default;
+$br-iconography-icon-name-navigation-signin: sign-in-alt !default;
+$br-iconography-icon-name-navigation-back: arrow-left !default;
+$br-iconography-icon-name-navigation-comment: commenting !default;
+$br-iconography-icon-name-navigation-chat: comments !default;
+$br-iconography-icon-name-feedback-help: question-circle !default;
+$br-iconography-icon-name-feedback-alert: exclamation-triangle !default;
+$br-iconography-icon-name-feedback-drag: grip-vertical !default;
+$br-iconography-icon-name-feedback-volume-on: volume-up !default;
+$br-iconography-icon-name-feedback-volume-off: volume-mute !default;
+$br-iconography-icon-name-feedback-lock: lock !default;
+$br-iconography-icon-name-feedback-high-density: th !default;
+$br-iconography-icon-name-feedback-low-density: th-large !default;
+$br-iconography-icon-name-feedback-unlock: unlock !default;
+$br-iconography-icon-name-feedback-folder-open: folder-open !default;
+$br-iconography-icon-name-feedback-error: times-circle !default;
+$br-iconography-icon-name-feedback-time: clock !default;
+$br-iconography-icon-name-feedback-info: info-circle !default;
+$br-iconography-icon-name-feedback-libras: sign-language !default;
+$br-iconography-icon-name-feedback-message: envelope !default;
+$br-iconography-icon-name-feedback-message-read: envelope-open !default;
+$br-iconography-icon-name-feedback-notification: bell !default;
+$br-iconography-icon-name-feedback-notification-off: bell-slash !default;
+$br-iconography-icon-name-feedback-sort-up: sort-up !default;
+$br-iconography-icon-name-feedback-sort-down: sort-down !default;
+$br-iconography-icon-name-feedback-sort: sort !default;
+$br-iconography-icon-name-feedback-selected: check !default;
+$br-iconography-icon-name-feedback-success: check-circle !default;
+$br-iconography-icon-name-feedback-sending: circle !default;
+$br-iconography-icon-name-brand-angular: angular !default;
+$br-iconography-icon-name-brand-codepen: codepen !default;
+$br-iconography-icon-name-brand-creative-commons: creative-commons !default;
+$br-iconography-icon-name-brand-css: css3-alt !default;
+$br-iconography-icon-name-brand-discord: discord !default;
+$br-iconography-icon-name-brand-facebook: facebook !default;
+$br-iconography-icon-name-brand-figma: figma !default;
+$br-iconography-icon-name-brand-fontawesome: font-awesome-flag !default;
+$br-iconography-icon-name-brand-github: github !default;
+$br-iconography-icon-name-brand-gitlab: gitlab !default;
+$br-iconography-icon-name-brand-html: html5 !default;
+$br-iconography-icon-name-brand-javascript: js !default;
+$br-iconography-icon-name-brand-linkedin: linkedin !default;
+$br-iconography-icon-name-brand-npm: npm !default;
+$br-iconography-icon-name-brand-react: react !default;
+$br-iconography-icon-name-brand-vue: vuejs !default;
+$br-iconography-icon-name-brand-youtube: youtube !default;
+$br-spacing-none: 0 !default;
+$br-spacing-layout-1: 8px !default;
+$br-spacing-layout-2: 16px !default;
+$br-spacing-layout-3: 24px !default;
+$br-spacing-layout-4: 32px !default;
+$br-spacing-layout-5: 40px !default;
+$br-spacing-layout-6: 48px !default;
+$br-spacing-layout-7: 56px !default;
+$br-spacing-layout-8: 64px !default;
+$br-spacing-layout-9: 72px !default;
+$br-spacing-layout-10: 80px !default;
+$br-spacing-adjust-1: 4px !default;
+$br-spacing-adjust-2: 12px !default;
+$br-spacing-adjust-3: 20px !default;
+$br-spacing-adjust-4: 28px !default;
+$br-spacing-adjust-5: 36px !default;
+$br-surface-border-width-none: 0 !default;
+$br-surface-border-width-sm: 1px !default;
+$br-surface-border-width-md: 2px !default;
+$br-surface-border-width-lg: 4px !default;
+$br-surface-rounder-none: 0 !default;
+$br-surface-rounder-full: 999999px !default;
+$br-surface-rounder-sm: 4px !default;
+$br-surface-rounder-md: 8px !default;
+$br-surface-rounder-lg: 12px !default;
+$br-surface-opacity-10: 0.1 !default;
+$br-surface-opacity-20: 0.2 !default;
+$br-surface-opacity-30: 0.3 !default;
+$br-surface-opacity-40: 0.4 !default;
+$br-surface-opacity-50: 0.5 !default;
+$br-surface-opacity-60: 0.6 !default;
+$br-surface-opacity-70: 0.7 !default;
+$br-surface-opacity-80: 0.8 !default;
+$br-surface-opacity-90: 0.9 !default;
+$br-surface-opacity-none: 0 !default;
+$br-surface-opacity-full: 1 !default;
+$br-surface-color-background-solid-overlay: rgba(0, 0, 0, 0.6) !default;
+$br-surface-color-background-gradient-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%) !default;
+$br-surface-color-foreground-overlay: #ffffff !default;
+$br-grid-breakpoint-small-default: 100% !default;
+$br-grid-breakpoint-small-extra: 576px !default;
+$br-grid-breakpoint-medium-default: 992px !default;
+$br-grid-breakpoint-large-default: 1280px !default;
+$br-grid-breakpoint-large-extra: 1600px !default;
+$br-grid-gutter-small-compact: 8px !default;
+$br-grid-gutter-small-regular: 16px !default;
+$br-grid-gutter-small-spacious: 24px !default;
+$br-grid-gutter-medium-compact: 16px !default;
+$br-grid-gutter-medium-regular: 24px !default;
+$br-grid-gutter-medium-spacious: 32px !default;
+$br-grid-gutter-large-compact: 24px !default;
+$br-grid-gutter-large-regular: 32px !default;
+$br-grid-gutter-large-spacious: 40px !default;
+$br-grid-margin-small-compact: 8px !default;
+$br-grid-margin-small-regular: 8px !default;
+$br-grid-margin-small-spacious: 16px !default;
+$br-grid-margin-medium-compact: 24px !default;
+$br-grid-margin-medium-regular: 32px !default;
+$br-grid-margin-medium-spacious: 40px !default;
+$br-grid-margin-large-compact: 32px !default;
+$br-grid-margin-large-regular: 40px !default;
+$br-grid-margin-large-spacious: 80px !default;
+$br-elevation-color-shadow-default: #000000 !default;
+$br-elevation-color-shadow-blend: rgba(0, 0, 0, 0.2) !default;
+$br-elevation-opacity-bright: 0.2 !default;
+$br-elevation-opacity-dim: 0.6 !default;
+$br-elevation-opacity-shadow: 0.2 !default;
+$br-elevation-offset-none: 0 !default;
+$br-elevation-offset-xsm: 1 !default;
+$br-elevation-offset-sm: 4 !default;
+$br-elevation-offset-md: 8 !default;
+$br-elevation-offset-lg: 12 !default;
+$br-elevation-offset-xlg: 16 !default;
+$br-elevation-blur-none: 0 !default;
+$br-elevation-blur-xsm: 1px !default;
+$br-elevation-blur-sm: 4px !default;
+$br-elevation-blur-md: 8px !default;
+$br-elevation-blur-lg: 12px !default;
+$br-elevation-blur-xlg: 16px !default;
+$br-elevation-level0-offset-x-cast: 0 !default;
+$br-elevation-level0-offset-x-occlusion: 0 !default;
+$br-elevation-level0-offset-y-cast: 0 !default;
+$br-elevation-level0-offset-y-occlusion: 0 !default;
+$br-elevation-level0-blur-cast: 0 !default;
+$br-elevation-level0-blur-occlusion: 0 !default;
+$br-elevation-level1-offset-x-cast: 0 !default;
+$br-elevation-level1-offset-x-occlusion: 0 !default;
+$br-elevation-level1-offset-y-cast: 1 !default;
+$br-elevation-level1-offset-y-occlusion: 0 !default;
+$br-elevation-level1-blur-cast: 1px !default;
+$br-elevation-level1-blur-occlusion: 4px !default;
+$br-elevation-level2-offset-x-cast: 0 !default;
+$br-elevation-level2-offset-x-occlusion: 0 !default;
+$br-elevation-level2-offset-y-cast: 4 !default;
+$br-elevation-level2-offset-y-occlusion: 0 !default;
+$br-elevation-level2-blur-cast: 4px !default;
+$br-elevation-level2-blur-occlusion: 8px !default;
+$br-elevation-level3-offset-x-cast: 0 !default;
+$br-elevation-level3-offset-x-occlusion: 0 !default;
+$br-elevation-level3-offset-y-cast: 8 !default;
+$br-elevation-level3-offset-y-occlusion: 0 !default;
+$br-elevation-level3-blur-cast: 8px !default;
+$br-elevation-level3-blur-occlusion: 12px !default;
+$br-elevation-level4-offset-x-cast: 0 !default;
+$br-elevation-level4-offset-x-occlusion: 0 !default;
+$br-elevation-level4-offset-y-cast: 12 !default;
+$br-elevation-level4-offset-y-occlusion: 0 !default;
+$br-elevation-level4-blur-cast: 12px !default;
+$br-elevation-level4-blur-occlusion: 16px !default;
+$br-elevation-shadow-style-level0: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.2) !default;
+$br-elevation-shadow-style-level1: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.2) !default;
+$br-elevation-shadow-style-level2: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0 8px 0 rgba(0, 0, 0, 0.2) !default;
+$br-elevation-shadow-style-level3: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 0 12px 0 rgba(0, 0, 0, 0.2) !default;
+$br-elevation-shadow-style-level4: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 0 16px 0 rgba(0, 0, 0, 0.2) !default;
+$br-motion-easing-ease: cubic-bezier(0.25, 0.1, 0.25, 1) !default;
+$br-motion-easing-ease-in: cubic-bezier(0.42, 0, 1, 1) !default;
+$br-motion-easing-ease-out: cubic-bezier(0, 0, 0.58, 1) !default;
+$br-motion-easing-ease-in-out: cubic-bezier(0.42, 0, 0.58, 1) !default;
+$br-motion-easing-linear: cubic-bezier(0, 0, 1, 1) !default;
+$br-motion-easing-bounce-out: cubic-bezier(0.25, 2.1, 0.5, 0) !default;
+$br-motion-easing-elastic-out: cubic-bezier(0.7, 3.3, 0.3, 0) !default;
+$br-motion-duration-none: 0 !default;
+$br-motion-duration-fast-1: 50ms !default;
+$br-motion-duration-fast-2: 100ms !default;
+$br-motion-duration-fast-3: 150ms !default;
+$br-motion-duration-fast-4: 200ms !default;
+$br-motion-duration-moderate-1: 250ms !default;
+$br-motion-duration-moderate-2: 300ms !default;
+$br-motion-duration-moderate-3: 350ms !default;
+$br-motion-duration-moderate-4: 400ms !default;
+$br-motion-duration-slow-1: 450ms !default;
+$br-motion-duration-slow-2: 500ms !default;
+$br-motion-duration-slow-3: 550ms !default;
+$br-motion-duration-slow-4: 600ms !default;
+$br-motion-duration-very-slow-1: 700ms !default;
+$br-motion-duration-very-slow-2: 800ms !default;
+$br-motion-duration-very-slow-3: 900ms !default;
+$br-motion-duration-very-slow-4: 1000ms !default;
+$br-state-target-minimum: 24px !default;
+$br-state-target-enhanced: 44px !default;
+$br-state-disabled-opacity: 0.3 !default;
+$br-state-disabled-shadow-style: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.2) !default;
+$br-state-disabled-color-main: #4a4a4a !default;
+$br-state-disabled-color-contrast: #cccccc !default;
+$br-state-hover-error-color-interactive-fg: rgba(253, 224, 219, 0.6) !default;
+$br-state-hover-error-color-interactive-bg: rgba(92, 17, 17, 0.5) !default;
+$br-state-hover-alert-color-interactive-fg: rgba(66, 45, 25, 0.5) !default;
+$br-state-hover-alert-color-interactive-bg: rgba(254, 230, 133, 0.6) !default;
+$br-state-hover-success-color-interactive-fg: rgba(197, 238, 147, 0.6) !default;
+$br-state-hover-success-color-interactive-bg: rgba(36, 52, 19, 0.5) !default;
+$br-state-hover-opacity-bright: 0.5 !default;
+$br-state-hover-opacity-dim: 0.6 !default;
+$br-state-hover-size-highlight: 1.05px !default;
+$br-state-hover-shadow-style-highlight: 0 0 4px 0 rgba(0, 0, 0, 0.2) !default;
+$br-state-hover-easing-in-default: cubic-bezier(0.42, 0, 1, 1) !default;
+$br-state-hover-easing-in-highlight: cubic-bezier(0.7, 3.3, 0.3, 0) !default;
+$br-state-hover-easing-out: cubic-bezier(0.42, 0, 1, 1) !default;
+$br-state-hover-duration-in-default: 200ms !default;
+$br-state-hover-duration-in-highlight: 200ms !default;
+$br-state-hover-duration-out: 100ms !default;
+$br-state-hover-color-bright: rgba(#d4e5ff, 0.5) !default;
+$br-state-hover-color-dim: rgba(#0c326f, 0.6) !default;
+$br-state-hover-color-interactive-fg-main: rgba(212, 229, 255, 0.5) !default;
+$br-state-hover-color-interactive-fg-contrast: rgba(12, 50, 111, 0.6) !default;
+$br-state-hover-color-interactive-bg-main: rgba(12, 50, 111, 0.6) !default;
+$br-state-hover-color-interactive-bg-contrast: rgba(212, 229, 255, 0.5) !default;
+$br-state-hover-cta-color-bright: rgba(#b7f5bd, 0.5) !default;
+$br-state-hover-cta-color-dim: rgba(#19311e, 0.6) !default;
+$br-state-hover-cta-color-interactive-fg-main: rgba(183, 245, 189, 0.5) !default;
+$br-state-hover-cta-color-interactive-fg-contrast: rgba(25, 49, 30, 0.6) !default;
+$br-state-hover-cta-color-interactive-bg-main: rgba(25, 49, 30, 0.6) !default;
+$br-state-hover-cta-color-interactive-bg-contrast: rgba(183, 245, 189, 0.5) !default;
+$br-state-pressed-offset: 1 !default;
+$br-state-pressed-blur: 8px !default;
+$br-state-pressed-opacity: 0.5 !default;
+$br-state-pressed-easing-in: cubic-bezier(0.42, 0, 0.58, 1) !default;
+$br-state-pressed-easing-out: cubic-bezier(0, 0, 0.58, 1) !default;
+$br-state-pressed-duration-in: 100ms !default;
+$br-state-pressed-duration-out: 50ms !default;
+$br-state-pressed-shadow-style: inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5) !default;
+$br-state-focus-padding: 4px !default;
+$br-state-focus-border-width-high: 4px !default;
+$br-state-focus-border-width-low: 2px !default;
+$br-state-focus-easing-in: cubic-bezier(0.7, 3.3, 0.3, 0) !default;
+$br-state-focus-easing-out: cubic-bezier(0, 0, 0.58, 1) !default;
+$br-state-focus-duration-in: 200ms !default;
+$br-state-focus-duration-out: 100ms !default;
+$br-state-focus-border-style-main-high: 4px dashed #da680b !default;
+$br-state-focus-border-style-main-low: 2px solid #da680b !default;
+$br-state-focus-border-style-contrast-high: 4px dashed #ff8c00 !default;
+$br-state-focus-border-style-contrast-low: 2px solid #ff8c00 !default;
+$br-state-focus-color-main: #da680b !default;
+$br-state-focus-color-contrast: #ff8c00 !default;
+$br-state-active-border-width: 4px !default;
+$br-state-active-easing-in: cubic-bezier(0, 0, 0.58, 1) !default;
+$br-state-active-easing-out: cubic-bezier(0.42, 0, 1, 1) !default;
+$br-state-active-duration-in: 150ms !default;
+$br-state-active-duration-out: 100ms !default;
+$br-state-active-border-style-main: 4px solid #0c326f !default;
+$br-state-active-border-style-contrast: 4px solid #81aefc !default;
+$br-state-active-color-main: #0c326f !default;
+$br-state-active-color-contrast: #81aefc !default;
+$br-state-active-color-foreground-main: #ffffff !default;
+$br-state-active-color-foreground-contrast: #000000 !default;
+$br-state-active-cta-color-main: #154c21 !default;
+$br-state-active-cta-color-contrast: #21c834 !default;
+$br-state-selected-easing-in: cubic-bezier(0, 0, 0.58, 1) !default;
+$br-state-selected-easing-out: cubic-bezier(0.42, 0, 1, 1) !default;
+$br-state-selected-duration-in: 150ms !default;
+$br-state-selected-duration-out: 100ms !default;
+$br-state-selected-icon-name: check !default;
+$br-state-selected-color-main: #2670e8 !default;
+$br-state-selected-color-contrast: #5992ed !default;
+$br-state-selected-color-foreground-main: #ffffff !default;
+$br-state-selected-color-foreground-contrast: #000000 !default;
+$br-state-selected-cta-color-main: #19311e !default;
+$br-state-selected-cta-color-contrast: #00a91c !default;
+$br-state-dragging-border-width: 2px !default;
+$br-state-dragging-rotation: 5deg !default;
+$br-state-dragging-opacity: 0.7 !default;
+$br-state-dragging-shadow-style-main: 0 12px 12px 0 rgba(0, 64, 180, 0.2), 0 0 16px 0 rgba(0, 64, 180, 0.2) !default;
+$br-state-dragging-shadow-style-contrast: 0 12px 12px 0 rgba(173, 205, 255, 0.2), 0 0 16px 0 rgba(173, 205, 255, 0.2) !default;
+$br-state-dragging-border-style-main: 2px solid #0040b4 !default;
+$br-state-dragging-border-style-contrast: 2px solid #adcdff !default;
+$br-state-dragging-color-main: #0040b4 !default;
+$br-state-dragging-color-contrast: #adcdff !default;
+$br-state-drag-icon-name: grip-vertical !default;
+$br-state-dropzone-border-width: 1px !default;
+$br-state-dropzone-border-style-main: 1px dashed #0040b4 !default;
+$br-state-dropzone-border-style-contrast: 1px dashed #adcdff !default;
+$br-state-dropzone-color-main: #0040b4 !default;
+$br-state-dropzone-color-contrast: #adcdff !default;
+$br-state-dropzone-active-opacity: 0.3 !default;
+$br-state-dropzone-active-color-main: #0040b4 !default;
+$br-state-dropzone-active-color-contrast: #adcdff !default;
+$br-state-on-easing: cubic-bezier(0.25, 2.1, 0.5, 0) !default;
+$br-state-on-duration: 200ms !default;
+$br-state-on-color-main: #5992ed !default;
+$br-state-on-color-contrast: #2670e8 !default;
+$br-state-on-color-foreground-main: #000000 !default;
+$br-state-on-color-foreground-contrast: #ffffff !default;
+$br-state-off-easing: cubic-bezier(0.25, 2.1, 0.5, 0) !default;
+$br-state-off-duration: 200ms !default;
+$br-state-off-color-main: #888888 !default;
+$br-state-off-color-contrast: #757575 !default;
+$br-state-off-color-foreground-main: #000000 !default;
+$br-state-off-color-foreground-contrast: #ffffff !default;
+$br-state-error-icon-name: times-circle !default;
+$br-state-error-color-default: #e52207 !default;
+$br-state-error-color-foreground: #ffffff !default;
+$br-state-alert-icon-name: exclamation-triangle !default;
+$br-state-alert-color-default: #ffcd07 !default;
+$br-state-alert-color-foreground: #000000 !default;
+$br-state-success-icon-name: check-circle !default;
+$br-state-success-color-default: #538200 !default;
+$br-state-success-color-foreground: #ffffff !default;
+$br-state-interactive-color-main: #0040b4 !default;
+$br-state-interactive-color-contrast: #adcdff !default;
+$br-state-interactive-color-foreground-main: #ffffff !default;
+$br-state-interactive-color-foreground-contrast: #000000 !default;
+$br-state-cta-color-main: #216e1f !default;
+$br-state-cta-color-contrast: #70e17b !default;
+$br-state-cta-color-foreground-main: #ffffff !default;
+$br-state-cta-color-foreground-contrast: #000000 !default;
+$br-state-visited-color-main: #2f4668 !default;
+$br-state-visited-color-contrast: #c5d4eb !default;
+$br-skeleton-color-background-default: #f0f0f0 !default;
+$br-skeleton-color-background-gradient: linear-gradient(45deg, rgba(252, 252, 252, 0), rgba(252, 252, 252, 0.4), rgba(252, 252, 252, 0)) !default;
+$br-skeleton-color-foreground: #fcfcfc !default;
+$br-skeleton-rounder-background: 4px !default;
+$br-skeleton-rounder-foreground: 999999px !default;
+$br-skeleton-height-default: 1rem !default;
+$br-skeleton-height-title-sm: 1.6018rem !default;
+$br-skeleton-height-title-md: 2.0273rem !default;
+$br-skeleton-height-title-lg: 2.5658rem !default;
+$br-skeleton-duration: 600ms !default;
+$br-skeleton-easing: cubic-bezier(0, 0, 1, 1) !default;
+$br-form-color-border: #cccccc !default;
+$br-form-border-width-default: 1px !default;
+$br-form-border-width-fieldset: 0 !default;
+$br-form-gap-default: 8px !default;
+$br-form-padding-default: 8px !default;
+$br-form-padding-fieldset: 40px !default;
+$br-form-rounder-primary: 4px !default;
+$br-form-rounder-secondary: 999999px !default;
+$br-form-border-style-default: 1px solid #cccccc !default;
+$br-form-readonly-color-foreground-main: #636363 !default;
+$br-form-readonly-color-foreground-contrast: #cccccc !default;
+$br-form-readonly-color-background: rgba(0, 0, 0, 0) !default;
+$br-form-readonly-border-width: 0 !default;
+$br-content-overflow-scroll-shadow-offset: 8 !default;
+$br-content-overflow-scroll-shadow-blur: 4px !default;
+$br-content-overflow-scroll-shadow-spread: -4px !default;
+$br-content-overflow-scroll-shadow-shadow-style-top: 0 -8px 4px -4px rgba(0, 0, 0, 0.2) !default;
+$br-content-overflow-scroll-shadow-shadow-style-right: 8px 0 4px -4px rgba(0, 0, 0, 0.2) !default;
+$br-content-overflow-scroll-shadow-shadow-style-bottom: 0 8px 4px -4px rgba(0, 0, 0, 0.2) !default;
+$br-content-overflow-scroll-shadow-shadow-style-left: -8px 0 4px -4px rgba(0, 0, 0, 0.2) !default;
+
+$tokens: (
+  'br': (
+    'color': (
+      'pure': (
+        '0': $br-color-pure-0,
+        '100': $br-color-pure-100
+      ),
+      'gray': (
+        '1': $br-color-gray-1,
+        '2': $br-color-gray-2,
+        '3': $br-color-gray-3,
+        '4': $br-color-gray-4,
+        '5': $br-color-gray-5,
+        '10': $br-color-gray-10,
+        '20': $br-color-gray-20,
+        '30': $br-color-gray-30,
+        '40': $br-color-gray-40,
+        '50': $br-color-gray-50,
+        '60': $br-color-gray-60,
+        '70': $br-color-gray-70,
+        '80': $br-color-gray-80,
+        '90': $br-color-gray-90
+      ),
+      'grayCool': (
+        '1': $br-color-gray-cool-1,
+        '2': $br-color-gray-cool-2,
+        '3': $br-color-gray-cool-3,
+        '4': $br-color-gray-cool-4,
+        '5': $br-color-gray-cool-5,
+        '10': $br-color-gray-cool-10,
+        '20': $br-color-gray-cool-20,
+        '30': $br-color-gray-cool-30,
+        '40': $br-color-gray-cool-40,
+        '50': $br-color-gray-cool-50,
+        '60': $br-color-gray-cool-60,
+        '70': $br-color-gray-cool-70,
+        '80': $br-color-gray-cool-80,
+        '90': $br-color-gray-cool-90
+      ),
+      'grayWarm': (
+        '1': $br-color-gray-warm-1,
+        '2': $br-color-gray-warm-2,
+        '3': $br-color-gray-warm-3,
+        '4': $br-color-gray-warm-4,
+        '5': $br-color-gray-warm-5,
+        '10': $br-color-gray-warm-10,
+        '20': $br-color-gray-warm-20,
+        '30': $br-color-gray-warm-30,
+        '40': $br-color-gray-warm-40,
+        '50': $br-color-gray-warm-50,
+        '60': $br-color-gray-warm-60,
+        '70': $br-color-gray-warm-70,
+        '80': $br-color-gray-warm-80,
+        '90': $br-color-gray-warm-90
+      ),
+      'red': (
+        '5': $br-color-red-5,
+        '10': $br-color-red-10,
+        '20': $br-color-red-20,
+        '30': $br-color-red-30,
+        '40': $br-color-red-40,
+        '50': $br-color-red-50,
+        '60': $br-color-red-60,
+        '70': $br-color-red-70,
+        '80': $br-color-red-80,
+        '90': $br-color-red-90
+      ),
+      'redCool': (
+        '5': $br-color-red-cool-5,
+        '10': $br-color-red-cool-10,
+        '20': $br-color-red-cool-20,
+        '30': $br-color-red-cool-30,
+        '40': $br-color-red-cool-40,
+        '50': $br-color-red-cool-50,
+        '60': $br-color-red-cool-60,
+        '70': $br-color-red-cool-70,
+        '80': $br-color-red-cool-80,
+        '90': $br-color-red-cool-90
+      ),
+      'redWarm': (
+        '5': $br-color-red-warm-5,
+        '10': $br-color-red-warm-10,
+        '20': $br-color-red-warm-20,
+        '30': $br-color-red-warm-30,
+        '40': $br-color-red-warm-40,
+        '50': $br-color-red-warm-50,
+        '60': $br-color-red-warm-60,
+        '70': $br-color-red-warm-70,
+        '80': $br-color-red-warm-80,
+        '90': $br-color-red-warm-90
+      ),
+      'redVivid': (
+        '5': $br-color-red-vivid-5,
+        '10': $br-color-red-vivid-10,
+        '20': $br-color-red-vivid-20,
+        '30': $br-color-red-vivid-30,
+        '40': $br-color-red-vivid-40,
+        '50': $br-color-red-vivid-50,
+        '60': $br-color-red-vivid-60,
+        '70': $br-color-red-vivid-70,
+        '80': $br-color-red-vivid-80
+      ),
+      'redCoolVivid': (
+        '5': $br-color-red-cool-vivid-5,
+        '10': $br-color-red-cool-vivid-10,
+        '20': $br-color-red-cool-vivid-20,
+        '30': $br-color-red-cool-vivid-30,
+        '40': $br-color-red-cool-vivid-40,
+        '50': $br-color-red-cool-vivid-50,
+        '60': $br-color-red-cool-vivid-60,
+        '70': $br-color-red-cool-vivid-70,
+        '80': $br-color-red-cool-vivid-80
+      ),
+      'redWarmVivid': (
+        '5': $br-color-red-warm-vivid-5,
+        '10': $br-color-red-warm-vivid-10,
+        '20': $br-color-red-warm-vivid-20,
+        '30': $br-color-red-warm-vivid-30,
+        '40': $br-color-red-warm-vivid-40,
+        '50': $br-color-red-warm-vivid-50,
+        '60': $br-color-red-warm-vivid-60,
+        '70': $br-color-red-warm-vivid-70,
+        '80': $br-color-red-warm-vivid-80
+      ),
+      'orange': (
+        '5': $br-color-orange-5,
+        '10': $br-color-orange-10,
+        '20': $br-color-orange-20,
+        '30': $br-color-orange-30,
+        '40': $br-color-orange-40,
+        '50': $br-color-orange-50,
+        '60': $br-color-orange-60,
+        '70': $br-color-orange-70,
+        '80': $br-color-orange-80,
+        '90': $br-color-orange-90
+      ),
+      'orangeWarm': (
+        '5': $br-color-orange-warm-5,
+        '10': $br-color-orange-warm-10,
+        '20': $br-color-orange-warm-20,
+        '30': $br-color-orange-warm-30,
+        '40': $br-color-orange-warm-40,
+        '50': $br-color-orange-warm-50,
+        '60': $br-color-orange-warm-60,
+        '70': $br-color-orange-warm-70,
+        '80': $br-color-orange-warm-80,
+        '90': $br-color-orange-warm-90
+      ),
+      'orangeVivid': (
+        '5': $br-color-orange-vivid-5,
+        '10': $br-color-orange-vivid-10,
+        '20': $br-color-orange-vivid-20,
+        '30': $br-color-orange-vivid-30,
+        '40': $br-color-orange-vivid-40,
+        '50': $br-color-orange-vivid-50,
+        '60': $br-color-orange-vivid-60,
+        '70': $br-color-orange-vivid-70,
+        '80': $br-color-orange-vivid-80
+      ),
+      'orangeWarmVivid': (
+        '5': $br-color-orange-warm-vivid-5,
+        '10': $br-color-orange-warm-vivid-10,
+        '20': $br-color-orange-warm-vivid-20,
+        '30': $br-color-orange-warm-vivid-30,
+        '40': $br-color-orange-warm-vivid-40,
+        '50': $br-color-orange-warm-vivid-50,
+        '60': $br-color-orange-warm-vivid-60,
+        '70': $br-color-orange-warm-vivid-70,
+        '80': $br-color-orange-warm-vivid-80
+      ),
+      'gold': (
+        '5': $br-color-gold-5,
+        '10': $br-color-gold-10,
+        '20': $br-color-gold-20,
+        '30': $br-color-gold-30,
+        '40': $br-color-gold-40,
+        '50': $br-color-gold-50,
+        '60': $br-color-gold-60,
+        '70': $br-color-gold-70,
+        '80': $br-color-gold-80,
+        '90': $br-color-gold-90
+      ),
+      'goldVivid': (
+        '5': $br-color-gold-vivid-5,
+        '10': $br-color-gold-vivid-10,
+        '20': $br-color-gold-vivid-20,
+        '30': $br-color-gold-vivid-30,
+        '40': $br-color-gold-vivid-40,
+        '50': $br-color-gold-vivid-50,
+        '60': $br-color-gold-vivid-60,
+        '70': $br-color-gold-vivid-70,
+        '80': $br-color-gold-vivid-80
+      ),
+      'yellow': (
+        '5': $br-color-yellow-5,
+        '10': $br-color-yellow-10,
+        '20': $br-color-yellow-20,
+        '30': $br-color-yellow-30,
+        '40': $br-color-yellow-40,
+        '50': $br-color-yellow-50,
+        '60': $br-color-yellow-60,
+        '70': $br-color-yellow-70,
+        '80': $br-color-yellow-80,
+        '90': $br-color-yellow-90
+      ),
+      'yellowVivid': (
+        '5': $br-color-yellow-vivid-5,
+        '10': $br-color-yellow-vivid-10,
+        '20': $br-color-yellow-vivid-20,
+        '30': $br-color-yellow-vivid-30,
+        '40': $br-color-yellow-vivid-40,
+        '50': $br-color-yellow-vivid-50,
+        '60': $br-color-yellow-vivid-60,
+        '70': $br-color-yellow-vivid-70,
+        '80': $br-color-yellow-vivid-80
+      ),
+      'green': (
+        '5': $br-color-green-5,
+        '10': $br-color-green-10,
+        '20': $br-color-green-20,
+        '30': $br-color-green-30,
+        '40': $br-color-green-40,
+        '50': $br-color-green-50,
+        '60': $br-color-green-60,
+        '70': $br-color-green-70,
+        '80': $br-color-green-80,
+        '90': $br-color-green-90
+      ),
+      'greenCool': (
+        '5': $br-color-green-cool-5,
+        '10': $br-color-green-cool-10,
+        '20': $br-color-green-cool-20,
+        '30': $br-color-green-cool-30,
+        '40': $br-color-green-cool-40,
+        '50': $br-color-green-cool-50,
+        '60': $br-color-green-cool-60,
+        '70': $br-color-green-cool-70,
+        '80': $br-color-green-cool-80,
+        '90': $br-color-green-cool-90
+      ),
+      'greenWarm': (
+        '5': $br-color-green-warm-5,
+        '10': $br-color-green-warm-10,
+        '20': $br-color-green-warm-20,
+        '30': $br-color-green-warm-30,
+        '40': $br-color-green-warm-40,
+        '50': $br-color-green-warm-50,
+        '60': $br-color-green-warm-60,
+        '70': $br-color-green-warm-70,
+        '80': $br-color-green-warm-80,
+        '90': $br-color-green-warm-90
+      ),
+      'greenVivid': (
+        '5': $br-color-green-vivid-5,
+        '10': $br-color-green-vivid-10,
+        '20': $br-color-green-vivid-20,
+        '30': $br-color-green-vivid-30,
+        '40': $br-color-green-vivid-40,
+        '50': $br-color-green-vivid-50,
+        '60': $br-color-green-vivid-60,
+        '70': $br-color-green-vivid-70,
+        '80': $br-color-green-vivid-80
+      ),
+      'greenCoolVivid': (
+        '5': $br-color-green-cool-vivid-5,
+        '10': $br-color-green-cool-vivid-10,
+        '20': $br-color-green-cool-vivid-20,
+        '30': $br-color-green-cool-vivid-30,
+        '40': $br-color-green-cool-vivid-40,
+        '50': $br-color-green-cool-vivid-50,
+        '60': $br-color-green-cool-vivid-60,
+        '70': $br-color-green-cool-vivid-70,
+        '80': $br-color-green-cool-vivid-80
+      ),
+      'greenWarmVivid': (
+        '5': $br-color-green-warm-vivid-5,
+        '10': $br-color-green-warm-vivid-10,
+        '20': $br-color-green-warm-vivid-20,
+        '30': $br-color-green-warm-vivid-30,
+        '40': $br-color-green-warm-vivid-40,
+        '50': $br-color-green-warm-vivid-50,
+        '60': $br-color-green-warm-vivid-60,
+        '70': $br-color-green-warm-vivid-70,
+        '80': $br-color-green-warm-vivid-80
+      ),
+      'mint': (
+        '5': $br-color-mint-5,
+        '10': $br-color-mint-10,
+        '20': $br-color-mint-20,
+        '30': $br-color-mint-30,
+        '40': $br-color-mint-40,
+        '50': $br-color-mint-50,
+        '60': $br-color-mint-60,
+        '70': $br-color-mint-70,
+        '80': $br-color-mint-80,
+        '90': $br-color-mint-90
+      ),
+      'mintCool': (
+        '5': $br-color-mint-cool-5,
+        '10': $br-color-mint-cool-10,
+        '20': $br-color-mint-cool-20,
+        '30': $br-color-mint-cool-30,
+        '40': $br-color-mint-cool-40,
+        '50': $br-color-mint-cool-50,
+        '60': $br-color-mint-cool-60,
+        '70': $br-color-mint-cool-70,
+        '80': $br-color-mint-cool-80,
+        '90': $br-color-mint-cool-90
+      ),
+      'mintVivid': (
+        '5': $br-color-mint-vivid-5,
+        '10': $br-color-mint-vivid-10,
+        '20': $br-color-mint-vivid-20,
+        '30': $br-color-mint-vivid-30,
+        '40': $br-color-mint-vivid-40,
+        '50': $br-color-mint-vivid-50,
+        '60': $br-color-mint-vivid-60,
+        '70': $br-color-mint-vivid-70,
+        '80': $br-color-mint-vivid-80
+      ),
+      'mintCoolVivid': (
+        '5': $br-color-mint-cool-vivid-5,
+        '10': $br-color-mint-cool-vivid-10,
+        '20': $br-color-mint-cool-vivid-20,
+        '30': $br-color-mint-cool-vivid-30,
+        '40': $br-color-mint-cool-vivid-40,
+        '50': $br-color-mint-cool-vivid-50,
+        '60': $br-color-mint-cool-vivid-60,
+        '70': $br-color-mint-cool-vivid-70,
+        '80': $br-color-mint-cool-vivid-80
+      ),
+      'cyan': (
+        '5': $br-color-cyan-5,
+        '10': $br-color-cyan-10,
+        '20': $br-color-cyan-20,
+        '30': $br-color-cyan-30,
+        '40': $br-color-cyan-40,
+        '50': $br-color-cyan-50,
+        '60': $br-color-cyan-60,
+        '70': $br-color-cyan-70,
+        '80': $br-color-cyan-80,
+        '90': $br-color-cyan-90
+      ),
+      'cyanVivid': (
+        '5': $br-color-cyan-vivid-5,
+        '10': $br-color-cyan-vivid-10,
+        '20': $br-color-cyan-vivid-20,
+        '30': $br-color-cyan-vivid-30,
+        '40': $br-color-cyan-vivid-40,
+        '50': $br-color-cyan-vivid-50,
+        '60': $br-color-cyan-vivid-60,
+        '70': $br-color-cyan-vivid-70,
+        '80': $br-color-cyan-vivid-80
+      ),
+      'blue': (
+        '5': $br-color-blue-5,
+        '10': $br-color-blue-10,
+        '20': $br-color-blue-20,
+        '30': $br-color-blue-30,
+        '40': $br-color-blue-40,
+        '50': $br-color-blue-50,
+        '60': $br-color-blue-60,
+        '70': $br-color-blue-70,
+        '80': $br-color-blue-80,
+        '90': $br-color-blue-90
+      ),
+      'blueCool': (
+        '5': $br-color-blue-cool-5,
+        '10': $br-color-blue-cool-10,
+        '20': $br-color-blue-cool-20,
+        '30': $br-color-blue-cool-30,
+        '40': $br-color-blue-cool-40,
+        '50': $br-color-blue-cool-50,
+        '60': $br-color-blue-cool-60,
+        '70': $br-color-blue-cool-70,
+        '80': $br-color-blue-cool-80,
+        '90': $br-color-blue-cool-90
+      ),
+      'blueWarm': (
+        '5': $br-color-blue-warm-5,
+        '10': $br-color-blue-warm-10,
+        '20': $br-color-blue-warm-20,
+        '30': $br-color-blue-warm-30,
+        '40': $br-color-blue-warm-40,
+        '50': $br-color-blue-warm-50,
+        '60': $br-color-blue-warm-60,
+        '70': $br-color-blue-warm-70,
+        '80': $br-color-blue-warm-80,
+        '90': $br-color-blue-warm-90
+      ),
+      'blueVivid': (
+        '5': $br-color-blue-vivid-5,
+        '10': $br-color-blue-vivid-10,
+        '20': $br-color-blue-vivid-20,
+        '30': $br-color-blue-vivid-30,
+        '40': $br-color-blue-vivid-40,
+        '50': $br-color-blue-vivid-50,
+        '60': $br-color-blue-vivid-60,
+        '70': $br-color-blue-vivid-70,
+        '80': $br-color-blue-vivid-80
+      ),
+      'blueCoolVivid': (
+        '5': $br-color-blue-cool-vivid-5,
+        '10': $br-color-blue-cool-vivid-10,
+        '20': $br-color-blue-cool-vivid-20,
+        '30': $br-color-blue-cool-vivid-30,
+        '40': $br-color-blue-cool-vivid-40,
+        '50': $br-color-blue-cool-vivid-50,
+        '60': $br-color-blue-cool-vivid-60,
+        '70': $br-color-blue-cool-vivid-70,
+        '80': $br-color-blue-cool-vivid-80
+      ),
+      'blueWarmVivid': (
+        '5': $br-color-blue-warm-vivid-5,
+        '10': $br-color-blue-warm-vivid-10,
+        '20': $br-color-blue-warm-vivid-20,
+        '30': $br-color-blue-warm-vivid-30,
+        '40': $br-color-blue-warm-vivid-40,
+        '50': $br-color-blue-warm-vivid-50,
+        '60': $br-color-blue-warm-vivid-60,
+        '70': $br-color-blue-warm-vivid-70,
+        '80': $br-color-blue-warm-vivid-80
+      ),
+      'indigo': (
+        '5': $br-color-indigo-5,
+        '10': $br-color-indigo-10,
+        '20': $br-color-indigo-20,
+        '30': $br-color-indigo-30,
+        '40': $br-color-indigo-40,
+        '50': $br-color-indigo-50,
+        '60': $br-color-indigo-60,
+        '70': $br-color-indigo-70,
+        '80': $br-color-indigo-80,
+        '90': $br-color-indigo-90
+      ),
+      'indigoCool': (
+        '5': $br-color-indigo-cool-5,
+        '10': $br-color-indigo-cool-10,
+        '20': $br-color-indigo-cool-20,
+        '30': $br-color-indigo-cool-30,
+        '40': $br-color-indigo-cool-40,
+        '50': $br-color-indigo-cool-50,
+        '60': $br-color-indigo-cool-60,
+        '70': $br-color-indigo-cool-70,
+        '80': $br-color-indigo-cool-80,
+        '90': $br-color-indigo-cool-90
+      ),
+      'indigoWarm': (
+        '5': $br-color-indigo-warm-5,
+        '10': $br-color-indigo-warm-10,
+        '20': $br-color-indigo-warm-20,
+        '30': $br-color-indigo-warm-30,
+        '40': $br-color-indigo-warm-40,
+        '50': $br-color-indigo-warm-50,
+        '60': $br-color-indigo-warm-60,
+        '70': $br-color-indigo-warm-70,
+        '80': $br-color-indigo-warm-80,
+        '90': $br-color-indigo-warm-90
+      ),
+      'indigoVivid': (
+        '5': $br-color-indigo-vivid-5,
+        '10': $br-color-indigo-vivid-10,
+        '20': $br-color-indigo-vivid-20,
+        '30': $br-color-indigo-vivid-30,
+        '40': $br-color-indigo-vivid-40,
+        '50': $br-color-indigo-vivid-50,
+        '60': $br-color-indigo-vivid-60,
+        '70': $br-color-indigo-vivid-70,
+        '80': $br-color-indigo-vivid-80
+      ),
+      'indigoCoolVivid': (
+        '5': $br-color-indigo-cool-vivid-5,
+        '10': $br-color-indigo-cool-vivid-10,
+        '20': $br-color-indigo-cool-vivid-20,
+        '30': $br-color-indigo-cool-vivid-30,
+        '40': $br-color-indigo-cool-vivid-40,
+        '50': $br-color-indigo-cool-vivid-50,
+        '60': $br-color-indigo-cool-vivid-60,
+        '70': $br-color-indigo-cool-vivid-70,
+        '80': $br-color-indigo-cool-vivid-80
+      ),
+      'indigoWarmVivid': (
+        '5': $br-color-indigo-warm-vivid-5,
+        '10': $br-color-indigo-warm-vivid-10,
+        '20': $br-color-indigo-warm-vivid-20,
+        '30': $br-color-indigo-warm-vivid-30,
+        '40': $br-color-indigo-warm-vivid-40,
+        '50': $br-color-indigo-warm-vivid-50,
+        '60': $br-color-indigo-warm-vivid-60,
+        '70': $br-color-indigo-warm-vivid-70,
+        '80': $br-color-indigo-warm-vivid-80
+      ),
+      'violet': (
+        '5': $br-color-violet-5,
+        '10': $br-color-violet-10,
+        '20': $br-color-violet-20,
+        '30': $br-color-violet-30,
+        '40': $br-color-violet-40,
+        '50': $br-color-violet-50,
+        '60': $br-color-violet-60,
+        '70': $br-color-violet-70,
+        '80': $br-color-violet-80,
+        '90': $br-color-violet-90
+      ),
+      'violetWarm': (
+        '5': $br-color-violet-warm-5,
+        '10': $br-color-violet-warm-10,
+        '20': $br-color-violet-warm-20,
+        '30': $br-color-violet-warm-30,
+        '40': $br-color-violet-warm-40,
+        '50': $br-color-violet-warm-50,
+        '60': $br-color-violet-warm-60,
+        '70': $br-color-violet-warm-70,
+        '80': $br-color-violet-warm-80,
+        '90': $br-color-violet-warm-90
+      ),
+      'violetVivid': (
+        '5': $br-color-violet-vivid-5,
+        '10': $br-color-violet-vivid-10,
+        '20': $br-color-violet-vivid-20,
+        '30': $br-color-violet-vivid-30,
+        '40': $br-color-violet-vivid-40,
+        '50': $br-color-violet-vivid-50,
+        '60': $br-color-violet-vivid-60,
+        '70': $br-color-violet-vivid-70,
+        '80': $br-color-violet-vivid-80
+      ),
+      'violetWarmVivid': (
+        '5': $br-color-violet-warm-vivid-5,
+        '10': $br-color-violet-warm-vivid-10,
+        '20': $br-color-violet-warm-vivid-20,
+        '30': $br-color-violet-warm-vivid-30,
+        '40': $br-color-violet-warm-vivid-40,
+        '50': $br-color-violet-warm-vivid-50,
+        '60': $br-color-violet-warm-vivid-60,
+        '70': $br-color-violet-warm-vivid-70,
+        '80': $br-color-violet-warm-vivid-80
+      ),
+      'magenta': (
+        '5': $br-color-magenta-5,
+        '10': $br-color-magenta-10,
+        '20': $br-color-magenta-20,
+        '30': $br-color-magenta-30,
+        '40': $br-color-magenta-40,
+        '50': $br-color-magenta-50,
+        '60': $br-color-magenta-60,
+        '70': $br-color-magenta-70,
+        '80': $br-color-magenta-80,
+        '90': $br-color-magenta-90
+      ),
+      'magentaVivid': (
+        '5': $br-color-magenta-vivid-5,
+        '10': $br-color-magenta-vivid-10,
+        '20': $br-color-magenta-vivid-20,
+        '30': $br-color-magenta-vivid-30,
+        '40': $br-color-magenta-vivid-40,
+        '50': $br-color-magenta-vivid-50,
+        '60': $br-color-magenta-vivid-60,
+        '70': $br-color-magenta-vivid-70,
+        '80': $br-color-magenta-vivid-80
+      ),
+      'foreground': (
+        'main': (
+          'primary': $br-color-foreground-main-primary,
+          'secondary': $br-color-foreground-main-secondary
+        ),
+        'contrast': (
+          'primary': $br-color-foreground-contrast-primary,
+          'secondary': $br-color-foreground-contrast-secondary
+        )
+      ),
+      'background': (
+        'main': (
+          'primary': $br-color-background-main-primary,
+          'secondary': $br-color-background-main-secondary
+        ),
+        'contrast': (
+          'primary': $br-color-background-contrast-primary,
+          'secondary': $br-color-background-contrast-secondary
+        )
+      ),
+      'border': (
+        'primary': $br-color-border-primary,
+        'secondary': $br-color-border-secondary
+      )
+    ),
+    'typography': (
+      'fontFamily': (
+        'primary': $br-typography-font-family-primary,
+        'secondary': $br-typography-font-family-secondary,
+        'tertiary': $br-typography-font-family-tertiary
+      ),
+      'fontWeight': (
+        'thin': $br-typography-font-weight-thin,
+        'extraLight': $br-typography-font-weight-extra-light,
+        'light': $br-typography-font-weight-light,
+        'regular': $br-typography-font-weight-regular,
+        'medium': $br-typography-font-weight-medium,
+        'semiBold': $br-typography-font-weight-semi-bold,
+        'bold': $br-typography-font-weight-bold,
+        'extraBold': $br-typography-font-weight-extra-bold,
+        'black': $br-typography-font-weight-black
+      ),
+      'fontSize': (
+        'default': $br-typography-font-size-default,
+        'up': (
+          '1': $br-typography-font-size-up-1,
+          '2': $br-typography-font-size-up-2,
+          '3': $br-typography-font-size-up-3,
+          '4': $br-typography-font-size-up-4,
+          '5': $br-typography-font-size-up-5,
+          '6': $br-typography-font-size-up-6,
+          '7': $br-typography-font-size-up-7,
+          '8': $br-typography-font-size-up-8
+        ),
+        'down': (
+          '1': $br-typography-font-size-down-1,
+          '2': $br-typography-font-size-down-2,
+          '3': $br-typography-font-size-down-3,
+          '4': $br-typography-font-size-down-4
+        ),
+        'fontBase': (
+          'default': $br-typography-font-size-font-base-default,
+          'primary': $br-typography-font-size-font-base-primary,
+          'secondary': $br-typography-font-size-font-base-secondary
+        )
+      ),
+      'lineHeight': (
+        'xsm': $br-typography-line-height-xsm,
+        'sm': $br-typography-line-height-sm,
+        'md': $br-typography-line-height-md,
+        'lg': $br-typography-line-height-lg,
+        'xlg': $br-typography-line-height-xlg,
+        '2xlg': $br-typography-line-height-2xlg,
+        '3xlg': $br-typography-line-height-3xlg,
+        '4xlg': $br-typography-line-height-4xlg,
+        '5xlg': $br-typography-line-height-5xlg,
+        '6xlg': $br-typography-line-height-6xlg
+      ),
+      'fontStyle': (
+        'heading1': $br-typography-font-style-heading1,
+        'heading2': $br-typography-font-style-heading2,
+        'heading3': $br-typography-font-style-heading3,
+        'heading4': $br-typography-font-style-heading4,
+        'heading5': $br-typography-font-style-heading5,
+        'heading6': $br-typography-font-style-heading6,
+        'legend': $br-typography-font-style-legend,
+        'paragraph': $br-typography-font-style-paragraph,
+        'input': $br-typography-font-style-input,
+        'placeholder': $br-typography-font-style-placeholder,
+        'code': $br-typography-font-style-code,
+        'label': $br-typography-font-style-label,
+        'default': $br-typography-font-style-default
+      )
+    ),
+    'iconography': (
+      'fontFamily': (
+        'primary': $br-iconography-font-family-primary,
+        'secondary': $br-iconography-font-family-secondary
+      ),
+      'iconStyle': (
+        'solid': $br-iconography-icon-style-solid,
+        'brand': $br-iconography-icon-style-brand
+      ),
+      'iconName': (
+        'action': (
+          'add': $br-iconography-icon-name-action-add,
+          'attach': $br-iconography-icon-name-action-attach,
+          'update': $br-iconography-icon-name-action-update,
+          'share': $br-iconography-icon-name-action-share,
+          'confirm': $br-iconography-icon-name-action-confirm,
+          'contrast': $br-iconography-icon-name-action-contrast,
+          'copy': $br-iconography-icon-name-action-copy,
+          'cut': $br-iconography-icon-name-action-cut,
+          'download': $br-iconography-icon-name-action-download,
+          'edit': $br-iconography-icon-name-action-edit,
+          'send': $br-iconography-icon-name-action-send,
+          'delete': $br-iconography-icon-name-action-delete,
+          'export': $br-iconography-icon-name-action-export,
+          'close': $br-iconography-icon-name-action-close,
+          'filter': $br-iconography-icon-name-action-filter,
+          'print': $br-iconography-icon-name-action-print,
+          'image': $br-iconography-icon-name-action-image,
+          'clean': $br-iconography-icon-name-action-clean,
+          'hide': $br-iconography-icon-name-action-hide,
+          'search': $br-iconography-icon-name-action-search,
+          'subtract': $br-iconography-icon-name-action-subtract,
+          'upload': $br-iconography-icon-name-action-upload,
+          'view': $br-iconography-icon-name-action-view,
+          'ai': $br-iconography-icon-name-action-ai,
+          'voice': $br-iconography-icon-name-action-voice,
+          'play': $br-iconography-icon-name-action-play,
+          'pause': $br-iconography-icon-name-action-pause,
+          'stop': $br-iconography-icon-name-action-stop,
+          'forward': $br-iconography-icon-name-action-forward,
+          'backward': $br-iconography-icon-name-action-backward
+        ),
+        'navigation': (
+          'next': $br-iconography-icon-name-navigation-next,
+          'collapseDown': $br-iconography-icon-name-navigation-collapse-down,
+          'collapseUp': $br-iconography-icon-name-navigation-collapse-up,
+          'collapseRight': $br-iconography-icon-name-navigation-collapse-right,
+          'collapseLeft': $br-iconography-icon-name-navigation-collapse-left,
+          'setting': $br-iconography-icon-name-navigation-setting,
+          'date': $br-iconography-icon-name-navigation-date,
+          'folder': $br-iconography-icon-name-navigation-folder,
+          'dropdownOpen': $br-iconography-icon-name-navigation-dropdown-open,
+          'dropdownOpenH': $br-iconography-icon-name-navigation-dropdown-open-h,
+          'dropdownClose': $br-iconography-icon-name-navigation-dropdown-close,
+          'dropdownCloseH': $br-iconography-icon-name-navigation-dropdown-close-h,
+          'externallink': $br-iconography-icon-name-navigation-externallink,
+          'home': $br-iconography-icon-name-navigation-home,
+          'menu': $br-iconography-icon-name-navigation-menu,
+          'options': $br-iconography-icon-name-navigation-options,
+          'more': $br-iconography-icon-name-navigation-more,
+          'user': $br-iconography-icon-name-navigation-user,
+          'signin': $br-iconography-icon-name-navigation-signin,
+          'back': $br-iconography-icon-name-navigation-back,
+          'comment': $br-iconography-icon-name-navigation-comment,
+          'chat': $br-iconography-icon-name-navigation-chat
+        ),
+        'feedback': (
+          'help': $br-iconography-icon-name-feedback-help,
+          'alert': $br-iconography-icon-name-feedback-alert,
+          'drag': $br-iconography-icon-name-feedback-drag,
+          'volumeOn': $br-iconography-icon-name-feedback-volume-on,
+          'volumeOff': $br-iconography-icon-name-feedback-volume-off,
+          'lock': $br-iconography-icon-name-feedback-lock,
+          'highDensity': $br-iconography-icon-name-feedback-high-density,
+          'lowDensity': $br-iconography-icon-name-feedback-low-density,
+          'unlock': $br-iconography-icon-name-feedback-unlock,
+          'folderOpen': $br-iconography-icon-name-feedback-folder-open,
+          'error': $br-iconography-icon-name-feedback-error,
+          'time': $br-iconography-icon-name-feedback-time,
+          'info': $br-iconography-icon-name-feedback-info,
+          'libras': $br-iconography-icon-name-feedback-libras,
+          'message': $br-iconography-icon-name-feedback-message,
+          'messageRead': $br-iconography-icon-name-feedback-message-read,
+          'notification': $br-iconography-icon-name-feedback-notification,
+          'notificationOff': $br-iconography-icon-name-feedback-notification-off,
+          'sortUp': $br-iconography-icon-name-feedback-sort-up,
+          'sortDown': $br-iconography-icon-name-feedback-sort-down,
+          'sort': $br-iconography-icon-name-feedback-sort,
+          'selected': $br-iconography-icon-name-feedback-selected,
+          'success': $br-iconography-icon-name-feedback-success,
+          'sending': $br-iconography-icon-name-feedback-sending
+        ),
+        'brand': (
+          'angular': $br-iconography-icon-name-brand-angular,
+          'codepen': $br-iconography-icon-name-brand-codepen,
+          'creativeCommons': $br-iconography-icon-name-brand-creative-commons,
+          'css': $br-iconography-icon-name-brand-css,
+          'discord': $br-iconography-icon-name-brand-discord,
+          'facebook': $br-iconography-icon-name-brand-facebook,
+          'figma': $br-iconography-icon-name-brand-figma,
+          'fontawesome': $br-iconography-icon-name-brand-fontawesome,
+          'github': $br-iconography-icon-name-brand-github,
+          'gitlab': $br-iconography-icon-name-brand-gitlab,
+          'html': $br-iconography-icon-name-brand-html,
+          'javascript': $br-iconography-icon-name-brand-javascript,
+          'linkedin': $br-iconography-icon-name-brand-linkedin,
+          'npm': $br-iconography-icon-name-brand-npm,
+          'react': $br-iconography-icon-name-brand-react,
+          'vue': $br-iconography-icon-name-brand-vue,
+          'youtube': $br-iconography-icon-name-brand-youtube
+        )
+      )
+    ),
+    'spacing': (
+      'none': $br-spacing-none,
+      'layout': (
+        '1': $br-spacing-layout-1,
+        '2': $br-spacing-layout-2,
+        '3': $br-spacing-layout-3,
+        '4': $br-spacing-layout-4,
+        '5': $br-spacing-layout-5,
+        '6': $br-spacing-layout-6,
+        '7': $br-spacing-layout-7,
+        '8': $br-spacing-layout-8,
+        '9': $br-spacing-layout-9,
+        '10': $br-spacing-layout-10
+      ),
+      'adjust': (
+        '1': $br-spacing-adjust-1,
+        '2': $br-spacing-adjust-2,
+        '3': $br-spacing-adjust-3,
+        '4': $br-spacing-adjust-4,
+        '5': $br-spacing-adjust-5
+      )
+    ),
+    'surface': (
+      'borderWidth': (
+        'none': $br-surface-border-width-none,
+        'sm': $br-surface-border-width-sm,
+        'md': $br-surface-border-width-md,
+        'lg': $br-surface-border-width-lg
+      ),
+      'rounder': (
+        'none': $br-surface-rounder-none,
+        'full': $br-surface-rounder-full,
+        'sm': $br-surface-rounder-sm,
+        'md': $br-surface-rounder-md,
+        'lg': $br-surface-rounder-lg
+      ),
+      'opacity': (
+        '10': $br-surface-opacity-10,
+        '20': $br-surface-opacity-20,
+        '30': $br-surface-opacity-30,
+        '40': $br-surface-opacity-40,
+        '50': $br-surface-opacity-50,
+        '60': $br-surface-opacity-60,
+        '70': $br-surface-opacity-70,
+        '80': $br-surface-opacity-80,
+        '90': $br-surface-opacity-90,
+        'none': $br-surface-opacity-none,
+        'full': $br-surface-opacity-full
+      ),
+      'color': (
+        'background': (
+          'solid': (
+            'overlay': $br-surface-color-background-solid-overlay
+          ),
+          'gradient': (
+            'overlay': $br-surface-color-background-gradient-overlay
+          )
+        ),
+        'foreground': (
+          'overlay': $br-surface-color-foreground-overlay
+        )
+      )
+    ),
+    'grid': (
+      'breakpoint': (
+        'small': (
+          'default': $br-grid-breakpoint-small-default,
+          'extra': $br-grid-breakpoint-small-extra
+        ),
+        'medium': (
+          'default': $br-grid-breakpoint-medium-default
+        ),
+        'large': (
+          'default': $br-grid-breakpoint-large-default,
+          'extra': $br-grid-breakpoint-large-extra
+        )
+      ),
+      'gutter': (
+        'small': (
+          'compact': $br-grid-gutter-small-compact,
+          'regular': $br-grid-gutter-small-regular,
+          'spacious': $br-grid-gutter-small-spacious
+        ),
+        'medium': (
+          'compact': $br-grid-gutter-medium-compact,
+          'regular': $br-grid-gutter-medium-regular,
+          'spacious': $br-grid-gutter-medium-spacious
+        ),
+        'large': (
+          'compact': $br-grid-gutter-large-compact,
+          'regular': $br-grid-gutter-large-regular,
+          'spacious': $br-grid-gutter-large-spacious
+        )
+      ),
+      'margin': (
+        'small': (
+          'compact': $br-grid-margin-small-compact,
+          'regular': $br-grid-margin-small-regular,
+          'spacious': $br-grid-margin-small-spacious
+        ),
+        'medium': (
+          'compact': $br-grid-margin-medium-compact,
+          'regular': $br-grid-margin-medium-regular,
+          'spacious': $br-grid-margin-medium-spacious
+        ),
+        'large': (
+          'compact': $br-grid-margin-large-compact,
+          'regular': $br-grid-margin-large-regular,
+          'spacious': $br-grid-margin-large-spacious
+        )
+      )
+    ),
+    'elevation': (
+      'color': (
+        'shadow': (
+          'default': $br-elevation-color-shadow-default,
+          'blend': $br-elevation-color-shadow-blend
+        )
+      ),
+      'opacity': (
+        'bright': $br-elevation-opacity-bright,
+        'dim': $br-elevation-opacity-dim,
+        'shadow': $br-elevation-opacity-shadow
+      ),
+      'offset': (
+        'none': $br-elevation-offset-none,
+        'xsm': $br-elevation-offset-xsm,
+        'sm': $br-elevation-offset-sm,
+        'md': $br-elevation-offset-md,
+        'lg': $br-elevation-offset-lg,
+        'xlg': $br-elevation-offset-xlg
+      ),
+      'blur': (
+        'none': $br-elevation-blur-none,
+        'xsm': $br-elevation-blur-xsm,
+        'sm': $br-elevation-blur-sm,
+        'md': $br-elevation-blur-md,
+        'lg': $br-elevation-blur-lg,
+        'xlg': $br-elevation-blur-xlg
+      ),
+      'level0': (
+        'offsetX': (
+          'cast': $br-elevation-level0-offset-x-cast,
+          'occlusion': $br-elevation-level0-offset-x-occlusion
+        ),
+        'offsetY': (
+          'cast': $br-elevation-level0-offset-y-cast,
+          'occlusion': $br-elevation-level0-offset-y-occlusion
+        ),
+        'blur': (
+          'cast': $br-elevation-level0-blur-cast,
+          'occlusion': $br-elevation-level0-blur-occlusion
+        )
+      ),
+      'level1': (
+        'offsetX': (
+          'cast': $br-elevation-level1-offset-x-cast,
+          'occlusion': $br-elevation-level1-offset-x-occlusion
+        ),
+        'offsetY': (
+          'cast': $br-elevation-level1-offset-y-cast,
+          'occlusion': $br-elevation-level1-offset-y-occlusion
+        ),
+        'blur': (
+          'cast': $br-elevation-level1-blur-cast,
+          'occlusion': $br-elevation-level1-blur-occlusion
+        )
+      ),
+      'level2': (
+        'offsetX': (
+          'cast': $br-elevation-level2-offset-x-cast,
+          'occlusion': $br-elevation-level2-offset-x-occlusion
+        ),
+        'offsetY': (
+          'cast': $br-elevation-level2-offset-y-cast,
+          'occlusion': $br-elevation-level2-offset-y-occlusion
+        ),
+        'blur': (
+          'cast': $br-elevation-level2-blur-cast,
+          'occlusion': $br-elevation-level2-blur-occlusion
+        )
+      ),
+      'level3': (
+        'offsetX': (
+          'cast': $br-elevation-level3-offset-x-cast,
+          'occlusion': $br-elevation-level3-offset-x-occlusion
+        ),
+        'offsetY': (
+          'cast': $br-elevation-level3-offset-y-cast,
+          'occlusion': $br-elevation-level3-offset-y-occlusion
+        ),
+        'blur': (
+          'cast': $br-elevation-level3-blur-cast,
+          'occlusion': $br-elevation-level3-blur-occlusion
+        )
+      ),
+      'level4': (
+        'offsetX': (
+          'cast': $br-elevation-level4-offset-x-cast,
+          'occlusion': $br-elevation-level4-offset-x-occlusion
+        ),
+        'offsetY': (
+          'cast': $br-elevation-level4-offset-y-cast,
+          'occlusion': $br-elevation-level4-offset-y-occlusion
+        ),
+        'blur': (
+          'cast': $br-elevation-level4-blur-cast,
+          'occlusion': $br-elevation-level4-blur-occlusion
+        )
+      ),
+      'shadowStyle': (
+        'level0': $br-elevation-shadow-style-level0,
+        'level1': $br-elevation-shadow-style-level1,
+        'level2': $br-elevation-shadow-style-level2,
+        'level3': $br-elevation-shadow-style-level3,
+        'level4': $br-elevation-shadow-style-level4
+      )
+    ),
+    'motion': (
+      'easing': (
+        'ease': $br-motion-easing-ease,
+        'easeIn': $br-motion-easing-ease-in,
+        'easeOut': $br-motion-easing-ease-out,
+        'easeInOut': $br-motion-easing-ease-in-out,
+        'linear': $br-motion-easing-linear,
+        'bounceOut': $br-motion-easing-bounce-out,
+        'elasticOut': $br-motion-easing-elastic-out
+      ),
+      'duration': (
+        'none': $br-motion-duration-none,
+        'fast': (
+          '1': $br-motion-duration-fast-1,
+          '2': $br-motion-duration-fast-2,
+          '3': $br-motion-duration-fast-3,
+          '4': $br-motion-duration-fast-4
+        ),
+        'moderate': (
+          '1': $br-motion-duration-moderate-1,
+          '2': $br-motion-duration-moderate-2,
+          '3': $br-motion-duration-moderate-3,
+          '4': $br-motion-duration-moderate-4
+        ),
+        'slow': (
+          '1': $br-motion-duration-slow-1,
+          '2': $br-motion-duration-slow-2,
+          '3': $br-motion-duration-slow-3,
+          '4': $br-motion-duration-slow-4
+        ),
+        'verySlow': (
+          '1': $br-motion-duration-very-slow-1,
+          '2': $br-motion-duration-very-slow-2,
+          '3': $br-motion-duration-very-slow-3,
+          '4': $br-motion-duration-very-slow-4
+        )
+      )
+    ),
+    'state': (
+      'target': (
+        'minimum': $br-state-target-minimum,
+        'enhanced': $br-state-target-enhanced
+      ),
+      'disabled': (
+        'opacity': $br-state-disabled-opacity,
+        'shadowStyle': $br-state-disabled-shadow-style,
+        'color': (
+          'main': $br-state-disabled-color-main,
+          'contrast': $br-state-disabled-color-contrast
+        )
+      ),
+      'hover': (
+        'error': (
+          'color': (
+            'interactiveFg': $br-state-hover-error-color-interactive-fg,
+            'interactiveBg': $br-state-hover-error-color-interactive-bg
+          )
+        ),
+        'alert': (
+          'color': (
+            'interactiveFg': $br-state-hover-alert-color-interactive-fg,
+            'interactiveBg': $br-state-hover-alert-color-interactive-bg
+          )
+        ),
+        'success': (
+          'color': (
+            'interactiveFg': $br-state-hover-success-color-interactive-fg,
+            'interactiveBg': $br-state-hover-success-color-interactive-bg
+          )
+        ),
+        'opacity': (
+          'bright': $br-state-hover-opacity-bright,
+          'dim': $br-state-hover-opacity-dim
+        ),
+        'size': (
+          'highlight': $br-state-hover-size-highlight
+        ),
+        'shadowStyle': (
+          'highlight': $br-state-hover-shadow-style-highlight
+        ),
+        'easing': (
+          'in': (
+            'default': $br-state-hover-easing-in-default,
+            'highlight': $br-state-hover-easing-in-highlight
+          ),
+          'out': $br-state-hover-easing-out
+        ),
+        'duration': (
+          'in': (
+            'default': $br-state-hover-duration-in-default,
+            'highlight': $br-state-hover-duration-in-highlight
+          ),
+          'out': $br-state-hover-duration-out
+        ),
+        'color': (
+          'bright': $br-state-hover-color-bright,
+          'dim': $br-state-hover-color-dim,
+          'interactiveFg': (
+            'main': $br-state-hover-color-interactive-fg-main,
+            'contrast': $br-state-hover-color-interactive-fg-contrast
+          ),
+          'interactiveBg': (
+            'main': $br-state-hover-color-interactive-bg-main,
+            'contrast': $br-state-hover-color-interactive-bg-contrast
+          )
+        ),
+        'cta': (
+          'color': (
+            'bright': $br-state-hover-cta-color-bright,
+            'dim': $br-state-hover-cta-color-dim,
+            'interactiveFg': (
+              'main': $br-state-hover-cta-color-interactive-fg-main,
+              'contrast': $br-state-hover-cta-color-interactive-fg-contrast
+            ),
+            'interactiveBg': (
+              'main': $br-state-hover-cta-color-interactive-bg-main,
+              'contrast': $br-state-hover-cta-color-interactive-bg-contrast
+            )
+          )
+        )
+      ),
+      'pressed': (
+        'offset': $br-state-pressed-offset,
+        'blur': $br-state-pressed-blur,
+        'opacity': $br-state-pressed-opacity,
+        'easing': (
+          'in': $br-state-pressed-easing-in,
+          'out': $br-state-pressed-easing-out
+        ),
+        'duration': (
+          'in': $br-state-pressed-duration-in,
+          'out': $br-state-pressed-duration-out
+        ),
+        'shadowStyle': $br-state-pressed-shadow-style
+      ),
+      'focus': (
+        'padding': $br-state-focus-padding,
+        'borderWidth': (
+          'high': $br-state-focus-border-width-high,
+          'low': $br-state-focus-border-width-low
+        ),
+        'easing': (
+          'in': $br-state-focus-easing-in,
+          'out': $br-state-focus-easing-out
+        ),
+        'duration': (
+          'in': $br-state-focus-duration-in,
+          'out': $br-state-focus-duration-out
+        ),
+        'borderStyle': (
+          'main': (
+            'high': $br-state-focus-border-style-main-high,
+            'low': $br-state-focus-border-style-main-low
+          ),
+          'contrast': (
+            'high': $br-state-focus-border-style-contrast-high,
+            'low': $br-state-focus-border-style-contrast-low
+          )
+        ),
+        'color': (
+          'main': $br-state-focus-color-main,
+          'contrast': $br-state-focus-color-contrast
+        )
+      ),
+      'active': (
+        'borderWidth': $br-state-active-border-width,
+        'easing': (
+          'in': $br-state-active-easing-in,
+          'out': $br-state-active-easing-out
+        ),
+        'duration': (
+          'in': $br-state-active-duration-in,
+          'out': $br-state-active-duration-out
+        ),
+        'borderStyle': (
+          'main': $br-state-active-border-style-main,
+          'contrast': $br-state-active-border-style-contrast
+        ),
+        'color': (
+          'main': $br-state-active-color-main,
+          'contrast': $br-state-active-color-contrast,
+          'foreground': (
+            'main': $br-state-active-color-foreground-main,
+            'contrast': $br-state-active-color-foreground-contrast
+          )
+        ),
+        'cta': (
+          'color': (
+            'main': $br-state-active-cta-color-main,
+            'contrast': $br-state-active-cta-color-contrast
+          )
+        )
+      ),
+      'selected': (
+        'easing': (
+          'in': $br-state-selected-easing-in,
+          'out': $br-state-selected-easing-out
+        ),
+        'duration': (
+          'in': $br-state-selected-duration-in,
+          'out': $br-state-selected-duration-out
+        ),
+        'iconName': $br-state-selected-icon-name,
+        'color': (
+          'main': $br-state-selected-color-main,
+          'contrast': $br-state-selected-color-contrast,
+          'foreground': (
+            'main': $br-state-selected-color-foreground-main,
+            'contrast': $br-state-selected-color-foreground-contrast
+          )
+        ),
+        'cta': (
+          'color': (
+            'main': $br-state-selected-cta-color-main,
+            'contrast': $br-state-selected-cta-color-contrast
+          )
+        )
+      ),
+      'dragging': (
+        'borderWidth': $br-state-dragging-border-width,
+        'rotation': $br-state-dragging-rotation,
+        'opacity': $br-state-dragging-opacity,
+        'shadowStyle': (
+          'main': $br-state-dragging-shadow-style-main,
+          'contrast': $br-state-dragging-shadow-style-contrast
+        ),
+        'borderStyle': (
+          'main': $br-state-dragging-border-style-main,
+          'contrast': $br-state-dragging-border-style-contrast
+        ),
+        'color': (
+          'main': $br-state-dragging-color-main,
+          'contrast': $br-state-dragging-color-contrast
+        )
+      ),
+      'drag': (
+        'iconName': $br-state-drag-icon-name
+      ),
+      'dropzone': (
+        'borderWidth': $br-state-dropzone-border-width,
+        'borderStyle': (
+          'main': $br-state-dropzone-border-style-main,
+          'contrast': $br-state-dropzone-border-style-contrast
+        ),
+        'color': (
+          'main': $br-state-dropzone-color-main,
+          'contrast': $br-state-dropzone-color-contrast
+        )
+      ),
+      'dropzoneActive': (
+        'opacity': $br-state-dropzone-active-opacity,
+        'color': (
+          'main': $br-state-dropzone-active-color-main,
+          'contrast': $br-state-dropzone-active-color-contrast
+        )
+      ),
+      'on': (
+        'easing': $br-state-on-easing,
+        'duration': $br-state-on-duration,
+        'color': (
+          'main': $br-state-on-color-main,
+          'contrast': $br-state-on-color-contrast,
+          'foreground': (
+            'main': $br-state-on-color-foreground-main,
+            'contrast': $br-state-on-color-foreground-contrast
+          )
+        )
+      ),
+      'off': (
+        'easing': $br-state-off-easing,
+        'duration': $br-state-off-duration,
+        'color': (
+          'main': $br-state-off-color-main,
+          'contrast': $br-state-off-color-contrast,
+          'foreground': (
+            'main': $br-state-off-color-foreground-main,
+            'contrast': $br-state-off-color-foreground-contrast
+          )
+        )
+      ),
+      'error': (
+        'iconName': $br-state-error-icon-name,
+        'color': (
+          'default': $br-state-error-color-default,
+          'foreground': $br-state-error-color-foreground
+        )
+      ),
+      'alert': (
+        'iconName': $br-state-alert-icon-name,
+        'color': (
+          'default': $br-state-alert-color-default,
+          'foreground': $br-state-alert-color-foreground
+        )
+      ),
+      'success': (
+        'iconName': $br-state-success-icon-name,
+        'color': (
+          'default': $br-state-success-color-default,
+          'foreground': $br-state-success-color-foreground
+        )
+      ),
+      'interactive': (
+        'color': (
+          'main': $br-state-interactive-color-main,
+          'contrast': $br-state-interactive-color-contrast,
+          'foreground': (
+            'main': $br-state-interactive-color-foreground-main,
+            'contrast': $br-state-interactive-color-foreground-contrast
+          )
+        )
+      ),
+      'cta': (
+        'color': (
+          'main': $br-state-cta-color-main,
+          'contrast': $br-state-cta-color-contrast,
+          'foreground': (
+            'main': $br-state-cta-color-foreground-main,
+            'contrast': $br-state-cta-color-foreground-contrast
+          )
+        )
+      ),
+      'visited': (
+        'color': (
+          'main': $br-state-visited-color-main,
+          'contrast': $br-state-visited-color-contrast
+        )
+      )
+    ),
+    'skeleton': (
+      'color': (
+        'background': (
+          'default': $br-skeleton-color-background-default,
+          'gradient': $br-skeleton-color-background-gradient
+        ),
+        'foreground': $br-skeleton-color-foreground
+      ),
+      'rounder': (
+        'background': $br-skeleton-rounder-background,
+        'foreground': $br-skeleton-rounder-foreground
+      ),
+      'height': (
+        'default': $br-skeleton-height-default,
+        'title': (
+          'sm': $br-skeleton-height-title-sm,
+          'md': $br-skeleton-height-title-md,
+          'lg': $br-skeleton-height-title-lg
+        )
+      ),
+      'duration': $br-skeleton-duration,
+      'easing': $br-skeleton-easing
+    ),
+    'form': (
+      'color': (
+        'border': $br-form-color-border
+      ),
+      'borderWidth': (
+        'default': $br-form-border-width-default,
+        'fieldset': $br-form-border-width-fieldset
+      ),
+      'gap': (
+        'default': $br-form-gap-default
+      ),
+      'padding': (
+        'default': $br-form-padding-default,
+        'fieldset': $br-form-padding-fieldset
+      ),
+      'rounder': (
+        'primary': $br-form-rounder-primary,
+        'secondary': $br-form-rounder-secondary
+      ),
+      'borderStyle': (
+        'default': $br-form-border-style-default
+      ),
+      'readonly': (
+        'color': (
+          'foreground': (
+            'main': $br-form-readonly-color-foreground-main,
+            'contrast': $br-form-readonly-color-foreground-contrast
+          ),
+          'background': $br-form-readonly-color-background
+        ),
+        'borderWidth': $br-form-readonly-border-width
+      )
+    ),
+    'contentOverflow': (
+      'scrollShadow': (
+        'offset': $br-content-overflow-scroll-shadow-offset,
+        'blur': $br-content-overflow-scroll-shadow-blur,
+        'spread': $br-content-overflow-scroll-shadow-spread,
+        'shadowStyle': (
+          'top': $br-content-overflow-scroll-shadow-shadow-style-top,
+          'right': $br-content-overflow-scroll-shadow-shadow-style-right,
+          'bottom': $br-content-overflow-scroll-shadow-shadow-style-bottom,
+          'left': $br-content-overflow-scroll-shadow-shadow-style-left
+        )
+      )
+    )
+  )
+);

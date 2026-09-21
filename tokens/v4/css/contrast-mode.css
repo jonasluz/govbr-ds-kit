@@ -1,0 +1,41 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+[data-contrast="enabled"], :root[data-contrast="enabled"] {
+  --br-color-foreground-main-primary: var(--br-color-foreground-contrast-primary);
+  --br-color-foreground-main-secondary: var(--br-color-foreground-contrast-secondary);
+  --br-color-background-main-primary: var(--br-color-background-contrast-primary);
+  --br-color-background-main-secondary: var(--br-color-background-contrast-secondary);
+  --br-state-disabled-color-main: var(--br-state-disabled-color-contrast);
+  --br-state-hover-color-interactive-fg-main: var(--br-state-hover-color-interactive-fg-contrast);
+  --br-state-hover-color-interactive-bg-main: var(--br-state-hover-color-interactive-bg-contrast);
+  --br-state-hover-cta-color-interactive-fg-main: var(--br-state-hover-cta-color-interactive-fg-contrast);
+  --br-state-hover-cta-color-interactive-bg-main: var(--br-state-hover-cta-color-interactive-bg-contrast);
+  --br-state-focus-border-style-main-high: var(--br-state-focus-border-style-contrast-high);
+  --br-state-focus-border-style-main-low: var(--br-state-focus-border-style-contrast-low);
+  --br-state-focus-color-main: var(--br-state-focus-color-contrast);
+  --br-state-active-border-style-main: var(--br-state-active-border-style-contrast);
+  --br-state-active-color-main: var(--br-state-active-color-contrast);
+  --br-state-active-color-foreground-main: var(--br-state-active-color-foreground-contrast);
+  --br-state-active-cta-color-main: var(--br-state-active-cta-color-contrast);
+  --br-state-selected-color-main: var(--br-state-selected-color-contrast);
+  --br-state-selected-color-foreground-main: var(--br-state-selected-color-foreground-contrast);
+  --br-state-selected-cta-color-main: var(--br-state-selected-cta-color-contrast);
+  --br-state-dragging-shadow-style-main: var(--br-state-dragging-shadow-style-contrast);
+  --br-state-dragging-border-style-main: var(--br-state-dragging-border-style-contrast);
+  --br-state-dragging-color-main: var(--br-state-dragging-color-contrast);
+  --br-state-dropzone-border-style-main: var(--br-state-dropzone-border-style-contrast);
+  --br-state-dropzone-color-main: var(--br-state-dropzone-color-contrast);
+  --br-state-dropzone-active-color-main: var(--br-state-dropzone-active-color-contrast);
+  --br-state-on-color-main: var(--br-state-on-color-contrast);
+  --br-state-on-color-foreground-main: var(--br-state-on-color-foreground-contrast);
+  --br-state-off-color-main: var(--br-state-off-color-contrast);
+  --br-state-off-color-foreground-main: var(--br-state-off-color-foreground-contrast);
+  --br-state-interactive-color-main: var(--br-state-interactive-color-contrast);
+  --br-state-interactive-color-foreground-main: var(--br-state-interactive-color-foreground-contrast);
+  --br-state-cta-color-main: var(--br-state-cta-color-contrast);
+  --br-state-cta-color-foreground-main: var(--br-state-cta-color-foreground-contrast);
+  --br-state-visited-color-main: var(--br-state-visited-color-contrast);
+  --br-form-readonly-color-foreground-main: var(--br-form-readonly-color-foreground-contrast);
+}

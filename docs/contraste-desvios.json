@@ -1,0 +1,15 @@
+{
+  "descricao": "Desvios de contraste ja identificados nos tokens oficiais do GOVBR-DS. Cada entrada e tolerada pelo check:contrast e deve ter um encaminhamento ao upstream.",
+  "desvios": [
+    {
+      "tema": "escuro",
+      "par": "Borda de campo sobre fundo (UI)",
+      "tokens": "--br-color-border-secondary sobre --br-color-background-main-primary",
+      "medido": "2.95:1",
+      "minimo": "3:1 (WCAG 2.1 SC 1.4.11 Non-text Contrast)",
+      "pacote": "@govbr-ds/tokens 4.0.0-next.33",
+      "observacao": "gray-50 (#757575) sobre gray-cool-80 (#2d2e2f). Fica 0.05 abaixo do minimo. Em campos de formulario, usar --br-color-border-primary no tema escuro ate que o upstream ajuste.",
+      "encaminhamento": "reportar em https://gitlab.com/govbr-ds"
+    }
+  ]
+}

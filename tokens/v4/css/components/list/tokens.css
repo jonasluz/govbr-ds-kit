@@ -1,0 +1,58 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-list-padding-default: var(--br-spacing-layout-1, 8px);
+  --br-list-padding-header: var(--br-spacing-adjust-1, 4px);
+  --br-list-padding-item: var(--br-spacing-layout-2, 16px);
+  --br-list-gap-default: var(--br-spacing-layout-1, 8px);
+  --br-list-gap-header: var(--br-spacing-adjust-1, 4px);
+  --br-list-gap-item: var(--br-spacing-layout-2, 16px);
+  --br-list-gap-actions: var(--br-spacing-layout-1, 8px);
+  --br-list-density-compact: var(--br-spacing-adjust-1, 4px);
+  --br-list-density-regular: var(--br-spacing-layout-1, 8px);
+  --br-list-density-spacious: var(--br-spacing-adjust-2, 12px);
+  --br-list-rounder: var(--br-surface-rounder-sm, 4px);
+  --br-list-color-main-primary: var(--br-color-background-main-primary, #fcfcfc);
+  --br-list-color-main-secondary: var(--br-color-background-main-secondary, #f0f0f0);
+  --br-list-color-contrast-primary: var(--br-color-background-contrast-primary, #252f3e);
+  --br-list-color-contrast-secondary: var(--br-color-background-contrast-secondary, #2f4668);
+  --br-list-hover-easing-in: var(--br-state-hover-easing-in-default, cubic-bezier(0.42, 0, 1, 1));
+  --br-list-hover-easing-out: var(--br-state-hover-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-list-hover-duration-in: var(--br-state-hover-duration-in-default, 200ms);
+  --br-list-hover-duration-out: var(--br-state-hover-duration-out, 100ms);
+  --br-list-pressed-easing-in: var(--br-state-pressed-easing-in, cubic-bezier(0.42, 0, 0.58, 1));
+  --br-list-pressed-easing-out: var(--br-state-pressed-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-list-pressed-duration-in: var(--br-state-pressed-duration-in, 100ms);
+  --br-list-pressed-duration-out: var(--br-state-pressed-duration-out, 50ms);
+  --br-list-active-color-foreground-main: var(--br-state-active-color-foreground-main, #ffffff);
+  --br-list-active-color-foreground-contrast: var(--br-state-active-color-foreground-contrast, #000000);
+  --br-list-active-color-background-main: var(--br-state-active-color-main, #0c326f);
+  --br-list-active-color-background-contrast: var(--br-state-active-color-contrast, #81aefc);
+  --br-list-active-easing-in: var(--br-state-active-easing-in, cubic-bezier(0, 0, 0.58, 1));
+  --br-list-active-easing-out: var(--br-state-active-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-list-active-duration-in: var(--br-state-active-duration-in, 150ms);
+  --br-list-active-duration-out: var(--br-state-active-duration-out, 100ms);
+  --br-list-selected-color-foreground-main: var(--br-state-selected-color-foreground-main, #ffffff);
+  --br-list-selected-color-foreground-contrast: var(--br-state-selected-color-foreground-contrast, #000000);
+  --br-list-selected-color-background-main: var(--br-state-selected-color-main, #2670e8);
+  --br-list-selected-color-background-contrast: var(--br-state-selected-color-contrast, #5992ed);
+  --br-list-selected-easing-in: var(--br-state-selected-easing-in, cubic-bezier(0, 0, 0.58, 1));
+  --br-list-selected-easing-out: var(--br-state-selected-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-list-selected-duration-in: var(--br-state-selected-duration-in, 150ms);
+  --br-list-selected-duration-out: var(--br-state-selected-duration-out, 100ms);
+  --br-list-focus-padding: var(--br-state-focus-padding, 4px);
+  --br-list-focus-easing-in: var(--br-state-focus-easing-in, cubic-bezier(0.7, 3.3, 0.3, 0));
+  --br-list-focus-easing-out: var(--br-state-focus-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-list-focus-duration-in: var(--br-state-focus-duration-in, 200ms);
+  --br-list-focus-duration-out: var(--br-state-focus-duration-out, 100ms);
+  --br-list-disabled-color-main: var(--br-state-disabled-color-main, #4a4a4a);
+  --br-list-disabled-color-contrast: var(--br-state-disabled-color-contrast, #cccccc);
+  --br-list-disabled-opacity: var(--br-state-disabled-opacity, 0.3);
+  --br-list-hover-color-main: var(--br-state-hover-color-interactive-fg-main, rgba(212, 229, 255, 0.5));
+  --br-list-hover-color-contrast: var(--br-state-hover-color-interactive-fg-contrast, rgba(12, 50, 111, 0.6));
+  --br-list-pressed-shadow-style: var(--br-state-pressed-shadow-style, inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5));
+  --br-list-focus-border-style-main: var(--br-state-focus-border-style-main-high, 4px dashed #da680b);
+  --br-list-focus-border-style-contrast: var(--br-state-focus-border-style-contrast-high, 4px dashed #ff8c00);
+}

@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Segunda-feira, 09:00 BRT — avisa quando o DS publica versao nova.
+    - cron: '0 12 * * 1'
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Conferir se tokens/ está em dia com os pacotes
+        run: npm run check:tokens
+
+      - name: Conferir contraste WCAG AA
+        run: npm run check:contrast
+
+  upstream:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Comparar versões fixadas com as publicadas no npm
+        run: |
+          fixado_core=$(node -p "require('./package.json').govbrDs.core")
+          fixado_tokens=$(node -p "require('./package.json').govbrDs.tokens")
+          ultimo_core=$(npm view @govbr-ds/core version)
+          ultimo_tokens=$(npm view @govbr-ds/tokens dist-tags.next)
+          echo "core:   fixado $fixado_core | publicado $ultimo_core"
+          echo "tokens: fixado $fixado_tokens | publicado $ultimo_tokens"
+          if [ "$fixado_core" != "$ultimo_core" ] || [ "$fixado_tokens" != "$ultimo_tokens" ]; then
+            echo "::warning::Há versão nova do GOVBR-DS. Rode 'npm run sync:tokens' e revise o diff."
+          fi

@@ -1,0 +1,48 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-footer-width-minimum: 200px;
+  --br-footer-width-maximum: 480px;
+  --br-footer-padding-default: var(--br-spacing-layout-1, 8px);
+  --br-footer-padding-item: var(--br-spacing-adjust-1, 4px);
+  --br-footer-padding-indentation: var(--br-spacing-layout-2, 16px);
+  --br-footer-gap-default: var(--br-spacing-layout-1, 8px);
+  --br-footer-rounder-default: var(--br-surface-rounder-sm, 4px);
+  --br-footer-icon-name-collapse-open: var(--br-iconography-icon-name-navigation-collapse-up, chevron-up);
+  --br-footer-icon-name-collapse-close: var(--br-iconography-icon-name-navigation-collapse-down, chevron-down);
+  --br-footer-icon-name-externallink: var(--br-iconography-icon-name-navigation-externallink, external-link-alt);
+  --br-footer-font-style-identification: var(--br-typography-font-weight-medium, 500) var(--br-typography-font-size-down-1, 0.8889rem)/var(--br-typography-line-height-md, 1.5) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-footer-density-default-compact: var(--br-spacing-layout-1, 8px);
+  --br-footer-density-default-regular: var(--br-spacing-layout-3, 24px);
+  --br-footer-density-default-spacious: var(--br-spacing-layout-4, 32px);
+  --br-footer-density-support-compact: var(--br-spacing-adjust-1, 4px);
+  --br-footer-density-support-regular: var(--br-spacing-layout-2, 16px);
+  --br-footer-density-support-spacious: var(--br-spacing-layout-3, 24px);
+  --br-footer-color-background-main-primary: var(--br-color-background-main-primary, #fcfcfc);
+  --br-footer-color-background-main-secondary: var(--br-color-background-main-secondary, #f0f0f0);
+  --br-footer-color-background-contrast-primary: var(--br-color-background-contrast-primary, #252f3e);
+  --br-footer-color-background-contrast-secondary: var(--br-color-background-contrast-secondary, #2f4668);
+  --br-footer-color-foreground-main-default: var(--br-color-foreground-main-secondary, #636363);
+  --br-footer-color-foreground-contrast-default: var(--br-color-foreground-contrast-secondary, #cccccc);
+  --br-footer-border-style-default: var(--br-surface-border-width-sm, 1px) solid var(--br-color-border-primary, #cccccc);
+  --br-footer-hover-easing-in: var(--br-state-hover-easing-in-default, cubic-bezier(0.42, 0, 1, 1));
+  --br-footer-hover-easing-out: var(--br-state-hover-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-footer-hover-duration-in: var(--br-state-hover-duration-in-default, 200ms);
+  --br-footer-hover-duration-out: var(--br-state-hover-duration-out, 100ms);
+  --br-footer-pressed-easing-in: var(--br-state-pressed-easing-in, cubic-bezier(0.42, 0, 0.58, 1));
+  --br-footer-pressed-easing-out: var(--br-state-pressed-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-footer-pressed-duration-in: var(--br-state-pressed-duration-in, 100ms);
+  --br-footer-pressed-duration-out: var(--br-state-pressed-duration-out, 50ms);
+  --br-footer-focus-padding: var(--br-state-focus-padding, 4px);
+  --br-footer-focus-easing-in: var(--br-state-focus-easing-in, cubic-bezier(0.7, 3.3, 0.3, 0));
+  --br-footer-focus-easing-out: var(--br-state-focus-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-footer-focus-duration-in: var(--br-state-focus-duration-in, 200ms);
+  --br-footer-focus-duration-out: var(--br-state-focus-duration-out, 100ms);
+  --br-footer-hover-color-main: var(--br-state-hover-color-interactive-fg-main, rgba(212, 229, 255, 0.5));
+  --br-footer-hover-color-contrast: var(--br-state-hover-color-interactive-fg-contrast, rgba(12, 50, 111, 0.6));
+  --br-footer-pressed-shadow-style: var(--br-state-pressed-shadow-style, inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5));
+  --br-footer-focus-border-style-main: var(--br-state-focus-border-style-main-high, 4px dashed #da680b);
+  --br-footer-focus-border-style-contrast: var(--br-state-focus-border-style-contrast-high, 4px dashed #ff8c00);
+}

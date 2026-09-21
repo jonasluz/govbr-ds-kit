@@ -1,0 +1,21 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-rating-icon-name-like: thumbs-up;
+  --br-rating-icon-name-dislike: thumbs-down;
+  --br-rating-icon-name-score: star;
+  --br-rating-icon-name-affinity: heart;
+  --br-rating-icon-name-mood-min: face-angry;
+  --br-rating-icon-name-mood-low: face-frown;
+  --br-rating-icon-name-mood-medium: face-meh;
+  --br-rating-icon-name-mood-high: face-smile;
+  --br-rating-icon-name-mood-max: face-laugh;
+  --br-rating-gap-default: var(--br-spacing-adjust-1, 4px);
+  --br-rating-font-style-default: var(--br-typography-font-weight-regular, 400) var(--br-typography-font-size-down-3, 0.7023rem)/var(--br-typography-line-height-xsm, 1) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-rating-color-main: var(--br-color-foreground-main-secondary, #636363);
+  --br-rating-color-contrast: var(--br-color-foreground-contrast-secondary, #cccccc);
+  --br-rating-selected-color-main: var(--br-state-selected-color-main, #2670e8);
+  --br-rating-selected-color-contrast: var(--br-state-selected-color-contrast, #5992ed);
+}

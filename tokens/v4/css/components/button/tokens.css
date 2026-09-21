@@ -1,0 +1,61 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-button-color-background-main-secondary: rgba(0, 0, 0, 0);
+  --br-button-color-background-main-tertiary: rgba(0, 0, 0, 0);
+  --br-button-color-background-contrast-secondary: rgba(0, 0, 0, 0);
+  --br-button-color-background-contrast-tertiary: rgba(0, 0, 0, 0);
+  --br-button-padding: var(--br-spacing-layout-2, 16px);
+  --br-button-density-compact: var(--br-spacing-adjust-1, 4px);
+  --br-button-density-regular: var(--br-spacing-layout-1, 8px);
+  --br-button-density-spacious: var(--br-spacing-adjust-2, 12px);
+  --br-button-color-foreground-main-primary: var(--br-state-interactive-color-foreground-main, #ffffff);
+  --br-button-color-foreground-main-secondary: var(--br-state-interactive-color-main, #0040b4);
+  --br-button-color-foreground-main-tertiary: var(--br-state-interactive-color-main, #0040b4);
+  --br-button-color-foreground-contrast-primary: var(--br-state-interactive-color-foreground-contrast, #000000);
+  --br-button-color-foreground-contrast-secondary: var(--br-state-interactive-color-contrast, #adcdff);
+  --br-button-color-foreground-contrast-tertiary: var(--br-state-interactive-color-contrast, #adcdff);
+  --br-button-color-background-main-primary: var(--br-state-interactive-color-main, #0040b4);
+  --br-button-color-background-contrast-primary: var(--br-state-interactive-color-contrast, #adcdff);
+  --br-button-gap: var(--br-form-gap-default, 8px);
+  --br-button-rounder: var(--br-form-rounder-secondary, 999999px);
+  --br-button-cta-color-main: var(--br-state-cta-color-main, #216e1f);
+  --br-button-cta-color-contrast: var(--br-state-cta-color-contrast, #70e17b);
+  --br-button-cta-color-foreground-main: var(--br-state-cta-color-foreground-main, #ffffff);
+  --br-button-cta-color-foreground-contrast: var(--br-state-cta-color-foreground-contrast, #000000);
+  --br-button-disabled-color-main: var(--br-state-disabled-color-main, #4a4a4a);
+  --br-button-disabled-color-contrast: var(--br-state-disabled-color-contrast, #cccccc);
+  --br-button-disabled-opacity: var(--br-state-disabled-opacity, 0.3);
+  --br-button-hover-easing-in: var(--br-state-hover-easing-in-default, cubic-bezier(0.42, 0, 1, 1));
+  --br-button-hover-easing-out: var(--br-state-hover-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-button-hover-duration-in: var(--br-state-hover-duration-in-default, 200ms);
+  --br-button-hover-duration-out: var(--br-state-hover-duration-out, 100ms);
+  --br-button-pressed-easing-in: var(--br-state-pressed-easing-in, cubic-bezier(0.42, 0, 0.58, 1));
+  --br-button-pressed-easing-out: var(--br-state-pressed-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-button-pressed-duration-in: var(--br-state-pressed-duration-in, 100ms);
+  --br-button-pressed-duration-out: var(--br-state-pressed-duration-out, 50ms);
+  --br-button-focus-padding: var(--br-state-focus-padding, 4px);
+  --br-button-focus-easing-in: var(--br-state-focus-easing-in, cubic-bezier(0.7, 3.3, 0.3, 0));
+  --br-button-focus-easing-out: var(--br-state-focus-easing-out, cubic-bezier(0, 0, 0.58, 1));
+  --br-button-focus-duration-in: var(--br-state-focus-duration-in, 200ms);
+  --br-button-focus-duration-out: var(--br-state-focus-duration-out, 100ms);
+  --br-button-active-color-main: var(--br-state-active-color-main, #0c326f);
+  --br-button-active-color-contrast: var(--br-state-active-color-contrast, #81aefc);
+  --br-button-active-color-foreground-main: var(--br-state-active-color-foreground-main, #ffffff);
+  --br-button-active-color-foreground-contrast: var(--br-state-active-color-foreground-contrast, #000000);
+  --br-button-active-easing-in: var(--br-state-active-easing-in, cubic-bezier(0, 0, 0.58, 1));
+  --br-button-active-easing-out: var(--br-state-active-easing-out, cubic-bezier(0.42, 0, 1, 1));
+  --br-button-active-duration-in: var(--br-state-active-duration-in, 150ms);
+  --br-button-active-duration-out: var(--br-state-active-duration-out, 100ms);
+  --br-button-border-style-main-secondary: var(--br-form-border-width-default, 1px) solid var(--br-button-color-foreground-main-secondary, #0040b4);
+  --br-button-border-style-contrast-secondary: var(--br-form-border-width-default, 1px) solid var(--br-button-color-foreground-contrast-secondary, #adcdff);
+  --br-button-hover-color-interactive-fg-main: var(--br-state-hover-color-interactive-fg-main, rgba(212, 229, 255, 0.5));
+  --br-button-hover-color-interactive-fg-contrast: var(--br-state-hover-color-interactive-fg-contrast, rgba(12, 50, 111, 0.6));
+  --br-button-hover-color-interactive-bg-main: var(--br-state-hover-color-interactive-bg-main, rgba(12, 50, 111, 0.6));
+  --br-button-hover-color-interactive-bg-contrast: var(--br-state-hover-color-interactive-bg-contrast, rgba(212, 229, 255, 0.5));
+  --br-button-pressed-shadow-style: var(--br-state-pressed-shadow-style, inset 1px 1px 8px 0 rgba(0, 0, 0, 0.5));
+  --br-button-focus-border-style-main: var(--br-state-focus-border-style-main-high, 4px dashed #da680b);
+  --br-button-focus-border-style-contrast: var(--br-state-focus-border-style-contrast-high, 4px dashed #ff8c00);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário — GOVBR-DS</title>
+    <link rel="stylesheet" href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" href="../node_modules/@govbr-ds/core/dist/core.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <main class="container-lg my-5" id="main-content">
+      <h1 class="mb-1">Solicitação de serviço</h1>
+      <p class="text-down-01 mb-4">Campos marcados com <span class="text-danger">*</span> são obrigatórios.</p>
+
+      <!-- Mensagem de feedback: use role/aria corretos para leitores de tela -->
+      <div class="br-message info mb-4" role="alert">
+        <div class="icon"><i class="fas fa-info-circle fa-lg" aria-hidden="true"></i></div>
+        <div class="content" aria-label="Informação">
+          <span class="message-title">Antes de começar.</span>
+          <span class="message-body">Tenha em mãos o número do processo.</span>
+        </div>
+        <div class="close">
+          <button class="br-button circle small" type="button" aria-label="Fechar" data-dismiss="alert"><i class="fas fa-times" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <form novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="br-input mb-3">
+              <label for="nome">Nome completo <span class="text-danger">*</span></label>
+              <input id="nome" type="text" autocomplete="name" required aria-describedby="nome-ajuda" />
+              <span class="feedback" id="nome-ajuda">Como consta no documento de identificação.</span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="br-input mb-3">
+              <label for="cpf">CPF <span class="text-danger">*</span></label>
+              <input id="cpf" type="text" inputmode="numeric" autocomplete="off" required placeholder="000.000.000-00" />
+            </div>
+          </div>
+        </div>
+
+        <div class="br-select mb-3">
+          <div class="br-input">
+            <label for="assunto">Assunto <span class="text-danger">*</span></label>
+            <input id="assunto" type="text" placeholder="Selecione o assunto" readonly />
+            <button class="br-button" type="button" aria-label="Exibir lista" tabindex="-1"><i class="fas fa-angle-down" aria-hidden="true"></i></button>
+          </div>
+          <div class="br-list" tabindex="0">
+            <div class="br-item"><div class="br-radio"><input id="assunto-1" type="radio" name="assunto-opcao" /><label for="assunto-1">Primeira via</label></div></div>
+            <div class="br-item"><div class="br-radio"><input id="assunto-2" type="radio" name="assunto-opcao" /><label for="assunto-2">Segunda via</label></div></div>
+            <div class="br-item"><div class="br-radio"><input id="assunto-3" type="radio" name="assunto-opcao" /><label for="assunto-3">Recurso</label></div></div>
+          </div>
+        </div>
+
+        <fieldset class="mb-3">
+          <legend class="text-weight-semi-bold mb-2">Forma de contato</legend>
+          <div class="br-radio"><input id="contato-email" type="radio" name="contato" checked /><label for="contato-email">E-mail</label></div>
+          <div class="br-radio"><input id="contato-tel" type="radio" name="contato" /><label for="contato-tel">Telefone</label></div>
+        </fieldset>
+
+        <div class="br-textarea mb-3">
+          <label for="detalhes">Detalhes da solicitação</label>
+          <textarea id="detalhes" rows="4"></textarea>
+        </div>
+
+        <div class="br-checkbox mb-4">
+          <input id="termos" type="checkbox" required />
+          <label for="termos">Declaro que as informações prestadas são verdadeiras. <span class="text-danger">*</span></label>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-end">
+          <button class="br-button secondary mb-2 mb-sm-0 mr-sm-2" type="reset">Cancelar</button>
+          <button class="br-button primary" type="submit">Enviar solicitação</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="../node_modules/@govbr-ds/core/dist/core-init.min.js"></script>
+  </body>
+</html>

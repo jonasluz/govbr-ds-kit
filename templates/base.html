@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Template base — GOVBR-DS</title>
+
+    <!-- Fontes oficiais do DS (Rawline e Raleway) -->
+    <link rel="stylesheet" href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap" />
+
+    <!-- Design System (core 3.x) -->
+    <link rel="stylesheet" href="../node_modules/@govbr-ds/core/dist/core.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- 1. Atalhos de navegacao: obrigatorios em servicos gov.br -->
+    <nav class="br-skiplink" role="menubar">
+      <a class="br-item" href="#main-content" role="menuitem" accesskey="1">Ir para o conteúdo <span class="br-tag text ml-1" aria-hidden="true">1</span></a>
+      <a class="br-item" href="#header-navigation" role="menuitem" accesskey="2">Ir para o menu <span class="br-tag text ml-1" aria-hidden="true">2</span></a>
+      <a class="br-item" href="#footer" role="menuitem" accesskey="3">Ir para o rodapé <span class="br-tag text ml-1" aria-hidden="true">3</span></a>
+    </nav>
+
+    <!-- 2. Cabecalho -->
+    <header class="br-header mb-4" id="header" data-sticky>
+      <div class="container-lg">
+        <div class="header-top">
+          <div class="header-logo">
+            <span class="br-divider vertical mx-half mx-sm-1"></span>
+            <div class="header-sign">Nome do órgão</div>
+          </div>
+          <div class="header-actions">
+            <div class="header-login">
+              <div class="header-sign-in">
+                <button class="br-sign-in primary" type="button">
+                  <i class="fas fa-user" aria-hidden="true"></i>
+                  <span class="d-sm-inline">Entrar</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="header-menu">
+            <div class="header-menu-trigger">
+              <button class="br-button small circle" type="button" aria-label="Menu" data-toggle="menu" data-target="#main-navigation">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="header-info">
+              <div class="header-title">Nome do sistema</div>
+              <div class="header-subtitle">Descrição curta do serviço</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 3. Menu lateral -->
+    <nav class="br-menu push" id="main-navigation" aria-label="Menu principal">
+      <div class="menu-container">
+        <div class="menu-panel">
+          <nav class="menu-body" id="header-navigation">
+            <a class="menu-item" href="#"><span class="content">Início</span></a>
+            <a class="menu-item" href="#"><span class="content">Serviços</span></a>
+            <a class="menu-item" href="#"><span class="content">Ajuda</span></a>
+          </nav>
+        </div>
+        <div class="menu-scrim" data-dismiss="menu" tabindex="0"></div>
+      </div>
+    </nav>
+
+    <!-- 4. Conteudo -->
+    <main class="d-flex flex-fill mb-5" id="main-content">
+      <div class="container-lg d-flex">
+        <div class="col">
+          <nav class="br-breadcrumb mb-3" aria-label="Você está aqui:">
+            <ul class="crumb-list">
+              <li class="crumb home"><a class="br-button circle" href="#" aria-label="Página inicial"><i class="fas fa-home" aria-hidden="true"></i></a></li>
+              <li class="crumb"><i class="icon fas fa-chevron-right" aria-hidden="true"></i><a href="#">Serviços</a></li>
+              <li class="crumb" data-active="active"><i class="icon fas fa-chevron-right" aria-hidden="true"></i><span>Página atual</span></li>
+            </ul>
+          </nav>
+
+          <h1>Título da página</h1>
+          <p class="text-up-01">
+            Substitua este bloco pelo conteúdo do serviço. Use as classes utilitárias do DS
+            (<code>mb-3</code>, <code>text-up-01</code>, <code>col-md-6</code>) em vez de CSS próprio.
+          </p>
+
+          <div class="br-card mt-4">
+            <div class="card-header"><div class="br-card-header"><strong>Card de exemplo</strong></div></div>
+            <div class="card-content">
+              <p>Conteúdo do card.</p>
+            </div>
+            <div class="card-footer">
+              <button class="br-button primary" type="button">Ação principal</button>
+              <button class="br-button secondary" type="button">Ação secundária</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 5. Rodape -->
+    <footer class="br-footer" id="footer">
+      <div class="container-lg">
+        <div class="logo"><span class="text-weight-semi-bold">Nome do órgão</span></div>
+        <div class="d-none d-sm-block">
+          <div class="row align-items-end justify-content-between py-5">
+            <div class="col">
+              <p class="text-down-01 mb-0">Todo o conteúdo deste site está publicado sob a licença Creative Commons Atribuição-SemDerivações 3.0.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Componentes interativos precisam ser instanciados -->
+    <script src="../node_modules/@govbr-ds/core/dist/core-init.min.js"></script>
+  </body>
+</html>

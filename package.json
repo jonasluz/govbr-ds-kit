@@ -1,0 +1,28 @@
+{
+  "name": "govbr-ds-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kit de adocao do Design System do Governo Federal (GOVBR-DS): tokens versionados, templates de referencia e guias de uso.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "sync:tokens": "node scripts/sync-tokens.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:tokens": "node scripts/sync-tokens.mjs --check",
+    "serve": "node scripts/serve.mjs",
+    "verify": "npm run check:tokens && npm run check:contrast"
+  },
+  "dependencies": {
+    "@govbr-ds/core": "3.7.0"
+  },
+  "devDependencies": {
+    "@govbr-ds/tokens": "4.0.0-next.33"
+  },
+  "govbrDs": {
+    "core": "3.7.0",
+    "tokens": "4.0.0-next.33"
+  }
+}

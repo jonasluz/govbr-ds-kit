@@ -1,0 +1,21 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --br-text-label-font-style: var(--br-typography-font-weight-semi-bold, 600) var(--br-text-label-font-size-md, 0.8889rem)/var(--br-text-density-regular, 1.5) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-text-label-font-size-sm: var(--br-typography-font-size-down-2, 0.7901rem);
+  --br-text-label-font-size-md: var(--br-typography-font-size-down-1, 0.8889rem);
+  --br-text-label-font-size-lg: var(--br-typography-font-size-default, 1rem);
+  --br-text-title-font-style: var(--br-typography-font-weight-semi-bold, 600) var(--br-text-title-font-size-md, 1.2656rem)/var(--br-text-density-regular, 1.5) var(--br-typography-font-family-primary, 'Noto Sans');
+  --br-text-title-font-size-sm: var(--br-typography-font-size-up-1, 1.125rem);
+  --br-text-title-font-size-md: var(--br-typography-font-size-up-2, 1.2656rem);
+  --br-text-title-font-size-lg: var(--br-typography-font-size-up-3, 1.4238rem);
+  --br-text-density-compact: var(--br-typography-line-height-sm, 1.2);
+  --br-text-density-regular: var(--br-typography-line-height-md, 1.5);
+  --br-text-density-spacious: var(--br-typography-line-height-xlg, 2.1);
+  --br-text-color-main-primary: var(--br-color-foreground-main-primary, #1b1b1b);
+  --br-text-color-main-secondary: var(--br-color-foreground-main-secondary, #636363);
+  --br-text-color-contrast-primary: var(--br-color-foreground-contrast-primary, #fcfcfc);
+  --br-text-color-contrast-secondary: var(--br-color-foreground-contrast-secondary, #cccccc);
+}

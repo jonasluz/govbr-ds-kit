@@ -1,0 +1,54 @@
+<!-- @dsCard group="Formulário" height=300 subtitle="br-input — rótulo, ajuda, foco, erro e desabilitado" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 24px; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .grade { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-3x); max-width: 720px; }
+    .br-input label { display: block; font-weight: 600; margin-bottom: var(--spacing-base); }
+    .br-input input {
+      width: 100%; box-sizing: border-box; height: 40px; padding: 0 var(--spacing-baseh);
+      font-family: inherit; font-size: 14px; color: var(--color);
+      background: var(--background);
+      border: var(--width-sm) solid var(--border-color-alternative);
+      border-radius: var(--rounder-sm);
+    }
+    .br-input input::placeholder { color: var(--color-secondary); font-style: italic; }
+    .br-input .feedback { display: block; font-size: 11.662px; margin-top: var(--spacing-half); color: var(--color-secondary); }
+    .br-input.is-focus input { outline: var(--width-lg) dashed var(--focus-color); outline-offset: var(--spacing-half); }
+    .br-input.danger input { border-color: var(--danger); border-width: var(--width-md); }
+    .br-input.danger .feedback { color: var(--danger); font-weight: 600; }
+    .br-input.is-disabled input { background: var(--background-alternative); opacity: var(--opacity-md); }
+    .req { font-weight: 400; color: var(--danger); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="grade">
+      <div class="br-input">
+        <label for="p1">Nome completo <span class="req">(obrigatório)</span></label>
+        <input id="p1" type="text" value="Maria Aparecida da Silva" aria-describedby="a1" />
+        <span class="feedback" id="a1">Como consta no documento de identificação.</span>
+      </div>
+
+      <div class="br-input is-focus">
+        <label for="p2">Protocolo</label>
+        <input id="p2" type="text" placeholder="00000.000000/0000-00" />
+        <span class="feedback">Em foco — anel tracejado dourado, 4px.</span>
+      </div>
+
+      <div class="br-input danger">
+        <label for="p3">CPF <span class="req">(obrigatório)</span></label>
+        <input id="p3" type="text" value="123.456.789" aria-invalid="true" aria-describedby="e3" />
+        <span class="feedback" id="e3" role="alert">O CPF informado não tem 11 dígitos. Confira e digite novamente.</span>
+      </div>
+
+      <div class="br-input is-disabled">
+        <label for="p4">Órgão de lotação</label>
+        <input id="p4" type="text" value="Definido pelo sistema" disabled />
+        <span class="feedback">Preenchido automaticamente.</span>
+      </div>
+    </div>
+  `;
+</script>

@@ -32,6 +32,7 @@ npm install
 npm run sync:tokens   # regenera tokens/ a partir de node_modules
 npm run verify        # confere snapshot + contraste
 npm run serve         # http://localhost:4173/templates/base.html
+npm run build:claude-design   # regenera claude-design/ a partir de design-system/
 ```
 
 ## Estrutura
@@ -42,14 +43,38 @@ scripts/
   sync-tokens.mjs        copia os tokens do npm para tokens/ (e valida com --check)
   check-contrast.mjs     valida contraste WCAG AA dos pares semânticos
   serve.mjs              servidor estático para abrir os templates
+  build-claude-design.mjs  gera claude-design/ a partir de design-system/
 templates/
   base.html              shell de página: skiplink, header, menu, breadcrumb, footer
   formulario.html        formulário de serviço com validação e feedback acessíveis
+design-system/           a fonte do design system: tokens.json, livro da marca e
+                         componentes com preview e diretrizes
+claude-design/           o mesmo sistema no layout que o Claude Design consome
+                         (gerado — não editar à mão)
 tokens/                  snapshot versionado (gerado — não editar à mão)
   v3/css/core-tokens.css tokens do core 3.x
   v4/css|scss|json       tokens 4.x, temas claro/escuro e por componente
   v4/figma/              export Tokens Studio, para o Figma
   MANIFEST.json          o que foi gerado, de quais versões e quando
+```
+
+## O design system
+
+`design-system/` é a fonte: `tokens.json` (cor em tema claro e escuro, tipografia,
+espaçamento, raio, elevação, opacidade, borda, breakpoints), o livro da marca e
+oito componentes com preview e diretrizes. Os valores vêm do `@govbr-ds/core` 3.7.0.
+
+`npm run build:claude-design` compila essa fonte para `claude-design/`, no layout de
+dois níveis que o Claude Design consome — `components/<grupo>/<Comp>/<Comp>.html` com
+o marcador `@dsCard` na primeira linha, mais `<Comp>.prompt.md` e `_ds_bundle.css`.
+Os previews são autocontidos: embutem os tokens compilados, então renderizam mesmo
+onde a folha do projeto não for carregada.
+
+Para publicar no Claude Design, a partir deste diretório:
+
+```
+/design-login    uma vez, para autorizar
+/design-sync     envia claude-design/ para o projeto escolhido
 ```
 
 ## Como este repositório se mantém atualizado

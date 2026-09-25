@@ -1,0 +1,36 @@
+<!-- @dsCard group="Estrutura" height=280 subtitle="br-footer — colunas de links, assinatura e licença" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 0; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .br-footer { background: var(--surface-header); color: #ffffff; padding: var(--spacing-4x); }
+    .colunas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-4x); }
+    h4 { font-size: 14px; font-weight: 700; margin: 0 0 var(--spacing-base); }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--spacing-base); }
+    a { color: #ffffff; text-decoration: underline; font-size: 11.662px; }
+    .assinatura {
+      margin-top: var(--spacing-4x); padding-top: var(--spacing-3x);
+      border-top: var(--width-sm) solid rgba(255,255,255,.3);
+      display: flex; flex-wrap: wrap; gap: var(--spacing-2x); align-items: center;
+    }
+    .marca { font-weight: 700; font-size: 20.16px; }
+    .licenca { font-size: 11.662px; margin-left: auto; max-width: 420px; text-align: right; }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <footer class="br-footer">
+      <div class="colunas">
+        <div><h4>Assuntos</h4><ul><li><a href="#">Servidor público</a></li><li><a href="#">Processos</a></li><li><a href="#">Documentos</a></li></ul></div>
+        <div><h4>Canais de atendimento</h4><ul><li><a href="#">Fale conosco</a></li><li><a href="#">Ouvidoria</a></li><li><a href="#">Acesso à informação</a></li></ul></div>
+        <div><h4>Sobre</h4><ul><li><a href="#">Termos de uso</a></li><li><a href="#">Política de privacidade</a></li><li><a href="#">Acessibilidade</a></li></ul></div>
+      </div>
+      <div class="assinatura">
+        <span class="marca">gov.br</span>
+        <span class="licenca">Todo o conteúdo deste site está publicado sob a licença Creative Commons Atribuição-SemDerivações 3.0.</span>
+      </div>
+    </footer>
+  `;
+</script>

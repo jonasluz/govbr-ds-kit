@@ -1,0 +1,19 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": { "v": 1, "at": "2026-09-21T17:55:00Z" },
+  "title": "GOVBR-DS",
+  "namespace": "GovbrDs",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": { "readme": "project/README.md", "sections": [] },
+  "lastChange": {
+    "by": "Jonas",
+    "at": "2026-09-25T13:10:00Z",
+    "via": "Claude (Cowork)",
+    "note": "Capa corrigida: o nome transbordava sobre a linha de apoio"
+  }
+}

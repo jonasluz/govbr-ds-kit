@@ -1,0 +1,244 @@
+<!-- @dsCard height=300 -->
+<style>
+/* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
+/* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
+
+:root,
+[data-theme="claro"] {
+  --blue-warm-vivid-70: #1351b4;
+  --blue-warm-vivid-80: #0c326f;
+  --blue-warm-vivid-90: #071d41;
+  --blue-warm-vivid-50: #2670e8;
+  --blue-warm-20: #c5d4eb;
+  --green-cool-vivid-50: #168821;
+  --green-cool-vivid-30: #21c834;
+  --green-cool-vivid-5: #e3f5e1;
+  --yellow-vivid-20: #ffcd07;
+  --yellow-vivid-5: #fff5c2;
+  --red-vivid-50: #e52207;
+  --red-vivid-30: #ff8d7b;
+  --red-vivid-10: #fde0db;
+  --gold-vivid-40: #c2850c;
+  --gold-vivid-20: #ffbe2e;
+  --pure-0: #ffffff;
+  --gray-80: #333333;
+  --gray-60: #636363;
+  --gray-40: #888888;
+  --gray-20: #cccccc;
+  --gray-10: #e6e6e6;
+  --gray-5: #f0f0f0;
+  --gray-2: #f8f8f8;
+  --background: var(--pure-0);
+  --background-alternative: var(--gray-5);
+  --color: var(--gray-80);
+  --color-secondary: var(--gray-60);
+  --interactive: var(--blue-warm-vivid-70);
+  --on-interactive: var(--pure-0);
+  --interactive-alternative: var(--green-cool-vivid-50);
+  --on-interactive-alternative: var(--pure-0);
+  --visited: var(--blue-warm-vivid-80);
+  --focus-color: var(--gold-vivid-40);
+  --border-color: var(--gray-20);
+  --border-color-alternative: var(--gray-40);
+  --selected: #2670e8;
+  --success: var(--green-cool-vivid-50);
+  --success-background: var(--green-cool-vivid-5);
+  --warning: #ffcd07;
+  --warning-background: var(--yellow-vivid-5);
+  --danger: var(--red-vivid-50);
+  --danger-background: var(--red-vivid-10);
+  --info: var(--blue-warm-vivid-70);
+  --info-background: #edf5ff;
+  --surface-header: #071d41;
+  --elevation-0: none;
+  --elevation-1: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  --elevation-2: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  --elevation-3: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  --elevation-4: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="escuro"] {
+  --background: var(--blue-warm-vivid-90);
+  --background-alternative: var(--blue-warm-vivid-80);
+  --color: var(--pure-0);
+  --color-secondary: var(--blue-warm-20);
+  --interactive: var(--blue-warm-20);
+  --on-interactive: var(--blue-warm-vivid-90);
+  --interactive-alternative: var(--green-cool-vivid-30);
+  --on-interactive-alternative: var(--blue-warm-vivid-90);
+  --visited: var(--gray-20);
+  --focus-color: var(--gold-vivid-20);
+  --border-color: var(--blue-warm-20);
+  --border-color-alternative: var(--gray-20);
+  --success: var(--green-cool-vivid-30);
+  --success-background: var(--blue-warm-vivid-80);
+  --warning-background: var(--blue-warm-vivid-80);
+  --danger: var(--red-vivid-30);
+  --danger-background: var(--blue-warm-vivid-80);
+  --info: var(--blue-warm-20);
+  --info-background: var(--blue-warm-vivid-80);
+}
+
+:root {
+  --spacing-half: 4px;
+  --spacing-base: 8px;
+  --spacing-baseh: 12px;
+  --spacing-2x: 16px;
+  --spacing-3x: 24px;
+  --spacing-4x: 32px;
+  --spacing-5x: 40px;
+  --spacing-6x: 48px;
+  --spacing-8x: 64px;
+  --spacing-10x: 80px;
+  --rounder-none: 0;
+  --rounder-sm: 4px;
+  --rounder-md: 8px;
+  --rounder-lg: 16px;
+  --rounder-pill: 999em;
+  --opacity-xs: 0.16;
+  --opacity-sm: 0.3;
+  --opacity-md: 0.45;
+  --opacity-lg: 0.65;
+  --opacity-xl: 0.85;
+  --width-sm: 1px;
+  --width-md: 2px;
+  --width-lg: 4px;
+  --screen-sm: 576px;
+  --screen-md: 992px;
+  --screen-lg: 1280px;
+  --screen-xl: 1600px;
+  --font-base: rawline, Raleway, system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
+}
+
+.display {
+  font-family: var(--font-base);
+  font-size: 41.804px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h1 {
+  font-family: var(--font-base);
+  font-size: 34.832px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h2 {
+  font-family: var(--font-base);
+  font-size: 29.036px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h3 {
+  font-family: var(--font-base);
+  font-size: 24.192px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h4 {
+  font-family: var(--font-base);
+  font-size: 20.16px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.h5 {
+  font-family: var(--font-base);
+  font-size: 16.8px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.body-large {
+  font-family: var(--font-base);
+  font-size: 16.8px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.body {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.label {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.small {
+  font-family: var(--font-base);
+  font-size: 11.662px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.button-label {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.code {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); }
+    #root { width: 960px; height: 300px; position: relative; }
+    .nome { position: absolute; left: 48px; top: 150px; width: 432px; white-space: nowrap;
+            font-size: 72px; line-height: .92; font-weight: 700; letter-spacing: -.02em; color: var(--color); }
+    .tagline { position: absolute; left: 48px; top: 236px; width: 400px;
+               font-size: 13px; line-height: 1.45; color: var(--color-secondary); }
+    svg { position: absolute; inset: 0; }
+    .slab { fill: var(--interactive); }
+    .deep { fill: var(--visited); }
+    .cta  { fill: var(--interactive-alternative); }
+    .warn { fill: var(--warning); }
+    .tint { fill: var(--border-color); }
+    .pill { fill: var(--on-interactive); }
+    .cut  { fill: var(--background); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <svg viewBox="0 0 960 300" width="960" height="300" aria-hidden="true">
+      <!-- blocos: interactive 176x252, visited 120x120, interactive-alternative 120x116, warning 176x72 (sangra à direita), border-color 176x164 -->
+      <!-- arranjo: uma laje alta com satélites, a faixa amarela sangrando pela borda direita; tudo à direita de x=480 -->
+      <!-- padrão: pílulas e meias-luas — o botão do gov.br é pílula (rounder-pill) e é a forma pela qual o padrão se reconhece -->
+      <!-- escalas: lados 176/120/72 (múltiplos de spacing-base 8), cantos rounder-lg 16px, pílulas rounder-pill, passo 44px -->
+      <rect class="slab" x="480" y="24" width="176" height="252" rx="16" />
+      <rect class="deep" x="672" y="24" width="120" height="120" rx="16" />
+      <rect class="cta"  x="672" y="160" width="120" height="116" rx="16" />
+      <rect class="warn" x="808" y="24" width="176" height="72" rx="16" />
+      <rect class="tint" x="808" y="112" width="176" height="164" rx="16" />
+
+      <g class="pill">
+        <rect x="504" y="44"  width="64" height="20" rx="10" />
+        <rect x="576" y="44"  width="64" height="20" rx="10" />
+        <rect x="504" y="88"  width="64" height="20" rx="10" />
+        <rect x="576" y="88"  width="64" height="20" rx="10" />
+        <rect x="504" y="132" width="64" height="20" rx="10" />
+        <rect x="576" y="132" width="64" height="20" rx="10" />
+        <rect x="504" y="176" width="64" height="20" rx="10" />
+        <rect x="576" y="176" width="64" height="20" rx="10" />
+        <rect x="504" y="220" width="64" height="20" rx="10" />
+        <rect x="576" y="220" width="64" height="20" rx="10" />
+      </g>
+
+      <g class="cut">
+        <path d="M 836 112 a 28 28 0 0 0 56 0 z" />
+        <path d="M 908 112 a 28 28 0 0 0 56 0 z" />
+        <path d="M 872 276 a 28 28 0 0 1 56 0 z" />
+        <path d="M 704 160 a 28 28 0 0 0 56 0 z" />
+      </g>
+    </svg>
+
+    <div class="nome">GOVBR-DS</div>
+    <div class="tagline">Padrão Digital de Governo — o sistema que os serviços do Governo Federal brasileiro seguem.</div>
+  `;
+</script>

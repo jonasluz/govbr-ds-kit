@@ -1,0 +1,59 @@
+<!-- @dsCard height=300 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); }
+    #root { width: 960px; height: 300px; position: relative; }
+    .nome { position: absolute; left: 48px; top: 150px; width: 432px; white-space: nowrap;
+            font-size: 72px; line-height: .92; font-weight: 700; letter-spacing: -.02em; color: var(--color); }
+    .tagline { position: absolute; left: 48px; top: 236px; width: 400px;
+               font-size: 13px; line-height: 1.45; color: var(--color-secondary); }
+    svg { position: absolute; inset: 0; }
+    .slab { fill: var(--interactive); }
+    .deep { fill: var(--visited); }
+    .cta  { fill: var(--interactive-alternative); }
+    .warn { fill: var(--warning); }
+    .tint { fill: var(--border-color); }
+    .pill { fill: var(--on-interactive); }
+    .cut  { fill: var(--background); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <svg viewBox="0 0 960 300" width="960" height="300" aria-hidden="true">
+      <!-- blocos: interactive 176x252, visited 120x120, interactive-alternative 120x116, warning 176x72 (sangra à direita), border-color 176x164 -->
+      <!-- arranjo: uma laje alta com satélites, a faixa amarela sangrando pela borda direita; tudo à direita de x=480 -->
+      <!-- padrão: pílulas e meias-luas — o botão do gov.br é pílula (rounder-pill) e é a forma pela qual o padrão se reconhece -->
+      <!-- escalas: lados 176/120/72 (múltiplos de spacing-base 8), cantos rounder-lg 16px, pílulas rounder-pill, passo 44px -->
+      <rect class="slab" x="480" y="24" width="176" height="252" rx="16" />
+      <rect class="deep" x="672" y="24" width="120" height="120" rx="16" />
+      <rect class="cta"  x="672" y="160" width="120" height="116" rx="16" />
+      <rect class="warn" x="808" y="24" width="176" height="72" rx="16" />
+      <rect class="tint" x="808" y="112" width="176" height="164" rx="16" />
+
+      <g class="pill">
+        <rect x="504" y="44"  width="64" height="20" rx="10" />
+        <rect x="576" y="44"  width="64" height="20" rx="10" />
+        <rect x="504" y="88"  width="64" height="20" rx="10" />
+        <rect x="576" y="88"  width="64" height="20" rx="10" />
+        <rect x="504" y="132" width="64" height="20" rx="10" />
+        <rect x="576" y="132" width="64" height="20" rx="10" />
+        <rect x="504" y="176" width="64" height="20" rx="10" />
+        <rect x="576" y="176" width="64" height="20" rx="10" />
+        <rect x="504" y="220" width="64" height="20" rx="10" />
+        <rect x="576" y="220" width="64" height="20" rx="10" />
+      </g>
+
+      <g class="cut">
+        <path d="M 836 112 a 28 28 0 0 0 56 0 z" />
+        <path d="M 908 112 a 28 28 0 0 0 56 0 z" />
+        <path d="M 872 276 a 28 28 0 0 1 56 0 z" />
+        <path d="M 704 160 a 28 28 0 0 0 56 0 z" />
+      </g>
+    </svg>
+
+    <div class="nome">GOVBR-DS</div>
+    <div class="tagline">Padrão Digital de Governo — o sistema que os serviços do Governo Federal brasileiro seguem.</div>
+  `;
+</script>

@@ -1,0 +1,54 @@
+<!-- @dsCard group="Formulário" height=340 subtitle="br-select — fechado e aberto, com item selecionado" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 24px; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .grade { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-3x); max-width: 720px; }
+    label { display: block; font-weight: 600; margin-bottom: var(--spacing-base); }
+    .campo {
+      position: relative; display: flex; align-items: center;
+      height: 40px; padding: 0 var(--spacing-baseh);
+      background: var(--background); color: var(--color);
+      border: var(--width-sm) solid var(--border-color-alternative);
+      border-radius: var(--rounder-sm);
+    }
+    .campo .valor { flex: 1; }
+    .campo .seta { color: var(--interactive); font-weight: 700; }
+    .lista {
+      margin-top: var(--spacing-half); padding: var(--spacing-base) 0;
+      background: var(--background);
+      border: var(--width-sm) solid var(--border-color);
+      border-radius: var(--rounder-sm);
+      box-shadow: var(--elevation-3);
+    }
+    .item { padding: var(--spacing-base) var(--spacing-baseh); display: flex; align-items: center; gap: var(--spacing-base); }
+    .item[aria-selected="true"] { background: var(--selected); color: #ffffff; font-weight: 600; }
+    .marca { width: 16px; height: 16px; border-radius: 999em; border: var(--width-md) solid currentColor; box-sizing: border-box; }
+    .item[aria-selected="true"] .marca { background: currentColor; box-shadow: inset 0 0 0 3px var(--selected); }
+    .nota { font-size: 11.662px; color: var(--color-secondary); margin: 0 0 var(--spacing-base); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="grade">
+      <div>
+        <p class="nota">Fechado</p>
+        <label for="uf">Unidade da Federação</label>
+        <div class="campo"><span class="valor" style="color: var(--color-secondary); font-style: italic;">Selecione</span><span class="seta" aria-hidden="true">⌄</span></div>
+      </div>
+
+      <div>
+        <p class="nota">Aberto, com item selecionado</p>
+        <label for="assunto">Assunto</label>
+        <div class="campo"><span class="valor">Segunda via</span><span class="seta" aria-hidden="true">⌃</span></div>
+        <div class="lista" role="listbox" aria-label="Assunto">
+          <div class="item" role="option" aria-selected="false"><span class="marca"></span>Primeira via</div>
+          <div class="item" role="option" aria-selected="true"><span class="marca"></span>Segunda via</div>
+          <div class="item" role="option" aria-selected="false"><span class="marca"></span>Recurso</div>
+        </div>
+      </div>
+    </div>
+  `;
+</script>

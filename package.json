@@ -13,7 +13,8 @@
     "check:contrast": "node scripts/check-contrast.mjs",
     "check:tokens": "node scripts/sync-tokens.mjs --check",
     "serve": "node scripts/serve.mjs",
-    "verify": "npm run check:tokens && npm run check:contrast"
+    "verify": "npm run check:tokens && npm run check:contrast",
+    "build:claude-design": "node scripts/build-claude-design.mjs"
   },
   "dependencies": {
     "@govbr-ds/core": "3.7.0"

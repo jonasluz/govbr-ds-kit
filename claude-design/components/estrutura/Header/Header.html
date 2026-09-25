@@ -1,0 +1,253 @@
+<!-- @dsCard group="Estrutura" height=300 subtitle="br-header — faixa institucional, assinatura do órgão e identificação do sistema" -->
+<style>
+/* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
+/* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
+
+:root,
+[data-theme="claro"] {
+  --blue-warm-vivid-70: #1351b4;
+  --blue-warm-vivid-80: #0c326f;
+  --blue-warm-vivid-90: #071d41;
+  --blue-warm-vivid-50: #2670e8;
+  --blue-warm-20: #c5d4eb;
+  --green-cool-vivid-50: #168821;
+  --green-cool-vivid-30: #21c834;
+  --green-cool-vivid-5: #e3f5e1;
+  --yellow-vivid-20: #ffcd07;
+  --yellow-vivid-5: #fff5c2;
+  --red-vivid-50: #e52207;
+  --red-vivid-30: #ff8d7b;
+  --red-vivid-10: #fde0db;
+  --gold-vivid-40: #c2850c;
+  --gold-vivid-20: #ffbe2e;
+  --pure-0: #ffffff;
+  --gray-80: #333333;
+  --gray-60: #636363;
+  --gray-40: #888888;
+  --gray-20: #cccccc;
+  --gray-10: #e6e6e6;
+  --gray-5: #f0f0f0;
+  --gray-2: #f8f8f8;
+  --background: var(--pure-0);
+  --background-alternative: var(--gray-5);
+  --color: var(--gray-80);
+  --color-secondary: var(--gray-60);
+  --interactive: var(--blue-warm-vivid-70);
+  --on-interactive: var(--pure-0);
+  --interactive-alternative: var(--green-cool-vivid-50);
+  --on-interactive-alternative: var(--pure-0);
+  --visited: var(--blue-warm-vivid-80);
+  --focus-color: var(--gold-vivid-40);
+  --border-color: var(--gray-20);
+  --border-color-alternative: var(--gray-40);
+  --selected: #2670e8;
+  --success: var(--green-cool-vivid-50);
+  --success-background: var(--green-cool-vivid-5);
+  --warning: #ffcd07;
+  --warning-background: var(--yellow-vivid-5);
+  --danger: var(--red-vivid-50);
+  --danger-background: var(--red-vivid-10);
+  --info: var(--blue-warm-vivid-70);
+  --info-background: #edf5ff;
+  --surface-header: #071d41;
+  --elevation-0: none;
+  --elevation-1: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  --elevation-2: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 0 8px 0 rgba(0, 0, 0, 0.2);
+  --elevation-3: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  --elevation-4: 0 12px 12px 0 rgba(0, 0, 0, 0.2), 0 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="escuro"] {
+  --background: var(--blue-warm-vivid-90);
+  --background-alternative: var(--blue-warm-vivid-80);
+  --color: var(--pure-0);
+  --color-secondary: var(--blue-warm-20);
+  --interactive: var(--blue-warm-20);
+  --on-interactive: var(--blue-warm-vivid-90);
+  --interactive-alternative: var(--green-cool-vivid-30);
+  --on-interactive-alternative: var(--blue-warm-vivid-90);
+  --visited: var(--gray-20);
+  --focus-color: var(--gold-vivid-20);
+  --border-color: var(--blue-warm-20);
+  --border-color-alternative: var(--gray-20);
+  --success: var(--green-cool-vivid-30);
+  --success-background: var(--blue-warm-vivid-80);
+  --warning-background: var(--blue-warm-vivid-80);
+  --danger: var(--red-vivid-30);
+  --danger-background: var(--blue-warm-vivid-80);
+  --info: var(--blue-warm-20);
+  --info-background: var(--blue-warm-vivid-80);
+}
+
+:root {
+  --spacing-half: 4px;
+  --spacing-base: 8px;
+  --spacing-baseh: 12px;
+  --spacing-2x: 16px;
+  --spacing-3x: 24px;
+  --spacing-4x: 32px;
+  --spacing-5x: 40px;
+  --spacing-6x: 48px;
+  --spacing-8x: 64px;
+  --spacing-10x: 80px;
+  --rounder-none: 0;
+  --rounder-sm: 4px;
+  --rounder-md: 8px;
+  --rounder-lg: 16px;
+  --rounder-pill: 999em;
+  --opacity-xs: 0.16;
+  --opacity-sm: 0.3;
+  --opacity-md: 0.45;
+  --opacity-lg: 0.65;
+  --opacity-xl: 0.85;
+  --width-sm: 1px;
+  --width-md: 2px;
+  --width-lg: 4px;
+  --screen-sm: 576px;
+  --screen-md: 992px;
+  --screen-lg: 1280px;
+  --screen-xl: 1600px;
+  --font-base: rawline, Raleway, system-ui, sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
+}
+
+.display {
+  font-family: var(--font-base);
+  font-size: 41.804px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h1 {
+  font-family: var(--font-base);
+  font-size: 34.832px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h2 {
+  font-family: var(--font-base);
+  font-size: 29.036px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h3 {
+  font-family: var(--font-base);
+  font-size: 24.192px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.h4 {
+  font-family: var(--font-base);
+  font-size: 20.16px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.h5 {
+  font-family: var(--font-base);
+  font-size: 16.8px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.body-large {
+  font-family: var(--font-base);
+  font-size: 16.8px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.body {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.label {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+.small {
+  font-family: var(--font-base);
+  font-size: 11.662px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.button-label {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+.code {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 0; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .faixa {
+      background: var(--surface-header); color: #ffffff;
+      padding: var(--spacing-base) var(--spacing-4x);
+      display: flex; align-items: center; gap: var(--spacing-2x);
+      font-size: 11.662px;
+    }
+    .faixa .marca { font-weight: 700; font-size: 14px; letter-spacing: .02em; }
+    .faixa .divisor { width: 1px; height: 20px; background: rgba(255,255,255,.4); }
+    .faixa .direita { margin-left: auto; display: flex; gap: var(--spacing-2x); align-items: center; }
+    .entrar {
+      font-family: inherit; font-size: 14px; font-weight: 600; height: 32px; padding: 0 var(--spacing-2x);
+      border: none; border-radius: var(--rounder-pill); cursor: pointer;
+      background: #ffffff; color: var(--surface-header);
+    }
+    .topo {
+      padding: var(--spacing-2x) var(--spacing-4x);
+      border-bottom: var(--width-sm) solid var(--border-color);
+      display: flex; align-items: center; gap: var(--spacing-2x);
+      background: var(--background);
+    }
+    .menu-btn {
+      width: 40px; height: 40px; border-radius: 999em; border: none; cursor: pointer;
+      background: transparent; color: var(--interactive); font-size: 18px;
+    }
+    .titulo { font-size: 20.16px; font-weight: 600; line-height: 1.2; }
+    .subtitulo { font-size: 11.662px; color: var(--color-secondary); }
+    .trilha { padding: var(--spacing-2x) var(--spacing-4x); display: flex; gap: var(--spacing-base); font-size: 11.662px; align-items: center; }
+    .trilha a { color: var(--interactive); text-decoration: underline; }
+    .trilha .atual { color: var(--color-secondary); }
+    .nota { padding: 0 var(--spacing-4x) var(--spacing-2x); font-size: 11.662px; color: var(--color-secondary); margin: 0; }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="faixa">
+      <span class="marca">gov.br</span>
+      <span class="divisor" aria-hidden="true"></span>
+      <span>Ministério · Secretaria</span>
+      <span class="direita">
+        <span>Acessibilidade</span><span>Alto contraste</span>
+        <button class="entrar" type="button">Entrar com gov.br</button>
+      </span>
+    </div>
+
+    <div class="topo">
+      <button class="menu-btn" type="button" aria-label="Abrir menu">☰</button>
+      <div>
+        <div class="titulo">Sistema Eletrônico de Informações</div>
+        <div class="subtitulo">Consulta pública de processos</div>
+      </div>
+    </div>
+
+    <nav class="trilha" aria-label="Você está aqui">
+      <a href="#">Início</a><span aria-hidden="true">›</span>
+      <a href="#">Serviços</a><span aria-hidden="true">›</span>
+      <span class="atual" aria-current="page">Consulta de processos</span>
+    </nav>
+
+    <p class="nota">A faixa institucional usa <code>surface-header</code> nos dois temas, com texto branco (16.7:1).</p>
+  `;
+</script>

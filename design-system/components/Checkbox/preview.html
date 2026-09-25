@@ -1,0 +1,49 @@
+<!-- @dsCard group="Formulário" height=280 subtitle="br-checkbox e br-radio — grupos, estados e foco" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 24px; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .grade { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-4x); max-width: 720px; }
+    fieldset { border: 0; margin: 0; padding: 0; }
+    legend { font-weight: 600; padding: 0; margin-bottom: var(--spacing-base); }
+    .opcao { display: flex; align-items: flex-start; gap: var(--spacing-base); min-height: 32px; padding: var(--spacing-half) 0; }
+    .marca {
+      width: 20px; height: 20px; flex: none; box-sizing: border-box; margin-top: 1px;
+      border: var(--width-md) solid var(--border-color-alternative);
+      background: var(--background);
+      display: grid; place-items: center; color: var(--on-interactive);
+      font-size: 12px; font-weight: 700; line-height: 1;
+    }
+    .quadro { border-radius: var(--rounder-sm); }
+    .disco { border-radius: 999em; }
+    .marcado .marca { background: var(--interactive); border-color: var(--interactive); }
+    .disco.dentro { box-shadow: inset 0 0 0 4px var(--background); }
+    .foco .marca { outline: var(--width-lg) dashed var(--focus-color); outline-offset: var(--spacing-half); }
+    .inativo { opacity: var(--opacity-md); }
+    .ajuda { font-size: 11.662px; color: var(--color-secondary); margin: 0 0 var(--spacing-2x); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="grade">
+      <fieldset>
+        <legend>Notificações (escolha múltipla)</legend>
+        <p class="ajuda">br-checkbox — quadrado, cantos rounder-sm</p>
+        <div class="opcao marcado"><span class="marca quadro" aria-hidden="true">✓</span><span>Por e-mail</span></div>
+        <div class="opcao marcado foco"><span class="marca quadro" aria-hidden="true">✓</span><span>Por SMS <em style="font-style: normal; color: var(--color-secondary);">— com foco</em></span></div>
+        <div class="opcao"><span class="marca quadro" aria-hidden="true"></span><span>Pelo aplicativo gov.br</span></div>
+        <div class="opcao inativo"><span class="marca quadro" aria-hidden="true"></span><span>Por carta registrada</span></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Forma de contato (escolha única)</legend>
+        <p class="ajuda">br-radio — disco, escolha exclusiva</p>
+        <div class="opcao marcado"><span class="marca disco dentro" aria-hidden="true"></span><span>E-mail</span></div>
+        <div class="opcao"><span class="marca disco" aria-hidden="true"></span><span>Telefone</span></div>
+        <div class="opcao"><span class="marca disco" aria-hidden="true"></span><span>Não quero ser contatado</span></div>
+      </fieldset>
+    </div>
+  `;
+</script>

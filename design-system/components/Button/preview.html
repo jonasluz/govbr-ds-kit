@@ -1,0 +1,55 @@
+<!-- @dsCard group="Ações" height=260 subtitle="br-button — primário, secundário, terciário e destaque" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 24px; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .linha { display: flex; flex-wrap: wrap; gap: var(--spacing-2x); align-items: center; margin-bottom: var(--spacing-3x); }
+    .linha:last-child { margin-bottom: 0; }
+    .nota { font-size: 11.662px; color: var(--color-secondary); margin: 0 0 var(--spacing-base); }
+
+    .br-button {
+      font-family: inherit; font-size: 14px; font-weight: 600; line-height: 1.15;
+      height: 40px; padding: 0 var(--spacing-3x);
+      border: none; border-radius: var(--rounder-pill);
+      background: transparent; color: var(--interactive);
+      cursor: pointer; display: inline-flex; align-items: center; gap: var(--spacing-base);
+      transition: box-shadow 150ms, background-color 150ms;
+    }
+    .br-button.primary { background: var(--interactive); color: var(--on-interactive); }
+    .br-button.secondary { background: var(--background); color: var(--interactive); box-shadow: inset 0 0 0 var(--width-md) var(--interactive); }
+    .br-button.tertiary { background: transparent; color: var(--interactive); }
+    .br-button.cta { background: var(--interactive-alternative); color: var(--on-interactive-alternative); }
+    .br-button.block { width: 100%; justify-content: center; }
+    .br-button.small { height: 32px; padding: 0 var(--spacing-2x); }
+    .br-button.large { height: 48px; padding: 0 var(--spacing-4x); }
+    .br-button[disabled] { opacity: var(--opacity-md); cursor: not-allowed; }
+    .br-button:focus-visible,
+    .br-button.is-focus {
+      outline: var(--width-lg) dashed var(--focus-color);
+      outline-offset: var(--spacing-half);
+    }
+    .dot { width: 8px; height: 8px; border-radius: 999em; background: currentColor; }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <p class="nota">Hierarquia — uma primária por tela; a de destaque (verde) só para a ação principal do serviço.</p>
+    <div class="linha">
+      <button class="br-button primary" type="button">Enviar solicitação</button>
+      <button class="br-button secondary" type="button">Salvar rascunho</button>
+      <button class="br-button tertiary" type="button">Cancelar</button>
+      <button class="br-button cta" type="button">Iniciar serviço</button>
+    </div>
+
+    <p class="nota">Tamanhos e estados</p>
+    <div class="linha">
+      <button class="br-button primary small" type="button">Pequeno</button>
+      <button class="br-button primary" type="button">Padrão</button>
+      <button class="br-button primary large" type="button">Grande</button>
+      <button class="br-button primary is-focus" type="button">Com foco</button>
+      <button class="br-button primary" type="button" disabled>Desabilitado</button>
+    </div>
+  `;
+</script>

@@ -1,0 +1,68 @@
+<!-- @dsCard group="Estrutura" height=300 subtitle="br-header — faixa institucional, assinatura do órgão e identificação do sistema" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 0; background: var(--background); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .faixa {
+      background: var(--surface-header); color: #ffffff;
+      padding: var(--spacing-base) var(--spacing-4x);
+      display: flex; align-items: center; gap: var(--spacing-2x);
+      font-size: 11.662px;
+    }
+    .faixa .marca { font-weight: 700; font-size: 14px; letter-spacing: .02em; }
+    .faixa .divisor { width: 1px; height: 20px; background: rgba(255,255,255,.4); }
+    .faixa .direita { margin-left: auto; display: flex; gap: var(--spacing-2x); align-items: center; }
+    .entrar {
+      font-family: inherit; font-size: 14px; font-weight: 600; height: 32px; padding: 0 var(--spacing-2x);
+      border: none; border-radius: var(--rounder-pill); cursor: pointer;
+      background: #ffffff; color: var(--surface-header);
+    }
+    .topo {
+      padding: var(--spacing-2x) var(--spacing-4x);
+      border-bottom: var(--width-sm) solid var(--border-color);
+      display: flex; align-items: center; gap: var(--spacing-2x);
+      background: var(--background);
+    }
+    .menu-btn {
+      width: 40px; height: 40px; border-radius: 999em; border: none; cursor: pointer;
+      background: transparent; color: var(--interactive); font-size: 18px;
+    }
+    .titulo { font-size: 20.16px; font-weight: 600; line-height: 1.2; }
+    .subtitulo { font-size: 11.662px; color: var(--color-secondary); }
+    .trilha { padding: var(--spacing-2x) var(--spacing-4x); display: flex; gap: var(--spacing-base); font-size: 11.662px; align-items: center; }
+    .trilha a { color: var(--interactive); text-decoration: underline; }
+    .trilha .atual { color: var(--color-secondary); }
+    .nota { padding: 0 var(--spacing-4x) var(--spacing-2x); font-size: 11.662px; color: var(--color-secondary); margin: 0; }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="faixa">
+      <span class="marca">gov.br</span>
+      <span class="divisor" aria-hidden="true"></span>
+      <span>Ministério · Secretaria</span>
+      <span class="direita">
+        <span>Acessibilidade</span><span>Alto contraste</span>
+        <button class="entrar" type="button">Entrar com gov.br</button>
+      </span>
+    </div>
+
+    <div class="topo">
+      <button class="menu-btn" type="button" aria-label="Abrir menu">☰</button>
+      <div>
+        <div class="titulo">Sistema Eletrônico de Informações</div>
+        <div class="subtitulo">Consulta pública de processos</div>
+      </div>
+    </div>
+
+    <nav class="trilha" aria-label="Você está aqui">
+      <a href="#">Início</a><span aria-hidden="true">›</span>
+      <a href="#">Serviços</a><span aria-hidden="true">›</span>
+      <span class="atual" aria-current="page">Consulta de processos</span>
+    </nav>
+
+    <p class="nota">A faixa institucional usa <code>surface-header</code> nos dois temas, com texto branco (16.7:1).</p>
+  `;
+</script>

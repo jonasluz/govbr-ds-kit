@@ -1,0 +1,62 @@
+<!-- @dsCard group="Estrutura" height=300 subtitle="br-card — cartão de serviço e cartão de processo" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" />
+<div id="root"></div>
+<script>
+  const css = `
+    body { margin: 0; padding: 24px; background: var(--background-alternative); color: var(--color);
+           font-family: var(--font-base); font-size: 14px; line-height: 1.45; }
+    .grade { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-3x); max-width: 760px; }
+    .br-card {
+      background: var(--background); border-radius: var(--rounder-md);
+      box-shadow: var(--elevation-1); overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .card-header { padding: var(--spacing-2x) var(--spacing-2x) 0; }
+    .card-content { padding: var(--spacing-2x); flex: 1; }
+    .card-footer { padding: 0 var(--spacing-2x) var(--spacing-2x); display: flex; gap: var(--spacing-2x); align-items: center; }
+    h3 { font-size: 20.16px; line-height: 1.45; font-weight: 600; margin: 0; }
+    p { margin: var(--spacing-base) 0 0; }
+    .meta { font-size: 11.662px; color: var(--color-secondary); }
+    code { font-family: var(--font-mono); font-size: 14px; }
+    .tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 11.662px; font-weight: 600; padding: 2px var(--spacing-base);
+      border-radius: var(--rounder-pill);
+      background: var(--success-background); color: var(--color);
+      box-shadow: inset 0 0 0 1px var(--success);
+    }
+    .ponto { width: 8px; height: 8px; border-radius: 999em; background: var(--success); }
+    .br-button {
+      font-family: inherit; font-size: 14px; font-weight: 600; height: 32px; padding: 0 var(--spacing-2x);
+      border: none; border-radius: var(--rounder-pill); cursor: pointer;
+      background: var(--interactive); color: var(--on-interactive);
+    }
+    .br-button.tertiary { background: transparent; color: var(--interactive); padding: 0 var(--spacing-base); }
+  `;
+  document.head.appendChild(Object.assign(document.createElement('style'), { textContent: css }));
+
+  document.getElementById('root').innerHTML = `
+    <div class="grade">
+      <div class="br-card">
+        <div class="card-header"><h3>Certidão de tempo de contribuição</h3></div>
+        <div class="card-content">
+          <p>Emissão imediata para quem tem conta gov.br nível prata ou ouro.</p>
+          <p class="meta">Atualizado em 18/09/2026</p>
+        </div>
+        <div class="card-footer"><button class="br-button" type="button">Solicitar</button><button class="br-button tertiary" type="button">Saiba mais</button></div>
+      </div>
+
+      <div class="br-card">
+        <div class="card-header">
+          <span class="tag"><span class="ponto" aria-hidden="true"></span>Concluído</span>
+          <h3 style="margin-top: var(--spacing-base);">Processo <code>23456.789012/2026-10</code></h3>
+        </div>
+        <div class="card-content">
+          <p>Análise de recurso administrativo.</p>
+          <p class="meta">Unidade: COGEP · 4 documentos</p>
+        </div>
+        <div class="card-footer"><button class="br-button" type="button">Abrir processo</button></div>
+      </div>
+    </div>
+  `;
+</script>

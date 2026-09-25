@@ -1,3 +1,5 @@
+<!-- @dsCard group="Formulário" -->
+<style>
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
 
@@ -181,3 +183,39 @@
   line-height: 1.45;
   font-weight: 400;
 }
+</style>
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textarea</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+</head>
+<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
+  <div style="max-width: 600px; margin: 0 auto;">
+    <h1>Área de Texto (Textarea)</h1>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Exemplo</h2>
+      <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Descreva seu problema:</label>
+      <textarea class="br-input" placeholder="Explique o que aconteceu..." style="min-height: 120px; resize: vertical; width: 100%; padding: 0.75rem; border: 2px solid var(--border-color); border-radius: var(--rounder-sm); font-family: var(--font-base); font-size: 16px;"></textarea>
+      <p style="color: var(--color-secondary); font-size: 14px; margin-top: 0.5rem;">Máximo de 500 caracteres</p>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Regras</h2>
+      <ul>
+        <li>Sempre `<label>` associado — use `for="textarea-id"`.</li>
+        <li>Use `placeholder` para dica, não instrução obrigatória.</li>
+        <li>`rows` define altura inicial (ex: `rows="4"`).</li>
+        <li>`resize: vertical` permite altura flexível; `resize: none` fixa.</li>
+        <li>Espaços e quebras de linha são preservados.</li>
+        <li>Nunca use input comum para texto longo — use textarea.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
+</body>
+</html>

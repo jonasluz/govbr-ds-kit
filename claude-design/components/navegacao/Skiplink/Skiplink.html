@@ -1,3 +1,5 @@
+<!-- @dsCard group="Navegação" -->
+<style>
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
 
@@ -181,3 +183,47 @@
   line-height: 1.45;
   font-weight: 400;
 }
+</style>
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skiplink</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+</head>
+<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
+  <!-- Skiplink: sempre primeira coisa acessível, escondido visualmente até receber foco -->
+  <a href="#main" class="br-skiplink">Ir para o conteúdo principal</a>
+
+  <!-- Estrutura típica de página gov.br -->
+  <header class="br-header" style="background: var(--interactive); color: var(--on-interactive);">
+    <div style="padding: 1rem 2rem; max-width: 1400px; margin: 0 auto;">
+      <p style="margin: 0; font-size: 14px;">Empresa / Governo Federal</p>
+      <h1 style="margin: 0.5rem 0 0; font-size: 18px;">Serviço de Exemplo</h1>
+    </div>
+  </header>
+
+  <main id="main" style="max-width: 1400px; margin: 0 auto; padding: 2rem;">
+    <h1 style="margin-top: 0;">Componente Skiplink</h1>
+    <p>O skiplink é um link invisível no topo da página que fica visível quando recebe foco (Tab). Ele permite que usuários de teclado e leitores de tela pulem direto para o conteúdo principal.</p>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Uso</h2>
+      <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto;"><code>&lt;a href="#main" class="br-skiplink"&gt;Ir para o conteúdo principal&lt;/a&gt;</code></pre>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Regras</h2>
+      <ul>
+        <li>Deve ser o <strong>primeiro elemento interativo</strong> da página (logo após a tag <code>&lt;body&gt;</code>).</li>
+        <li>Fica invisível por padrão, aparece no foco do teclado.</li>
+        <li><code>href</code> aponta para <code>id="main"</code> (ou o seletor que envolve o conteúdo principal).</li>
+        <li>Texto deve ser descritivo: "Ir para o conteúdo principal", não "Skip".</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
+</body>
+</html>

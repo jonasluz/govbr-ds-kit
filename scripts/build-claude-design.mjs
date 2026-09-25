@@ -31,10 +31,17 @@ const GRUPOS = {
   Input: { pasta: 'formulario', rotulo: 'Formulário' },
   Select: { pasta: 'formulario', rotulo: 'Formulário' },
   Checkbox: { pasta: 'formulario', rotulo: 'Formulário' },
+  Radio: { pasta: 'formulario', rotulo: 'Formulário' },
+  Textarea: { pasta: 'formulario', rotulo: 'Formulário' },
   Message: { pasta: 'feedback', rotulo: 'Feedback' },
+  Modal: { pasta: 'feedback', rotulo: 'Feedback' },
+  Tooltip: { pasta: 'feedback', rotulo: 'Feedback' },
   Card: { pasta: 'estrutura', rotulo: 'Estrutura' },
   Header: { pasta: 'estrutura', rotulo: 'Estrutura' },
   Footer: { pasta: 'estrutura', rotulo: 'Estrutura' },
+  Menu: { pasta: 'navegacao', rotulo: 'Navegação' },
+  Breadcrumb: { pasta: 'navegacao', rotulo: 'Navegação' },
+  Skiplink: { pasta: 'navegacao', rotulo: 'Navegação' },
   Cover: { pasta: 'marca', rotulo: 'Marca' },
 }
 
@@ -76,9 +83,21 @@ function compilarCss() {
 
   // Famílias sem tema: spacing, radius, opacity, border, breakpoint, e as fontes.
   const escalas = []
+  const kindMap = {
+    'rounder-none': 'radius',
+    'opacity-xs': 'other',
+    'opacity-sm': 'other',
+    'opacity-md': 'other',
+    'opacity-lg': 'other',
+    'opacity-xl': 'other',
+  }
   for (const [chave, fam] of Object.entries(tokens)) {
     if (chave === 'color' || chave === 'shadow' || chave === 'type' || !fam?.tokens) continue
-    for (const t of fam.tokens) escalas.push(`  --${t.name}: ${val(t.value)};`)
+    for (const t of fam.tokens) {
+      const line = `  --${t.name}: ${val(t.value)};`
+      const kind = kindMap[t.name]
+      escalas.push(kind ? `${line} /* @kind ${kind} */` : line)
+    }
   }
   for (const [chave, stack] of Object.entries(tokens.type.families)) escalas.push(`  --font-${chave}: ${stack};`)
   linhas.push(':root {', ...escalas, '}', '')

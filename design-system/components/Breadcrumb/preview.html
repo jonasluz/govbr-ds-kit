@@ -1,0 +1,41 @@
+<!-- @dsCard group="Navegação" -->
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breadcrumb</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+</head>
+<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
+  <div style="max-width: 1400px; margin: 0 auto;">
+    <h1>Trilha de Navegação (Breadcrumb)</h1>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Exemplo</h2>
+      <nav class="br-breadcrumb" aria-label="Trilha de navegação">
+        <ol style="margin: 0; padding: 0; list-style: none; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+          <li><a href="/" style="color: var(--interactive); text-decoration: underline;">Início</a></li>
+          <li style="color: var(--color-secondary);">›</li>
+          <li><a href="/servicos" style="color: var(--interactive); text-decoration: underline;">Serviços</a></li>
+          <li style="color: var(--color-secondary);">›</li>
+          <li aria-current="page" style="color: var(--color);">Solicitação de Documento</li>
+        </ol>
+      </nav>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Regras</h2>
+      <ul>
+        <li>Use `<nav>` com `aria-label="Trilha de navegação"`.</li>
+        <li>Items são links até o penúltimo; o último é `<li aria-current="page">`.</li>
+        <li>Separador (›) em cor `color-secondary`, sem ser interativo.</li>
+        <li>Quebra em múltiplas linhas em telas pequenas — use flexbox.</li>
+        <li>Nunca links vazios; sempre navegação real.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
+</body>
+</html>

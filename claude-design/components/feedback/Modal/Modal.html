@@ -1,3 +1,5 @@
+<!-- @dsCard group="Feedback" -->
+<style>
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
 
@@ -181,3 +183,57 @@
   line-height: 1.45;
   font-weight: 400;
 }
+</style>
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+</head>
+<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
+  <div style="max-width: 1400px; margin: 0 auto;">
+    <h1>Modal</h1>
+    <p>Caixa de diálogo que sobrepõe o conteúdo, bloqueando interação com o resto da página até ser fechada.</p>
+
+    <button class="br-button primary" onclick="document.getElementById('modal-demo').showModal()">Abrir Modal de Exemplo</button>
+
+    <dialog id="modal-demo" class="br-modal" style="padding: 0; border: none; border-radius: var(--rounder-md); box-shadow: 0 10px 40px rgba(0,0,0,0.2); max-width: 500px; width: 90%;">
+      <div style="padding: 2rem;">
+        <h2 style="margin-top: 0;">Confirmar ação</h2>
+        <p style="color: var(--color-secondary); margin-bottom: 1.5rem;">Tem certeza de que deseja continuar?</p>
+        <div style="display: flex; gap: 1rem; justify-content: flex-end;">
+          <button class="br-button secondary" onclick="document.getElementById('modal-demo').close()">Cancelar</button>
+          <button class="br-button primary" onclick="document.getElementById('modal-demo').close()">Confirmar</button>
+        </div>
+      </div>
+    </dialog>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Estrutura</h2>
+      <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto;"><code>&lt;dialog class="br-modal"&gt;
+  &lt;h2&gt;Título&lt;/h2&gt;
+  &lt;p&gt;Conteúdo&lt;/p&gt;
+  &lt;div&gt;
+    &lt;button onclick="this.closest('dialog').close()"&gt;Cancelar&lt;/button&gt;
+    &lt;button onclick="this.closest('dialog').close()"&gt;Confirmar&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/dialog&gt;</code></pre>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Regras</h2>
+      <ul>
+        <li>Use `<dialog>` — não `<div>` com overlay manual.</li>
+        <li>Abra com `.showModal()` (bloqueia fundo) ou `.show()` (não bloqueia).</li>
+        <li>Feche com `.close()` ou `<form method="dialog">`.</li>
+        <li>Sempre um título descritivo (`<h2>`).</li>
+        <li>Botões no rodapé: ações secundárias à esquerda, principal à direita.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
+</body>
+</html>

@@ -76,6 +76,17 @@ function compilarCss() {
   linhas.push('@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");')
   linhas.push('')
 
+  // Definir Rawline (local ou CDN)
+  linhas.push(`/* Rawline - fonte base do GovBR-DS */`)
+  linhas.push(`@font-face {`)
+  linhas.push(`  font-family: 'Rawline';`)
+  linhas.push(`  src: url('https://www.cdnfonts.com/rawline.font') format('woff2');`)
+  linhas.push(`  font-weight: 400;`)
+  linhas.push(`  font-style: normal;`)
+  linhas.push(`  font-display: swap;`)
+  linhas.push(`}`)
+  linhas.push('')
+
   // Cores do tema base + escalas que não variam por tema.
   const base = []
   for (const t of tokens.color.tokens) base.push(`  --${t.name}: ${val(valorNoTema(t, temaBase))};`)

@@ -43,6 +43,7 @@ const GRUPOS = {
   Breadcrumb: { pasta: 'navegacao', rotulo: 'Navegação' },
   Skiplink: { pasta: 'navegacao', rotulo: 'Navegação' },
   Cover: { pasta: 'marca', rotulo: 'Marca' },
+  PageTemplate: { pasta: 'padrao', rotulo: 'Padrão' },
 }
 
 const tokens = JSON.parse(readFileSync(join(SRC, 'tokens.json'), 'utf8'))

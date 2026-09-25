@@ -1,6 +1,7 @@
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
 
+@import url("https://fonts.cdnfonts.com/css/rawline");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 
 :root,
@@ -107,7 +108,7 @@
   --screen-md: 992px;
   --screen-lg: 1280px;
   --screen-xl: 1600px;
-  --font-base: rawline, Raleway, system-ui, sans-serif;
+  --font-base: Rawline, Raleway, system-ui, sans-serif;
   --font-mono: "Roboto Mono", ui-monospace, monospace;
 }
 

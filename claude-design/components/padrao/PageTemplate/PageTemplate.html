@@ -1,4 +1,4 @@
-<!-- @dsCard group="Navegação" -->
+<!-- @dsCard group="Padrão" -->
 <style>
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
@@ -191,62 +191,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu</title>
+  <title>Template de Página de Serviço</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+  <style>
+    body { margin: 0; font-family: var(--font-base); }
+    .page-header { background: var(--interactive); color: var(--on-interactive); padding: 1.5rem 0; }
+    .page-header h1 { margin: 0; font-size: 18px; }
+    main { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+    .form-group { margin-bottom: 1.5rem; }
+    .form-group label { display: block; font-weight: 600; margin-bottom: 0.5rem; }
+    .actions { display: flex; gap: 1rem; justify-content: flex-end; margin-top: 2rem; }
+  </style>
 </head>
-<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 0;">
-  <nav class="br-menu" style="background: var(--interactive); color: var(--on-interactive);">
+<body>
+  <!-- SKIPLINK: atalho invisível para conteúdo principal -->
+  <a href="#main" class="br-skiplink">Ir para o conteúdo principal</a>
+
+  <!-- HEADER: logomarca e identidade -->
+  <header class="page-header">
+    <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+      <p style="margin: 0 0 0.5rem; font-size: 14px;">Governo Federal / Ministério</p>
+      <h1>Solicitação de Documento</h1>
+    </div>
+  </header>
+
+  <!-- MENU: navegação principal -->
+  <nav class="br-menu" style="background: var(--background-alternative); border-bottom: 2px solid var(--border-color);">
     <div style="max-width: 1400px; margin: 0 auto; padding: 0;">
       <ul style="margin: 0; padding: 0; list-style: none; display: flex;">
         <li style="margin: 0;">
-          <a href="/" style="display: block; padding: 1rem 1.5rem; color: inherit; text-decoration: none; border-bottom: 3px solid transparent; border-color: var(--on-interactive);">
-            Início
+          <a href="#" style="display: block; padding: 1rem 1.5rem; color: var(--interactive); text-decoration: none; border-bottom: 3px solid var(--interactive);">
+            Solicitar
           </a>
         </li>
         <li style="margin: 0;">
-          <a href="/servicos" style="display: block; padding: 1rem 1.5rem; color: inherit; text-decoration: none; opacity: 0.8; transition: opacity 0.3s;">
-            Serviços
+          <a href="#" style="display: block; padding: 1rem 1.5rem; color: var(--color); text-decoration: none; opacity: 0.7;">
+            Rastrear
           </a>
         </li>
         <li style="margin: 0;">
-          <a href="/sobre" style="display: block; padding: 1rem 1.5rem; color: inherit; text-decoration: none; opacity: 0.8; transition: opacity 0.3s;">
-            Sobre
-          </a>
-        </li>
-        <li style="margin: 0;">
-          <a href="/contato" style="display: block; padding: 1rem 1.5rem; color: inherit; text-decoration: none; opacity: 0.8; transition: opacity 0.3s;">
-            Contato
+          <a href="#" style="display: block; padding: 1rem 1.5rem; color: var(--color); text-decoration: none; opacity: 0.7;">
+            Faq
           </a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <main style="padding: 2rem; max-width: 1400px; margin: 0 auto;">
-    <h1>Menu de Navegação</h1>
-    <p>Barra horizontal de links principais. Geralmente no topo, após o cabeçalho.</p>
+  <!-- BREADCRUMB: trilha de navegação -->
+  <nav class="br-breadcrumb" style="max-width: 1400px; margin: 0 auto; padding: 1rem 2rem 0; border-bottom: 1px solid var(--border-color);">
+    <ol style="margin: 0; padding: 1rem 0; list-style: none; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+      <li><a href="/" style="color: var(--interactive); text-decoration: underline;">Início</a></li>
+      <li style="color: var(--color-secondary);">›</li>
+      <li><a href="/servicos" style="color: var(--interactive); text-decoration: underline;">Serviços</a></li>
+      <li style="color: var(--color-secondary);">›</li>
+      <li aria-current="page" style="color: var(--color);">Solicitação de Documento</li>
+    </ol>
+  </nav>
 
-    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Estrutura</h2>
-      <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto;"><code>&lt;nav class="br-menu"&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="/"&gt;Início&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/servicos"&gt;Serviços&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;</code></pre>
-    </section>
+  <!-- MAIN CONTENT -->
+  <main id="main">
+    <h1 style="margin-top: 0; color: var(--interactive);">Dados da Solicitação</h1>
+    <p style="color: var(--color-secondary); margin-bottom: 2rem;">Preencha as informações abaixo para solicitar seu documento.</p>
 
-    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Regras</h2>
-      <ul>
-        <li>Use `<nav>` como elemento raiz.</li>
-        <li>Links em `<a>` (não `<button>` — navegação é link).</li>
-        <li>Fundo em `interactive` (azul gov.br).</li>
-        <li>Item ativo com borda inferior em `on-interactive`.</li>
-        <li>Em mobile, torne horizontal com scroll ou hambúrguer.</li>
-      </ul>
-    </section>
+    <form style="max-width: 600px;">
+      <!-- INPUT -->
+      <div class="form-group">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" class="br-input" placeholder="João da Silva" required>
+      </div>
+
+      <!-- SELECT -->
+      <div class="form-group">
+        <label for="tipo">Tipo de documento:</label>
+        <select id="tipo" class="br-input">
+          <option>Selecione...</option>
+          <option>Certidão de Nascimento</option>
+          <option>Certidão de Casamento</option>
+          <option>Certidão de Óbito</option>
+        </select>
+      </div>
+
+      <!-- RADIO -->
+      <fieldset style="border: none; padding: 0; margin-bottom: 1.5rem;">
+        <legend style="font-weight: 600; margin-bottom: 0.75rem;">Você é:</legend>
+        <label style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+          <input type="radio" name="tipo-pessoa" value="pf" class="br-radio" checked>
+          Pessoa Física
+        </label>
+        <label style="display: flex; gap: 0.5rem; align-items: center;">
+          <input type="radio" name="tipo-pessoa" value="pj" class="br-radio">
+          Pessoa Jurídica
+        </label>
+      </fieldset>
+
+      <!-- CHECKBOX -->
+      <label style="display: flex; gap: 0.5rem; align-items: flex-start; margin-bottom: 1.5rem;">
+        <input type="checkbox" class="br-checkbox" required>
+        <span>Declaro que li e concordo com os <a href="#" style="color: var(--interactive);">termos de uso</a></span>
+      </label>
+
+      <!-- TEXTAREA -->
+      <div class="form-group">
+        <label for="obs">Observações (opcional):</label>
+        <textarea id="obs" class="br-input" style="min-height: 100px; resize: vertical; width: 100%;" placeholder="Adicione detalhes relevantes..."></textarea>
+      </div>
+
+      <!-- MESSAGE (INFO) -->
+      <div class="br-message info" style="background: var(--background-alternative); border-left: 4px solid var(--interactive); padding: 1rem; margin-bottom: 1.5rem; border-radius: var(--rounder-sm);">
+        <strong>ℹ️ Informação:</strong> O processamento leva até 5 dias úteis.
+      </div>
+
+      <!-- ACTIONS -->
+      <div class="actions">
+        <button class="br-button secondary" type="reset">Limpar</button>
+        <button class="br-button primary" type="submit">Enviar Solicitação</button>
+      </div>
+    </form>
   </main>
+
+  <!-- FOOTER -->
+  <footer class="br-footer" style="background: var(--interactive); color: var(--on-interactive); margin-top: 3rem; padding: 2rem 0; border-top: 1px solid var(--border-color);">
+    <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+      <p style="margin: 0; font-size: 14px;">© 2024 Governo Federal. Todos os direitos reservados.</p>
+      <p style="margin: 0.5rem 0 0; font-size: 12px; opacity: 0.8;">
+        <a href="#" style="color: inherit; text-decoration: underline;">Privacidade</a> •
+        <a href="#" style="color: inherit; text-decoration: underline;">Acessibilidade</a> •
+        <a href="#" style="color: inherit; text-decoration: underline;">Contato</a>
+      </p>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
 </body>

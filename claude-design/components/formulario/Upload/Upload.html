@@ -191,43 +191,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radio</title>
+  <title>Upload</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
 </head>
 <body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
-  <div style="max-width: 1400px; margin: 0 auto;">
-    <h1>Radio Button</h1>
+  <div style="max-width: 600px; margin: 0 auto;">
+    <h1>Envio de Arquivo</h1>
 
     <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Exemplo</h2>
-      <fieldset style="border: none; padding: 0; margin: 0;">
-        <legend style="font-weight: 600; margin-bottom: 1rem;">Qual é sua categoria?</legend>
-        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="pessoa-fisica" class="br-radio">
-            <span>Pessoa Física</span>
-          </label>
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="pessoa-juridica" class="br-radio">
-            <span>Pessoa Jurídica</span>
-          </label>
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="estrangeiro" class="br-radio" disabled>
-            <span style="opacity: 0.5;">Estrangeiro (indisponível)</span>
-          </label>
-        </div>
-      </fieldset>
-    </section>
-
-    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Regras</h2>
-      <ul>
-        <li>Use `<fieldset>` + `<legend>` para agrupar radios relacionados.</li>
-        <li>Cada radio precisa de `<label>` associado — nunca deixe sem label.</li>
-        <li>O `name` deve ser igual para todos os radios do grupo.</li>
-        <li>Use `value` para identificar a escolha no backend.</li>
-        <li>`disabled` desabilita um radio sem remover ele da tela.</li>
-      </ul>
+      <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Comprovante de residência:</label>
+      <input type="file" class="br-upload" accept=".pdf,.jpg,.png" aria-label="Enviar comprovante">
+      <p style="color: var(--color-secondary); font-size: 12px; margin-top: 0.5rem;">Máximo 5MB, PNG, JPG ou PDF</p>
     </section>
   </div>
 

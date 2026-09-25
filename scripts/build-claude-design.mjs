@@ -33,12 +33,19 @@ const GRUPOS = {
   Checkbox: { pasta: 'formulario', rotulo: 'Formulário' },
   Radio: { pasta: 'formulario', rotulo: 'Formulário' },
   Textarea: { pasta: 'formulario', rotulo: 'Formulário' },
+  Switch: { pasta: 'formulario', rotulo: 'Formulário' },
+  Upload: { pasta: 'formulario', rotulo: 'Formulário' },
   Message: { pasta: 'feedback', rotulo: 'Feedback' },
   Modal: { pasta: 'feedback', rotulo: 'Feedback' },
   Tooltip: { pasta: 'feedback', rotulo: 'Feedback' },
+  Notification: { pasta: 'feedback', rotulo: 'Feedback' },
+  Loading: { pasta: 'feedback', rotulo: 'Feedback' },
   Card: { pasta: 'estrutura', rotulo: 'Estrutura' },
   Header: { pasta: 'estrutura', rotulo: 'Estrutura' },
   Footer: { pasta: 'estrutura', rotulo: 'Estrutura' },
+  Avatar: { pasta: 'estrutura', rotulo: 'Estrutura' },
+  Tag: { pasta: 'estrutura', rotulo: 'Estrutura' },
+  Divider: { pasta: 'estrutura', rotulo: 'Estrutura' },
   Menu: { pasta: 'navegacao', rotulo: 'Navegação' },
   Breadcrumb: { pasta: 'navegacao', rotulo: 'Navegação' },
   Skiplink: { pasta: 'navegacao', rotulo: 'Navegação' },
@@ -63,6 +70,10 @@ function compilarCss() {
   const linhas = []
   linhas.push('/* Gerado por scripts/build-claude-design.mjs — não edite à mão. */')
   linhas.push(`/* Fonte: ${tokens.meta?.source ?? tokens.name} */`)
+  linhas.push('')
+
+  // Importar fontes do Google Fonts
+  linhas.push('@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");')
   linhas.push('')
 
   // Cores do tema base + escalas que não variam por tema.

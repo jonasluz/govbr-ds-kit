@@ -1,4 +1,4 @@
-<!-- @dsCard group="Formulário" -->
+<!-- @dsCard group="Estrutura" -->
 <style>
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
@@ -191,43 +191,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Radio</title>
+  <title>Divider</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
 </head>
 <body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
   <div style="max-width: 1400px; margin: 0 auto;">
-    <h1>Radio Button</h1>
+    <h1>Divisor</h1>
 
-    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Exemplo</h2>
-      <fieldset style="border: none; padding: 0; margin: 0;">
-        <legend style="font-weight: 600; margin-bottom: 1rem;">Qual é sua categoria?</legend>
-        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="pessoa-fisica" class="br-radio">
-            <span>Pessoa Física</span>
-          </label>
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="pessoa-juridica" class="br-radio">
-            <span>Pessoa Jurídica</span>
-          </label>
-          <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
-            <input type="radio" name="categoria" value="estrangeiro" class="br-radio" disabled>
-            <span style="opacity: 0.5;">Estrangeiro (indisponível)</span>
-          </label>
-        </div>
-      </fieldset>
+    <section style="margin: 1.5rem 0;">
+      <h2>Horizontal</h2>
+      <p>Seção 1</p>
+      <hr style="border: none; border-top: 1px solid var(--border-color); margin: 1rem 0;">
+      <p>Seção 2</p>
+    </section>
+
+    <section style="margin: 1.5rem 0;">
+      <h2>Com label</h2>
+      <div style="display: flex; align-items: center; gap: 1rem; margin: 1rem 0;">
+        <div style="flex: 1; height: 1px; background: var(--border-color);"></div>
+        <span style="color: var(--color-secondary); white-space: nowrap; font-size: 12px;">OU</span>
+        <div style="flex: 1; height: 1px; background: var(--border-color);"></div>
+      </div>
     </section>
 
     <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
-      <h2>Regras</h2>
-      <ul>
-        <li>Use `<fieldset>` + `<legend>` para agrupar radios relacionados.</li>
-        <li>Cada radio precisa de `<label>` associado — nunca deixe sem label.</li>
-        <li>O `name` deve ser igual para todos os radios do grupo.</li>
-        <li>Use `value` para identificar a escolha no backend.</li>
-        <li>`disabled` desabilita um radio sem remover ele da tela.</li>
-      </ul>
+      <h2>Uso</h2>
+      <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px;"><code>&lt;hr style="border: none; border-top: 1px solid var(--border-color);"&gt;</code></pre>
     </section>
   </div>
 

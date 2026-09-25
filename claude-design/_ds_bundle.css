@@ -1,6 +1,8 @@
 /* Gerado por scripts/build-claude-design.mjs — não edite à mão. */
 /* Fonte: @govbr-ds/core 3.7.0 (npm) — Padrão Digital de Governo, SERPRO / Governo Federal */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
 :root,
 [data-theme="claro"] {
   --blue-warm-vivid-70: #1351b4;

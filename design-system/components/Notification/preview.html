@@ -1,0 +1,50 @@
+<!-- @dsCard group="Feedback" -->
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notification</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core.min.css">
+</head>
+<body style="margin: 0; background: var(--background); color: var(--color); font-family: var(--font-base); padding: 2rem;">
+  <div style="max-width: 1400px; margin: 0 auto;">
+    <h1>Notificação (Toast)</h1>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Sucesso</h2>
+      <div style="background: var(--interactive-alternative); color: white; padding: 1rem; border-radius: var(--rounder-md); display: flex; gap: 1rem; align-items: flex-start;">
+        <span style="font-size: 20px;">✓</span>
+        <div>
+          <strong>Operação realizada com sucesso</strong>
+          <p style="margin: 0.5rem 0 0; opacity: 0.9;">Seu documento foi enviado para análise.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Erro</h2>
+      <div style="background: #ff8d7b; color: white; padding: 1rem; border-radius: var(--rounder-md); display: flex; gap: 1rem; align-items: flex-start;">
+        <span style="font-size: 20px;">✕</span>
+        <div>
+          <strong>Erro ao processar</strong>
+          <p style="margin: 0.5rem 0 0; opacity: 0.9;">Verifique os dados e tente novamente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: var(--background-alternative); padding: 1.5rem; border-radius: var(--rounder-md); margin: 1.5rem 0;">
+      <h2>Aviso</h2>
+      <div style="background: var(--warning); color: black; padding: 1rem; border-radius: var(--rounder-md); display: flex; gap: 1rem; align-items: flex-start;">
+        <span style="font-size: 20px;">⚠️</span>
+        <div>
+          <strong>Atenção</strong>
+          <p style="margin: 0.5rem 0 0;">Esta ação não pode ser desfeita.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.7.0/dist/core-init.min.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 {
   "name": "govbr-ds-kit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Kit de adocao do Design System do Governo Federal (GOVBR-DS): tokens versionados, templates de referencia e guias de uso.",
   "license": "MIT",
